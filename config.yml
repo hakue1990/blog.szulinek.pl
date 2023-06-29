@@ -30,10 +30,10 @@ params:
         enabled: true
         title: "Hello stranger!" # optional default will be site title
         subtitle: "how about tech?"
-        imageUrl: "/img/monkey.png" # optional
+        imageUrl: "/img/monkey-dark.png" # optional
         imageTitle: "czas na śniadanko!" # optional
-        imageWidth: 380 # custom size
-        imageHeight: 310 # custom size
+        imageWidth: 450 # custom size
+        imageHeight: 320 # custom size
         
         buttons:
             - name: Archiwa
