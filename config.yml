@@ -1,0 +1,48 @@
+baseURL: ''
+languageCode: en-us
+title: My kitchen Blog :)
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: kategorie
+      name: kategorie
+      url: /kategorie/
+      weight: 10
+    - identifier: Tagi
+      name: tags
+      url: /tags/
+      weight: 20
+      
+    # - identifier: example
+    #   name: szulinek.pl
+    #   url: https://szulinek.pl
+    #   weight: 40
+    # - identifier: Archiwa
+    #   name: archiwa
+    #   url: /archiwa/
+    #   weight: 30
+  
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
+
+
+params:
+    ShowShareButtons: true
+## Szukanie ##
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
