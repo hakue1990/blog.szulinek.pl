@@ -1,0 +1,1 @@
+# blog.szulinek.pl
