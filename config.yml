@@ -18,12 +18,18 @@ params:
         url: "https://youtube.com" 
       - name: url
         url: "https://szulinek.pl" 
+      - name: linkedin
+        url: "https://www.linkedin.com/in/adam-ha%C5%82da%C5%9B-49616a183/" 
+
+
+
+
 ### Add Image to a Hero Section
 
     profileMode:
         enabled: true
         title: "Hello stranger!" # optional default will be site title
-        subtitle: "welcome to my site!"
+        subtitle: "how about tech?"
         imageUrl: "/img/monkey.png" # optional
         imageTitle: "czas na śniadanko!" # optional
         imageWidth: 380 # custom size
@@ -32,41 +38,46 @@ params:
         buttons:
             - name: Archiwa
               url: "/archives/"
-            - name: Kategorie
-              url: "http://localhost:1313/categories/"
+            - name: Kontakt
+              url: "http://localhost:1313/contact/"
 
 
 
 menu:
   main:
+
+
+    - identifier: O mnie
+      name: o mnie
+      url: /about/
+      weight: 10
+
+    - identifier: usługi
+      name: usługi
+      url: /services/
+      weight: 20
+
     - identifier: kategorie
       name: kategorie
       url: /categories/
-      weight: 20
+      weight: 50
 
     - identifier: Tagi
       name: tags
       url: /tags/
-      weight: 30
-
-    - identifier: Archiwa
-      name: archiwa
-      url: /archives/
-      layout: archives
-      weight: 30
+      weight: 40
 
     - identifier: Posty
       name: posty
       url: /posts/
       layout: posts
-      weight: 10
+      weight: 30
 
-            
-    # - identifier: example.pl
-    #   name: szulinek.pl
-    #   url: https://szulinek.pl
-    #   weight: 40
-    # - identifier: Archiwa
+    - identifier: szulinek.pl
+      name: portfolio
+      url: https://szulinek.pl
+      weight: 80
+    - identifier: Portfolio
   
 minify:
   disableXML: true
