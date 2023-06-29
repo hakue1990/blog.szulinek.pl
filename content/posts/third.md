@@ -1,9 +1,9 @@
 ---
-title: "Śniadanie na początek dnia"
+title: "Optymalizacja www"
 date: 2023-06-27T20:39:16+02:00
 draft: true
 cover:
-    image: img/breakfast.jpg
+    image: img/fast_website.jpg
     alt: 'this is an alt!'
 showToc: true
 TocOpen: false
@@ -28,6 +28,6 @@ params:
     ShowShareButtons: true
 ---
 
-przygotowanie:
+## Strony szybkie jak błyskawica!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed odio justo. Proin eget arcu id est luctus ultrices eu in sem. Vivamus vulputate ultricies viverra. Aliquam et tortor tortor. Integer cursus consectetur arcu, vel ornare nibh volutpat ac. Proin vulputate sem ut lorem euismod hendrerit. Aliquam velit nisl,

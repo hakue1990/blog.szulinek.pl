@@ -1,9 +1,9 @@
 ---
-title: "Zupa z krewetkami"
+title: "Administracja systemami"
 date: 2023-06-27T20:39:16+02:00
 draft: true
 cover:
-    image: img/soup.jpg
+    image: img/linux.jpg
     alt: 'this is an alt!'
 showToc: true
 TocOpen: false
@@ -28,6 +28,6 @@ params:
     ShowShareButtons: true
 ---
 
-przygotowanie:
+## Środowiska chmurowe
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed odio justo. Proin eget arcu id est luctus ultrices eu in sem. Vivamus vulputate ultricies viverra. Aliquam et tortor tortor. Integer cursus consectetur arcu, vel ornare nibh volutpat ac. Proin vulputate sem ut lorem euismod hendrerit. Aliquam velit nisl,

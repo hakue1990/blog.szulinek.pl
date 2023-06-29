@@ -3,7 +3,7 @@ title: "Tworzenie Stron www"
 date: 2023-06-27T20:39:16+02:00
 draft: true
 cover:
-    image: img/vegan.jpg
+    image: img/website.jpg
     alt: 'this is an alt!'
 
 tags: ["Tech","www","website"] 
