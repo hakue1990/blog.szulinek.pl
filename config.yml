@@ -3,6 +3,13 @@ languageCode: en-us
 title: My kitchen Blog :)
 theme: PaperMod
 
+
+params:
+
+    homeInfoParams:
+        Title: Siema, witaj na moim blogu!
+        Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac tincidunt nulla. Praesent eleifend vel ligula vel convallis. Nulla ac mauris et risus molestie rhoncus sed eu arcu. Nam suscipit porta augue vel porttitor. Praesent varius quam ante, at auctor augue porttitor id. Nulla ut neque id justo posuere efficitur sed vel odio. Quisque a porttitor turpis. Ut gravida, arcu a ultrices pharetra, risus erat molestie sem, eget porttitor sapien nunc a neque..
+
 menu:
   main:
     - identifier: kategorie
@@ -28,6 +35,9 @@ minify:
   minifyOutput: true
 
 
+
+
+
   socialIcons:
     - name: twitter
       url: "https://twitter.com/"
@@ -37,8 +47,9 @@ minify:
       url: "https://github.com/"
 
 
-params:
-    ShowShareButtons: true
+
+
+
 ## Szukanie ##
 
 outputs:
