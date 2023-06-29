@@ -1,7 +1,7 @@
 ---
 title: "Zupa z krewetkami"
 date: 2023-06-27T20:39:16+02:00
-draft: false
+draft: true
 cover:
     image: img/soup.jpg
     alt: 'this is an alt!'

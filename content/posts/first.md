@@ -1,18 +1,21 @@
 ---
-title: "Kanapka z rukolą"
+title: "Tworzenie Stron www"
 date: 2023-06-27T20:39:16+02:00
-draft: false
+draft: true
 cover:
     image: img/vegan.jpg
     alt: 'this is an alt!'
 
-tags: ["Warzywa","Vegan","Zdrowo"]   
+tags: ["Tech","www","website"] 
+categories: ["www"]
+
+
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Przepszyna vegańska kanapka"
+description: "Profesjonalne strony www"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -31,6 +34,6 @@ params:
     comments: true
 ---
 
-przygotowanie:
+Szybkie jak błyskawica strony www
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed odio justo. Proin eget arcu id est luctus ultrices eu in sem. Vivamus vulputate ultricies viverra. Aliquam et tortor tortor. Integer cursus consectetur arcu, vel ornare nibh volutpat ac. Proin vulputate sem ut lorem euismod hendrerit. Aliquam velit nisl,

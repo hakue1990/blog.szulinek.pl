@@ -1,34 +1,72 @@
 baseURL: ''
-languageCode: en-us
-title: My kitchen Blog :)
+# languageCode: pl
+title: IT Tech Anytime
 theme: PaperMod
 
 
 params:
 
     homeInfoParams:
-        Title: Siema, witaj na moim blogu!
+        Title: Hello Stranger!
         Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac tincidunt nulla. Praesent eleifend vel ligula vel convallis. Nulla ac mauris et risus molestie rhoncus sed eu arcu. Nam suscipit porta augue vel porttitor. Praesent varius quam ante, at auctor augue porttitor id. Nulla ut neque id justo posuere efficitur sed vel odio. Quisque a porttitor turpis. Ut gravida, arcu a ultrices pharetra, risus erat molestie sem, eget porttitor sapien nunc a neque..
+    socialIcons:
+      - name: facebook
+        url: "https://facebook.com" 
+      - name: github
+        url: "https://github.com/hakue1990" 
+      - name: youtube
+        url: "https://youtube.com" 
+      - name: url
+        url: "https://szulinek.pl" 
+### Add Image to a Hero Section
+
+    profileMode:
+        enabled: true
+        title: "Hello stranger!" # optional default will be site title
+        subtitle: "welcome to my site!"
+        imageUrl: "/img/monkey.png" # optional
+        imageTitle: "czas na śniadanko!" # optional
+        imageWidth: 380 # custom size
+        imageHeight: 310 # custom size
+        
+        buttons:
+            - name: Archiwa
+              url: "/archives/"
+            - name: Kategorie
+              url: "http://localhost:1313/categories/"
+
+
 
 menu:
   main:
     - identifier: kategorie
       name: kategorie
-      url: /kategorie/
-      weight: 10
+      url: /categories/
+      weight: 20
+
     - identifier: Tagi
       name: tags
       url: /tags/
-      weight: 20
-      
-    # - identifier: example
+      weight: 30
+
+    - identifier: Archiwa
+      name: archiwa
+      url: /archives/
+      layout: archives
+      weight: 30
+
+    - identifier: Posty
+      name: posty
+      url: /posts/
+      layout: posts
+      weight: 10
+
+            
+    # - identifier: example.pl
     #   name: szulinek.pl
     #   url: https://szulinek.pl
     #   weight: 40
     # - identifier: Archiwa
-    #   name: archiwa
-    #   url: /archiwa/
-    #   weight: 30
   
 minify:
   disableXML: true
@@ -38,13 +76,7 @@ minify:
 
 
 
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+
 
 
 
