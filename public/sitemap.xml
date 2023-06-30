@@ -8,7 +8,7 @@
     <loc>/archives/</loc>
     <lastmod>2023-06-29T20:32:23+02:00</lastmod>
   </url><url>
-    <loc>/posts/second/</loc>
+    <loc>/posts/system_administration/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
@@ -17,7 +17,7 @@
     <loc>/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/posts/third/</loc>
+    <loc>/posts/fast_website/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
@@ -29,7 +29,10 @@
     <loc>/tags/tech/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/posts/first/</loc>
+    <loc>/categories/tech/</loc>
+    <lastmod>2023-06-27T20:39:16+02:00</lastmod>
+  </url><url>
+    <loc>/posts/www_websites/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
     <loc>/tags/website/</loc>

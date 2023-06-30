@@ -18,28 +18,28 @@
     
     <item>
       <title>Administracja systemami</title>
-      <link>/posts/second/</link>
+      <link>/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/posts/second/</guid>
-      <description>Przepszyna vegańska kanapka</description>
+      <guid>/posts/system_administration/</guid>
+      <description>Serwery typu Cloud i nie tylko</description>
     </item>
     
     <item>
       <title>Optymalizacja www</title>
-      <link>/posts/third/</link>
+      <link>/posts/fast_website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/posts/third/</guid>
-      <description>Przepszyna vegańska kanapka</description>
+      <guid>/posts/fast_website/</guid>
+      <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
     <item>
       <title>Tworzenie Stron www</title>
-      <link>/posts/first/</link>
+      <link>/posts/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/posts/first/</guid>
+      <guid>/posts/www_websites/</guid>
       <description>Profesjonalne strony www</description>
     </item>
     
