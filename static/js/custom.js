@@ -1,3 +1,8 @@
+var themeToggleBtn = document.getElementById('theme-toggle');
+
+
+
+document.getElementsByClassName("hero-img").src = "/img/monkey.png"
 
 
 function changeLogo() {
@@ -5,12 +10,31 @@ function changeLogo() {
         document.getElementsByClassName("hero-img").src = "/img/monkey-dark.png"
     } else {
         document.getElementsByClassName("hero-img").src = "/img/monkey.png"
-
     }
     console.log(document.body)
 }
 
-changeLogo();
+themeToggleBtn.addEventListener('click', function() {
+    changeLogo();
+    console.log("kliknoles");
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

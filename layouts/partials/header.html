@@ -65,7 +65,6 @@
                 {{- else }}
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
                     height="{{- site.Params.label.iconHeight | default "30" -}}">
-                    <script>alert("siema")</script>
                
                 {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
