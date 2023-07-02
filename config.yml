@@ -28,8 +28,8 @@ params:
 
     profileMode:
         enabled: true
-        title: "Web dev without a headache!" # optional default will be site title
-        subtitle: "how about tech?"
+        title: "Dev bez spiny!" # optional default will be site title
+        subtitle: "o technologiach webowych."
         # imageUrl: "/img/monkey-dark.png" 
         
         buttons:
@@ -77,7 +77,7 @@ menu:
 
     - identifier: szulinek.pl
       name: portfolio
-      url: https://szulinek.pl
+      url: https://www.szulinek.pl/#projects
       weight: 80
     - identifier: Portfolio
   
