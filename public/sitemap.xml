@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://blog.szulinek.pl/categories/</loc>
     <lastmod>2023-06-29T20:34:15+02:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://blog.szulinek.pl/archives/</loc>
     <lastmod>2023-06-29T20:32:23+02:00</lastmod>
   </url><url>
-    <loc>/posts/system_administration/</loc>
+    <loc>https://blog.szulinek.pl/posts/system_administration/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://blog.szulinek.pl/categories/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://blog.szulinek.pl/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/posts/fast_website/</loc>
+    <loc>https://blog.szulinek.pl/posts/fast_website/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://blog.szulinek.pl/posts/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://blog.szulinek.pl/tags/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/tags/tech/</loc>
+    <loc>https://blog.szulinek.pl/tags/tech/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/categories/tech/</loc>
+    <loc>https://blog.szulinek.pl/categories/tech/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/posts/www_websites/</loc>
+    <loc>https://blog.szulinek.pl/posts/www_websites/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/tags/website/</loc>
+    <loc>https://blog.szulinek.pl/tags/website/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/tags/www/</loc>
+    <loc>https://blog.szulinek.pl/tags/www/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/categories/www/</loc>
+    <loc>https://blog.szulinek.pl/categories/www/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://blog.szulinek.pl/search/</loc>
   </url>
 </urlset>

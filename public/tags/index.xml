@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on IT Tech Anytime</title>
-    <link>/tags/</link>
+    <link>https://blog.szulinek.pl/tags/</link>
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://blog.szulinek.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
-      <link>/tags/tech/</link>
+      <link>https://blog.szulinek.pl/tags/tech/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/tags/tech/</guid>
+      <guid>https://blog.szulinek.pl/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>/tags/website/</link>
+      <link>https://blog.szulinek.pl/tags/website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/tags/website/</guid>
+      <guid>https://blog.szulinek.pl/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>www</title>
-      <link>/tags/www/</link>
+      <link>https://blog.szulinek.pl/tags/www/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/tags/www/</guid>
+      <guid>https://blog.szulinek.pl/tags/www/</guid>
       <description></description>
     </item>
     

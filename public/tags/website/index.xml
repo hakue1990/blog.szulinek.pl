@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>website on IT Tech Anytime</title>
-    <link>/tags/website/</link>
+    <link>https://blog.szulinek.pl/tags/website/</link>
     <description>Recent content in website on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://blog.szulinek.pl/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tworzenie Stron www</title>
-      <link>/posts/www_websites/</link>
+      <link>https://blog.szulinek.pl/posts/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/posts/www_websites/</guid>
+      <guid>https://blog.szulinek.pl/posts/www_websites/</guid>
       <description>Profesjonalne strony www</description>
     </item>
     

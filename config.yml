@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: 'https://blog.szulinek.pl'
 # languageCode: pl
 title: IT Tech Anytime
 theme: PaperMod
@@ -54,21 +54,26 @@ menu:
       url: /services/
       weight: 20
 
-    - identifier: kategorie
-      name: kategorie
-      url: /categories/
-      weight: 50
+    # - identifier: kategorie
+    #   name: kategorie
+    #   url: /categories/
+    #   weight: 50
 
-    - identifier: Tagi
-      name: tags
-      url: /tags/
-      weight: 40
+    # - identifier: Tagi
+    #   name: tags
+    #   url: /tags/
+    #   weight: 40
 
     - identifier: Posty
       name: posty
       url: /posts/
       layout: posts
       weight: 30
+
+    - identifier: Kontakt
+      name: kontakt
+      url: /contact/
+      weight: 40
 
     - identifier: szulinek.pl
       name: portfolio

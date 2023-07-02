@@ -13,6 +13,8 @@
 
 .profile_inner {
     display: grid;
+    grid-template-rows: auto 1fr auto; /* Pierwszy wiersz dla obrazka, drugi wiersz dla h1 i span, trzeci wiersz dla buttonów */
+
 }
 
 .profile .profile_inner h1 {
@@ -22,6 +24,7 @@
 .profile img {
     display: inline-table;
     border-radius: 50%;
+    grid-row: 1;
 }
 
 .buttons {

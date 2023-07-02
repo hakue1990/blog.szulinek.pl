@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on IT Tech Anytime</title>
-    <link>/posts/</link>
+    <link>https://blog.szulinek.pl/posts/</link>
     <description>Recent content in Posts on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://blog.szulinek.pl/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Administracja systemami</title>
-      <link>/posts/system_administration/</link>
+      <link>https://blog.szulinek.pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/posts/system_administration/</guid>
+      <guid>https://blog.szulinek.pl/posts/system_administration/</guid>
       <description>Serwery typu Cloud i nie tylko</description>
     </item>
     
     <item>
       <title>Optymalizacja www</title>
-      <link>/posts/fast_website/</link>
+      <link>https://blog.szulinek.pl/posts/fast_website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/posts/fast_website/</guid>
+      <guid>https://blog.szulinek.pl/posts/fast_website/</guid>
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
     <item>
       <title>Tworzenie Stron www</title>
-      <link>/posts/www_websites/</link>
+      <link>https://blog.szulinek.pl/posts/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>/posts/www_websites/</guid>
+      <guid>https://blog.szulinek.pl/posts/www_websites/</guid>
       <description>Profesjonalne strony www</description>
     </item>
     
