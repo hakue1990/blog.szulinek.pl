@@ -1,23 +1,36 @@
-var themeToggleBtn = document.getElementById('theme-toggle');
 
+const themeToggleBtn = document.querySelector('#theme-toggle');
+var element = document.querySelector('.profile_inner');
+var img = document.createElement('img');
+element.appendChild(img);
+img.classList.add('hero-img')
 
-
-document.getElementsByClassName("hero-img").src = "/img/monkey.png"
-
-
-function changeLogo() {
-    if (document.body.className.includes("dark")) {
-        document.getElementsByClassName("hero-img").src = "/img/monkey-dark.png"
-    } else {
-        document.getElementsByClassName("hero-img").src = "/img/monkey.png"
-    }
-    console.log(document.body)
+if (document.body.className.includes("dark")) {
+    img.src = '/img/dark.png';
+} else {
+    img.src = '/img/light.png';
 }
 
-themeToggleBtn.addEventListener('click', function() {
-    changeLogo();
-    console.log("kliknoles");
+function changeHeroImg() {
+    if (document.body.className.includes("dark")) {
+        img.src = '/img/dark.png';
+        console.log("dark");
+        console.log(document.getElementsByClassName("hero-img"));
+
+    } else {
+        img.src = '/img/light.png';
+
+        console.log("light");
+    }
+
+}
+
+themeToggleBtn.addEventListener('click', function () {
+    changeHeroImg();
 })
+
+
+
 
 
 
