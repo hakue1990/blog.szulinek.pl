@@ -36,7 +36,7 @@ params:
             - name: Archiwa
               url: "/archives/"
             - name: Kontakt
-              url: "http://localhost:1313/contact/"
+              url: "/contact/"
 
 
 

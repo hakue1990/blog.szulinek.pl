@@ -1,12 +1,22 @@
----
-title: "Kontakt"
-# date: 2023-07-02T16:35:54+02:00
-draft: false
-layout: contact
----
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
-<img src="./img/skillmonkey 1.png" alt="skill monkey" class="contact-monkey" />
-<div>
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq site.Params.defaultTheme `dark` -}}
+{{- print " dark" }}
+{{- end -}}
+" id="top">
+    {{- partialCached "header.html" . .Page -}}
+         <!--Start of section 5-->
+  <section class="section--5" id="contact">
+    <img src="/img/contact.png" alt="skill monkey" class="contact-monkey" />
     <form class="form" action="https://formsubmit.co/adam.haldas@gmail.com" method="POST">
       <h3>contact <span class="primary">me</span>.</h3>
       <div class="form--box">
@@ -35,4 +45,10 @@ layout: contact
       </div>
       <button class="form--btn">send</button>
     </form>
-</div>
+  </section>
+  <!--End of section 5-->
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+    <script  src="/js/custom.js"></script>
+</body>
+
+</html>

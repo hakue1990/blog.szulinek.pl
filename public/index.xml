@@ -7,16 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://blog.szulinek.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kategorie</title>
-      <link>https://blog.szulinek.pl/categories/</link>
-      <pubDate>Thu, 29 Jun 2023 20:34:15 +0200</pubDate>
-      
-      <guid>https://blog.szulinek.pl/categories/</guid>
-      <description></description>
-    </item>
-    
-    
-    <item>
       <title>Administracja systemami</title>
       <link>https://blog.szulinek.pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
@@ -43,6 +33,43 @@
       <description>Profesjonalne strony www</description>
     </item>
     
+    
+    <item>
+      <title>Kategorie</title>
+      <link>https://blog.szulinek.pl/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.szulinek.pl/categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://blog.szulinek.pl/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.szulinek.pl/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O mnie</title>
+      <link>https://blog.szulinek.pl/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.szulinek.pl/about/</guid>
+      <description></description>
+    </item>
+    
+    
+    <item>
+      <title>Usługi</title>
+      <link>https://blog.szulinek.pl/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.szulinek.pl/services/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
