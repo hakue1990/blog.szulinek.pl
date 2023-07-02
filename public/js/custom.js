@@ -1,58 +1,31 @@
+// Deklaracje zmiennych
+var themeToggleBtn = document.querySelector("#theme-toggle");
+const element = document.querySelector(".profile_inner");
+const heroImg = document.createElement("img");
+element.appendChild(heroImg);
 
-const themeToggleBtn = document.querySelector('#theme-toggle');
-var element = document.querySelector('.profile_inner');
-var img = document.createElement('img');
-element.appendChild(img);
-img.classList.add('hero-img')
+
+
+// Nadanie atrybutów dla obrazka kontaktu
+
+
+heroImg.classList.add("hero-img");
 
 if (document.body.className.includes("dark")) {
-    img.src = '/img/dark.png';
+  heroImg.src = "/img/dark.png";
+
 } else {
-    img.src = '/img/light.png';
+  heroImg.src = "/img/light.png";
 }
 
 function changeHeroImg() {
-    if (document.body.className.includes("dark")) {
-        img.src = '/img/dark.png';
-        console.log("dark");
-        console.log(document.getElementsByClassName("hero-img"));
-
-    } else {
-        img.src = '/img/light.png';
-
-        console.log("light");
-    }
-
+  if (document.body.className.includes("dark")) {
+    heroImg.src = "/img/dark.png";
+  } else {
+    heroImg.src = "/img/light.png";
+  }
 }
 
-themeToggleBtn.addEventListener('click', function () {
-    changeHeroImg();
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+themeToggleBtn.addEventListener("click", function () {
+  changeHeroImg();
+});

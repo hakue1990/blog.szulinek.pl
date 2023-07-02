@@ -16,7 +16,7 @@
     {{- partialCached "header.html" . .Page -}}
          <!--Start of Contact Section-->
   <section class="section--5" id="contact">
-    <img src="/img/contact.png" alt="skill monkey" class="contact-monkey" />
+    <img src="/img/contact-dark.png" alt="skill monkey" class="contact-monkey" />
     <form class="form" action="https://formsubmit.co/adam.haldas@gmail.com" method="POST">
       <h3>contact <span class="primary">me</span>.</h3>
       <div class="form--box">
@@ -49,6 +49,8 @@
          <!--END of Contact Section-->
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
     <script  src="/js/custom.js"></script>
+    <script  src="/js/contact.js"></script>
+
 </body>
 
 </html>

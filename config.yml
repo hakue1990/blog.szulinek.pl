@@ -28,7 +28,7 @@ params:
 
     profileMode:
         enabled: true
-        title: "Dev bez spiny!" # optional default will be site title
+        title: "Tech bez spiny!" # optional default will be site title
         subtitle: "o technologiach webowych."
         # imageUrl: "/img/monkey-dark.png" 
         
