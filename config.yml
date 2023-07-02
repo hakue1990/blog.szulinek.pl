@@ -67,7 +67,7 @@ menu:
     - identifier: Posty
       name: posty
       url: /posts/
-      layout: posts
+      # layout: posts
       weight: 30
 
     - identifier: Kontakt
@@ -97,8 +97,3 @@ minify:
 
 ## Szukanie ##
 
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary

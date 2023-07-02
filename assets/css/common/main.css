@@ -98,7 +98,7 @@ pre:hover .copy-code {
     align-items: center;
     position: relative;
     border : 2px solid black;
-    background-color: var(--code-bg);
+    background-color: var(--tertiary);
   }
   
   .section--5 form h3 {
