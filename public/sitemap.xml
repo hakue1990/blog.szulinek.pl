@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.szulinek.pl/posts/system_administration/</loc>
+    <loc>https://blog.szulinek.pl/services/system_administration/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
     <loc>https://blog.szulinek.pl/categories/</loc>
@@ -11,10 +11,10 @@
     <loc>https://blog.szulinek.pl/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>https://blog.szulinek.pl/posts/fast_website/</loc>
+    <loc>https://blog.szulinek.pl/services/fast_website/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>https://blog.szulinek.pl/posts/</loc>
+    <loc>https://blog.szulinek.pl/services/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
     <loc>https://blog.szulinek.pl/tags/</loc>
@@ -26,7 +26,7 @@
     <loc>https://blog.szulinek.pl/categories/tech/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
-    <loc>https://blog.szulinek.pl/posts/www_websites/</loc>
+    <loc>https://blog.szulinek.pl/services/www_websites/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
     <loc>https://blog.szulinek.pl/tags/website/</loc>
@@ -38,16 +38,16 @@
     <loc>https://blog.szulinek.pl/categories/www/</loc>
     <lastmod>2023-06-27T20:39:16+02:00</lastmod>
   </url><url>
+    <loc>https://blog.szulinek.pl/about/</loc>
+  </url><url>
+    <loc>https://blog.szulinek.pl/test/</loc>
+  </url><url>
     <loc>https://blog.szulinek.pl/archives/</loc>
   </url><url>
     <loc>https://blog.szulinek.pl/categories/</loc>
   </url><url>
     <loc>https://blog.szulinek.pl/contact/</loc>
   </url><url>
-    <loc>https://blog.szulinek.pl/about/</loc>
-  </url><url>
     <loc>https://blog.szulinek.pl/search/</loc>
-  </url><url>
-    <loc>https://blog.szulinek.pl/services/</loc>
   </url>
 </urlset>

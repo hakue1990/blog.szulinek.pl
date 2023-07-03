@@ -8,29 +8,50 @@
     <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://blog.szulinek.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Administracja systemami</title>
-      <link>https://blog.szulinek.pl/posts/system_administration/</link>
+      <link>https://blog.szulinek.pl/services/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://blog.szulinek.pl/posts/system_administration/</guid>
+      <guid>https://blog.szulinek.pl/services/system_administration/</guid>
       <description>Serwery typu Cloud i nie tylko</description>
     </item>
     
     <item>
       <title>Optymalizacja www</title>
-      <link>https://blog.szulinek.pl/posts/fast_website/</link>
+      <link>https://blog.szulinek.pl/services/fast_website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://blog.szulinek.pl/posts/fast_website/</guid>
+      <guid>https://blog.szulinek.pl/services/fast_website/</guid>
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
     <item>
       <title>Tworzenie Stron www</title>
-      <link>https://blog.szulinek.pl/posts/www_websites/</link>
+      <link>https://blog.szulinek.pl/services/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://blog.szulinek.pl/posts/www_websites/</guid>
+      <guid>https://blog.szulinek.pl/services/www_websites/</guid>
       <description>Profesjonalne strony www</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blog.szulinek.pl/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.szulinek.pl/about/</guid>
+      <description>Kim jestem? dokąd zmierzam? Jestem informatykiem specjalizującym się w zarządzaniu serwerami, optymalizacji stron internetowych i tworzeniu zajebiście szybko działających stron www.
+Exp Posiadam niemałe doświadczenie w pracy z serwerami i infrastrukturą internetową. Na codzień administruje hostami różnych skal, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwerów, wdrażanie aplikacji internetowych i monitorowanie wydajności.
+Kontakt Jeśli potrzebujesz pomocy z zarządzaniem serwerami, optymalizacją stron lub tworzeniem szybkich witryn internetowych, skontaktuj się ze mną.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blog.szulinek.pl/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.szulinek.pl/test/</guid>
+      <description>Optymalizacja stron Moją pasją jest optymalizacja stron internetowych, aby były one szybkie i efektywne. Wykorzystuję zaawansowane techniki kompresji plików, minimalizację kodu i zoptymalizowany dostęp do zasobów, takich jak obrazy i skrypty. Dzięki temu strony, którymi się zajmuję, ładowane są błyskawicznie, co przekłada się na lepsze doświadczenie użytkowników i wyższe wyniki w wyszukiwarkach.
+Tworzenie szybkich stron internetowych Jako programista front-endu, specjalizuję się w tworzeniu piekielnie szybko działających stron internetowych. Wykorzystuję najlepsze praktyki programowania, zoptymalizowane algorytmy i lekkie frameworki, aby zapewnić szybkość i responsywność.</description>
     </item>
     
     
@@ -52,24 +73,6 @@
       <description></description>
     </item>
     
-    <item>
-      <title>O mnie</title>
-      <link>https://blog.szulinek.pl/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.szulinek.pl/about/</guid>
-      <description></description>
-    </item>
-    
-    
-    <item>
-      <title>Usługi</title>
-      <link>https://blog.szulinek.pl/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.szulinek.pl/services/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

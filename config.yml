@@ -5,6 +5,7 @@ theme: PaperMod
 
 
 params:
+    defaultTheme: dark
 
     homeInfoParams:
         Title: Hello Stranger!
@@ -49,10 +50,10 @@ menu:
       url: /about/
       weight: 10
 
-    - identifier: usługi
-      name: usługi
-      url: /services/
-      weight: 20
+    # - identifier: usługi
+    #   name: usługi
+    #   url: /services/
+    #   weight: 20
 
     # - identifier: kategorie
     #   name: kategorie
@@ -64,9 +65,9 @@ menu:
     #   url: /tags/
     #   weight: 40
 
-    - identifier: Posty
-      name: posty
-      url: /posts/
+    - identifier: Usługi
+      name: usługi
+      url: /services/
       # layout: posts
       weight: 30
 
