@@ -2,74 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>IT Tech Anytime</title>
-    <link>https://blog.szulinek.pl/</link>
+    <link>https://szulinek.pl/</link>
     <description>Recent content on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://blog.szulinek.pl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Administracja systemami</title>
-      <link>https://blog.szulinek.pl/services/system_administration/</link>
+      <title>System administration</title>
+      <link>https://szulinek.pl/services/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://blog.szulinek.pl/services/system_administration/</guid>
+      <guid>https://szulinek.pl/services/system_administration/</guid>
       <description>Serwery typu Cloud i nie tylko</description>
     </item>
     
     <item>
-      <title>Optymalizacja www</title>
-      <link>https://blog.szulinek.pl/services/fast_website/</link>
+      <title>Web development</title>
+      <link>https://szulinek.pl/services/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://blog.szulinek.pl/services/fast_website/</guid>
+      <guid>https://szulinek.pl/services/www_websites/</guid>
+      <description>fast as hell websites</description>
+    </item>
+    
+    <item>
+      <title>Website optimization</title>
+      <link>https://szulinek.pl/services/fast_website/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/services/fast_website/</guid>
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
     <item>
-      <title>Tworzenie Stron www</title>
-      <link>https://blog.szulinek.pl/services/www_websites/</link>
-      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      <title></title>
+      <link>https://szulinek.pl/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.szulinek.pl/services/www_websites/</guid>
-      <description>Profesjonalne strony www</description>
+      <guid>https://szulinek.pl/about/</guid>
+      <description>Whoami ? I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
+Expirence I have considerable experience working with servers and internet infrastructure. On a daily basis, I administer hosts of various scales, both in the cloud and on local machines. My skills include server configuration, deployment of web applications, and performance monitoring.
+Contact If you need assistance with server management, website optimization, or creating fast web solutions, feel free to get in touch.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://blog.szulinek.pl/about/</link>
+      <link>https://szulinek.pl/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.szulinek.pl/about/</guid>
-      <description>Kim jestem? dokąd zmierzam? Jestem informatykiem specjalizującym się w zarządzaniu serwerami, optymalizacji stron internetowych i tworzeniu zajebiście szybko działających stron www.
-Exp Posiadam niemałe doświadczenie w pracy z serwerami i infrastrukturą internetową. Na codzień administruje hostami różnych skal, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwerów, wdrażanie aplikacji internetowych i monitorowanie wydajności.
-Kontakt Jeśli potrzebujesz pomocy z zarządzaniem serwerami, optymalizacją stron lub tworzeniem szybkich witryn internetowych, skontaktuj się ze mną.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blog.szulinek.pl/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.szulinek.pl/test/</guid>
-      <description>Optymalizacja stron Moją pasją jest optymalizacja stron internetowych, aby były one szybkie i efektywne. Wykorzystuję zaawansowane techniki kompresji plików, minimalizację kodu i zoptymalizowany dostęp do zasobów, takich jak obrazy i skrypty. Dzięki temu strony, którymi się zajmuję, ładowane są błyskawicznie, co przekłada się na lepsze doświadczenie użytkowników i wyższe wyniki w wyszukiwarkach.
-Tworzenie szybkich stron internetowych Jako programista front-endu, specjalizuję się w tworzeniu piekielnie szybko działających stron internetowych. Wykorzystuję najlepsze praktyki programowania, zoptymalizowane algorytmy i lekkie frameworki, aby zapewnić szybkość i responsywność.</description>
+      <guid>https://szulinek.pl/contact/</guid>
+      <description></description>
     </item>
     
     
     <item>
       <title>Kategorie</title>
-      <link>https://blog.szulinek.pl/categories/</link>
+      <link>https://szulinek.pl/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.szulinek.pl/categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kontakt</title>
-      <link>https://blog.szulinek.pl/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.szulinek.pl/contact/</guid>
+      <guid>https://szulinek.pl/categories/</guid>
       <description></description>
     </item>
     

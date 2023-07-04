@@ -1,5 +1,5 @@
 ---
-title: "Tworzenie Stron www"
+title: "Web development"
 date: 2023-06-27T20:39:16+02:00
 draft: true
 cover:
@@ -15,7 +15,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Profesjonalne strony www"
+description: "fast as hell websites"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -34,6 +34,11 @@ params:
     comments: true
 ---
 
-## Diabelsko szybkie strony www
+## Fast as hell websites
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed odio justo. Proin eget arcu id est luctus ultrices eu in sem. Vivamus vulputate ultricies viverra. Aliquam et tortor tortor. Integer cursus consectetur arcu, vel ornare nibh volutpat ac. Proin vulputate sem ut lorem euismod hendrerit. Aliquam velit nisl,
+
+
+
+## hot to deply it?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed odio justo. Proin eget arcu id est luctus ultrices eu in sem. Vivamus vulputate ultricies viverra. Aliquam et tortor tortor. Integer cursus consectetur arcu, vel ornare nibh volutpat ac. Proin vulputate sem ut lorem euismod hendrerit. Aliquam velit nisl,

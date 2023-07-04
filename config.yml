@@ -1,5 +1,5 @@
-baseURL: 'https://blog.szulinek.pl'
-# languageCode: pl
+baseURL: 'https://szulinek.pl'
+languageCode: en
 title: IT Tech Anytime
 theme: PaperMod
 
@@ -29,14 +29,14 @@ params:
 
     profileMode:
         enabled: true
-        title: "Tech bez spiny!" # optional default will be site title
-        subtitle: "o technologiach webowych."
+        title: "Tech without a headache!" # optional default will be site title
+        subtitle: "about web technologies"
         # imageUrl: "/img/monkey-dark.png" 
         
         buttons:
-            - name: Archiwa
+            - name: Archives
               url: "/archives/"
-            - name: Kontakt
+            - name: Contact
               url: "/contact/"
 
 
@@ -45,8 +45,8 @@ menu:
   main:
 
 
-    - identifier: O mnie
-      name: o mnie
+    - identifier: About
+      name: about
       url: /about/
       weight: 10
 
@@ -65,20 +65,20 @@ menu:
     #   url: /tags/
     #   weight: 40
 
-    - identifier: Usługi
-      name: usługi
+    - identifier: Services
+      name: services
       url: /services/
       # layout: posts
       weight: 30
 
-    - identifier: Kontakt
-      name: kontakt
+    - identifier: Contact
+      name: contact
       url: /contact/
       weight: 40
 
     - identifier: szulinek.pl
       name: portfolio
-      url: https://www.szulinek.pl/#projects
+      url: https://portfolio.szulinek.pl/#projects
       weight: 80
     - identifier: Portfolio
   

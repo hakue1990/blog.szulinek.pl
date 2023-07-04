@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on IT Tech Anytime</title>
-    <link>https://blog.szulinek.pl/categories/</link>
+    <link>https://szulinek.pl/categories/</link>
     <description>Recent content in Categories on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://blog.szulinek.pl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
-      <link>https://blog.szulinek.pl/categories/tech/</link>
+      <link>https://szulinek.pl/categories/tech/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://blog.szulinek.pl/categories/tech/</guid>
+      <guid>https://szulinek.pl/categories/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>www</title>
-      <link>https://blog.szulinek.pl/categories/www/</link>
+      <link>https://szulinek.pl/categories/www/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://blog.szulinek.pl/categories/www/</guid>
+      <guid>https://szulinek.pl/categories/www/</guid>
       <description></description>
     </item>
     

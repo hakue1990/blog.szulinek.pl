@@ -2,24 +2,24 @@
 # date: 2023-07-02T16:34:18+02:00
 draft: false
 buttons:
-    - name: Archiwa
+    - name: Archives
       url: "/archives/"
-    - name: Kontakt
-      url: "/contact/"
+    - name: Contact
+      url: "/archives/"
 ---
 
-# Kim jestem?  dokąd zmierzam?
+# Whoami ? 
 
-Jestem informatykiem specjalizującym się w zarządzaniu serwerami, optymalizacji stron internetowych i tworzeniu zajebiście szybko działających stron www.
+I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
 
-## Exp
+## Expirence
 
-Posiadam niemałe doświadczenie w pracy z serwerami i infrastrukturą internetową. Na codzień administruje hostami różnych skal, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwerów, wdrażanie aplikacji internetowych i monitorowanie wydajności.
+I have considerable experience working with servers and internet infrastructure. On a daily basis, I administer hosts of various scales, both in the cloud and on local machines. My skills include server configuration, deployment of web applications, and performance monitoring.
 
 
 
-## Kontakt
+## Contact
 
-Jeśli potrzebujesz pomocy z zarządzaniem serwerami, optymalizacją stron lub tworzeniem szybkich witryn internetowych, skontaktuj się ze mną.
+If you need assistance with server management, website optimization, or creating fast web solutions, feel free to get in touch.
 
-Będzie mi miło pomóc Ci w osiągnięciu szybkich i wydajnych rozwiązań internetowych.
+

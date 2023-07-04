@@ -1,5 +1,5 @@
 ---
-title: "Administracja systemami"
+title: "System administration"
 date: 2023-06-27T20:39:16+02:00
 draft: true
 cover:
@@ -28,6 +28,6 @@ params:
     ShowShareButtons: true
 ---
 
-## Środowiska chmurowe
+## Cloud servers
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed odio justo. Proin eget arcu id est luctus ultrices eu in sem. Vivamus vulputate ultricies viverra. Aliquam et tortor tortor. Integer cursus consectetur arcu, vel ornare nibh volutpat ac. Proin vulputate sem ut lorem euismod hendrerit. Aliquam velit nisl,
