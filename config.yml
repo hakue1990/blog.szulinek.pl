@@ -1,100 +1,108 @@
-baseURL: 'https://szulinek.pl'
-languageCode: en
+baseURL: "https://szulinek.pl"
+languageCode: ["en", "pl"]
 title: IT Tech Anytime
 theme: PaperMod
 
 
-params:
-    defaultTheme: dark
-
-    homeInfoParams:
-        Title: Hello Stranger!
-        Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac tincidunt nulla. Praesent eleifend vel ligula vel convallis. Nulla ac mauris et risus molestie rhoncus sed eu arcu. Nam suscipit porta augue vel porttitor. Praesent varius quam ante, at auctor augue porttitor id. Nulla ut neque id justo posuere efficitur sed vel odio. Quisque a porttitor turpis. Ut gravida, arcu a ultrices pharetra, risus erat molestie sem, eget porttitor sapien nunc a neque..
-    socialIcons:
-      - name: facebook
-        url: "https://facebook.com" 
-      - name: github
-        url: "https://github.com/hakue1990" 
-      - name: youtube
-        url: "https://youtube.com" 
-      - name: url
-        url: "https://szulinek.pl" 
-      - name: linkedin
-        url: "https://www.linkedin.com/in/adam-ha%C5%82da%C5%9B-49616a183/" 
-
-
-
-
-### Add Image to a Hero Section
-
-    profileMode:
-        enabled: true
-        title: "Tech without a headache!" # optional default will be site title
-        subtitle: "about web technologies"
-        # imageUrl: "/img/monkey-dark.png" 
-        
-        buttons:
-            - name: Archives
-              url: "/archives/"
-            - name: Contact
-              url: "/contact/"
-
-
-
-menu:
-  main:
-
-
-    - identifier: About
-      name: about
-      url: /about/
-      weight: 10
-
-    # - identifier: usługi
-    #   name: usługi
-    #   url: /services/
-    #   weight: 20
-
-    # - identifier: kategorie
-    #   name: kategorie
-    #   url: /categories/
-    #   weight: 50
-
-    # - identifier: Tagi
-    #   name: tags
-    #   url: /tags/
-    #   weight: 40
-
-    - identifier: Services
-      name: services
-      url: /services/
-      # layout: posts
-      weight: 30
-
-    - identifier: Contact
-      name: contact
-      url: /contact/
-      weight: 40
-
-    - identifier: szulinek.pl
-      name: portfolio
-      url: https://portfolio.szulinek.pl/#projects
-      weight: 80
-    - identifier: Portfolio
-  
 minify:
   disableXML: true
   minifyOutput: true
 
+languages:
+    en:
+        languageName: ":en:"
+        languageAltTitle: English
+        weight: 2
+        title: IT Tech Anytime
+        # taxonomies:
+        #   category: FRcategories
+        #   tag: FRtags
+        #   series: FRseries
+        profileMode:
+            enabled: true
+            title: IT without a headache!
+            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Profile Mode
+                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+        menu:
+            main:
+                - name: About
+                  url: about
+                  weight: 5
+                - name: Services
+                  url: services/
+                  weight: 10
+                - name: Contact
+                  url: contact/
+                  weight: 10
+
+    pl:
+        languageName: ":pl:"
+        languageAltTitle: Polski
+        weight: 2
+        title: IT Tech Anytime
+        # taxonomies:
+        #   category: FRcategories
+        #   tag: FRtags
+        #   series: FRseries
+        profileMode:
+            enabled: true
+            title: IT bez bólu głowy!
+            subtitle: "☄️ Szybko | ☁️ Płynnie | 🌙 Zwinnie | 📱 Responsywnie"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Profile Mode
+                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+        menu:
+            main:
+                - name: About
+                  url: about
+                  weight: 5
+                - name: Services
+                  url: services/
+                  weight: 10
+                - name: Contact
+                  url: contact/
+                  weight: 10
 
 
 
 
 
 
+params:
+  defaultTheme: dark
+  homeInfoParams:
+    Title: Hello Stranger!
+    Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac tincidunt nulla. Praesent eleifend vel ligula vel convallis. Nulla ac mauris et risus molestie rhoncus sed eu arcu. Nam suscipit porta augue vel porttitor. Praesent varius quam ante, at auctor augue porttitor id. Nulla ut neque id justo posuere efficitur sed vel odio. Quisque a porttitor turpis. Ut gravida, arcu a ultrices pharetra, risus erat molestie sem, eget porttitor sapien nunc a neque..
+  socialIcons:
+    - name: facebook
+      url: "https://facebook.com"
+    - name: github
+      url: "https://github.com/hakue1990"
+    - name: youtube
+      url: "https://youtube.com"
+    - name: url
+      url: "https://szulinek.pl"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/adam-ha%C5%82da%C5%9B-49616a183/"
 
+  ### Add Image to a Hero Section
 
+  profileMode:
+    enabled: true
+    title: "Tech without a headache!" # optional default will be site title
+    subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
 
+    subtitle: "about web technologies"
+    # imageUrl: "/img/monkey-dark.png"
 
-## Szukanie ##
-
+    buttons:
+      - name: Archives
+        url: "/archives/"
+      - name: Contact
+        url: "/contact/"
