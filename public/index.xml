@@ -7,29 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>System administration</title>
-      <link>https://szulinek.pl/services/system_administration/</link>
+      <title>System Administration</title>
+      <link>https://szulinek.pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/services/system_administration/</guid>
-      <description>Serwery typu Cloud i nie tylko</description>
+      <guid>https://szulinek.pl/posts/system_administration/</guid>
+      <description>Cloud servers and more!</description>
     </item>
     
     <item>
       <title>Web development</title>
-      <link>https://szulinek.pl/services/www_websites/</link>
+      <link>https://szulinek.pl/posts/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/services/www_websites/</guid>
+      <guid>https://szulinek.pl/posts/www_websites/</guid>
       <description>fast as hell websites</description>
     </item>
     
     <item>
       <title>Website optimization</title>
-      <link>https://szulinek.pl/services/fast_website/</link>
+      <link>https://szulinek.pl/posts/fast_website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/services/fast_website/</guid>
+      <guid>https://szulinek.pl/posts/fast_website/</guid>
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
@@ -39,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://szulinek.pl/about/</guid>
-      <description>Whoami ? I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
+      <description>Whoami I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
 Expirence I have considerable experience working with servers and internet infrastructure. On a daily basis, I administer hosts of various scales, both in the cloud and on local machines. My skills include server configuration, deployment of web applications, and performance monitoring.
 Contact If you need assistance with server management, website optimization, or creating fast web solutions, feel free to get in touch.</description>
     </item>
@@ -62,7 +62,6 @@ Contact If you need assistance with server management, website optimization, or 
       <guid>https://szulinek.pl/categories/</guid>
       <description></description>
     </item>
-    
     
   </channel>
 </rss>

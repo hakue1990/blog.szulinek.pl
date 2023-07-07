@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>www on IT Tech Anytime</title>
+    <link>https://szulinek.pl/pl/tags/www/</link>
+    <description>Recent content in www on IT Tech Anytime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/www/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web dev</title>
+      <link>https://szulinek.pl/pl/posts/www_websites/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/www_websites/</guid>
+      <description>fast as hell websites</description>
+    </item>
+    
+  </channel>
+</rss>

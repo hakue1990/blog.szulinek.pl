@@ -8,7 +8,7 @@ buttons:
       url: "/archives/"
 ---
 
-# Whoami ? 
+# Whoami
 
 I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
 

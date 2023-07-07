@@ -3,77 +3,90 @@ languageCode: ["en", "pl"]
 title: IT Tech Anytime
 theme: PaperMod
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
   minifyOutput: true
 
 languages:
-    en:
-        languageName: ":en:"
-        languageAltTitle: English
-        weight: 2
-        title: IT Tech Anytime
-        # taxonomies:
-        #   category: FRcategories
-        #   tag: FRtags
-        #   series: FRseries
-        profileMode:
-            enabled: true
-            title: IT without a headache!
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Profile Mode
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-        menu:
-            main:
-                - name: About
-                  url: about
-                  weight: 5
-                - name: Services
-                  url: services/
-                  weight: 10
-                - name: Contact
-                  url: contact/
-                  weight: 10
-
-    pl:
-        languageName: ":pl:"
-        languageAltTitle: Polski
-        weight: 2
-        title: IT Tech Anytime
-        # taxonomies:
-        #   category: FRcategories
-        #   tag: FRtags
-        #   series: FRseries
-        profileMode:
-            enabled: true
-            title: IT bez bólu głowy!
-            subtitle: "☄️ Szybko | ☁️ Płynnie | 🌙 Zwinnie | 📱 Responsywnie"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Profile Mode
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-        menu:
-            main:
-                - name: About
-                  url: about
-                  weight: 5
-                - name: Services
-                  url: services/
-                  weight: 10
-                - name: Contact
-                  url: contact/
-                  weight: 10
-
-
-
-
-
-
+  en:
+    languageName: ":en:"
+    languageAltTitle: English
+    weight: 2
+    title: IT Tech Anytime
+    # taxonomies:
+    #   category: FRcategories
+    #   tag: FRtags
+    #   series: FRseries
+    profileMode:
+      enabled: true
+      title: IT without a headache!
+      subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+      buttons:
+        - name: Blog
+          url: posts
+        - name: Profile Mode
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 5
+        - name: Contact
+          url: contact/
+          weight: 20
+        - name: Services
+          url: services/
+          weight: 10
+        - name: Blog
+          url: posts/
+          weight: 30
+        - name: Portfolio
+          url: https://portfolio.szulinek.pl#projects
+          weight: 40
+  pl:
+    languageName: ":pl:"
+    languageAltTitle: Polski
+    weight: 2
+    title: IT Tech Anytime
+    # taxonomies:
+    #   category: FRcategories
+    #   tag: FRtags
+    #   series: FRseries
+    profileMode:
+      enabled: true
+      title: IT bez bólu głowy!
+      subtitle: "☄️ Szybko | ☁️ Płynnie | 🌙 Zwinnie | 📱 Responsywnie"
+      buttons:
+        - name: Blog
+          url: posts
+        - name: Profile Mode
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+    menu:
+      main:
+        - name: O mnie
+          url: about
+          weight: 5
+        - name: Kontakt
+          url: contact/
+          weight: 20
+        - name: Usługi
+          url: services/
+          weight: 10
+        - name: Blog
+          url: posts/
+          weight: 30
+        - name: Portfolio
+          url: https://portfolio.szulinek.pl#projects
+          weight: 40
 params:
   defaultTheme: dark
   homeInfoParams:
@@ -97,9 +110,6 @@ params:
     enabled: true
     title: "Tech without a headache!" # optional default will be site title
     subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-
-    subtitle: "about web technologies"
-    # imageUrl: "/img/monkey-dark.png"
 
     buttons:
       - name: Archives
