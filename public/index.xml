@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Services</title>
+      <link>https://szulinek.pl/services/</link>
+      <pubDate>Fri, 07 Jul 2023 17:41:18 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/services/</guid>
+      <description>Web Design Web design is my passion. I emphasize aesthetics, intuitive user interfaces, and responsiveness to provide an optimal experience for visitors. I work with the latest technologies and design trends to create unique and modern websites that stand out from the competition.
+Web Application Development In addition to web design, I also offer backend and frontend development services. I use programming languages and frameworks that are suitable for each specific project to ensure optimal performance and scalability.</description>
+    </item>
+    
+    <item>
       <title>System Administration</title>
       <link>https://szulinek.pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>

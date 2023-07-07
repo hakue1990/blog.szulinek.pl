@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Usługi</title>
+      <link>https://szulinek.pl/pl/services/</link>
+      <pubDate>Fri, 07 Jul 2023 17:41:21 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/services/</guid>
+      <description>Projektowanie stron internetowych Projektowanie stron internetowych to moja pasja. Kładę duży nacisk na estetykę, intuicyjny interfejs użytkownika i responsywność, aby zapewnić optymalne doświadczenie dla odwiedzających. Pracuję z najnowszymi technologiami i trendami projektowania, aby stworzyć unikalne i nowoczesne strony, które wyróżniają się na tle konkurencji.
+Tworzenie aplikacji internetowych Wraz z projektowaniem stron internetowych oferuję również rozwój backendu i frontendu. Korzystam z języków programowania i frameworków, które są odpowiednie do konkretnego projektu, aby zapewnić optymalną wydajność i skalowalność.</description>
+    </item>
+    
+    <item>
       <title>Administracja systemami</title>
       <link>https://szulinek.pl/pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
