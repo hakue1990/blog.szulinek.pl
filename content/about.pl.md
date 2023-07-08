@@ -1,6 +1,9 @@
 ---
 # date: 2023-07-02T16:34:18+02:00
 draft: false
+cover:
+    image: img/about.jpg
+    alt: 'O mnie'
 buttons:
     - name: Archives
       url: "/pl/archives/"

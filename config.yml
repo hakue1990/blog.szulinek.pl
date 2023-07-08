@@ -3,6 +3,9 @@ languageCode: ["en", "pl"]
 title: IT Tech Anytime
 theme: PaperMod
 
+
+
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -10,7 +13,9 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+
+
+
 
 minify:
   disableXML: true
@@ -33,25 +38,25 @@ languages:
       buttons:
         - name: Blog
           url: posts
-        - name: Profile Mode
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+        - name: Contact
+          url: /contact
     menu:
       main:
         - name: About
           url: about
           weight: 5
-        - name: Contact
-          url: contact/
-          weight: 20
         - name: Services
           url: services/
           weight: 10
         - name: Blog
           url: posts/
-          weight: 30
+          weight: 15
+        - name: Contact
+          url: contact/
+          weight: 20
         - name: Portfolio
           url: https://portfolio.szulinek.pl#projects
-          weight: 40
+          weight: 25
   pl:
     languageName: ":pl:"
     languageAltTitle: Polski
@@ -68,25 +73,25 @@ languages:
       buttons:
         - name: Blog
           url: posts
-        - name: Profile Mode
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+        - name: Kontakt
+          url: /pl/contact/
     menu:
       main:
         - name: O mnie
           url: about
           weight: 5
-        - name: Kontakt
-          url: contact/
-          weight: 20
         - name: Usługi
           url: services/
           weight: 10
         - name: Blog
           url: posts/
-          weight: 30
+          weight: 15
+        - name: Kontakt
+          url: contact/
+          weight: 20
         - name: Portfolio
           url: https://portfolio.szulinek.pl#projects
-          weight: 40
+          weight: 25
 params:
   defaultTheme: dark
   homeInfoParams:
@@ -104,7 +109,13 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/adam-ha%C5%82da%C5%9B-49616a183/"
 
-  ### Add Image to a Hero Section
+## add Logo
+  label:
+        text: "Szulinek.pl"
+        icon: "/img/coding.png"
+        iconHeight: 35
+
+### Add Image to a Hero Section
 
   profileMode:
     enabled: true
