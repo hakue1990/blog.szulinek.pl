@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>.htaccess file</title>
+      <link>https://szulinek.pl/posts/htaccess-file/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/posts/htaccess-file/</guid>
+      <description>Plik .htaccess</description>
+    </item>
+    
+    <item>
       <title>System Administration</title>
       <link>https://szulinek.pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
