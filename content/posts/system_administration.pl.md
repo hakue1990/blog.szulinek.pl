@@ -5,6 +5,10 @@ draft: true
 cover:
     image: img/linux.jpg
     alt: 'this is an alt!'
+
+tags: ["Tech","www","website"] 
+categories: ["www","Tech"]
+
 showToc: true
 TocOpen: false
 draft: false

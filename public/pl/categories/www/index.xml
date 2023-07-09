@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/www/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Administracja systemami</title>
+      <link>https://szulinek.pl/pl/posts/system_administration/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/system_administration/</guid>
+      <description>Serwery typu Cloud i nie tylko</description>
+    </item>
+    
+    <item>
+      <title>Optymalizacja stron www</title>
+      <link>https://szulinek.pl/pl/posts/fast_website/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/fast_website/</guid>
+      <description>Co musisz wiedzieć o optymalizacji stron www?</description>
+    </item>
+    
+    <item>
       <title>Web dev</title>
       <link>https://szulinek.pl/pl/posts/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
