@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>firewall on IT Tech Anytime</title>
+    <link>https://szulinek.pl/pl/categories/firewall/</link>
+    <description>Recent content in firewall on IT Tech Anytime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/firewall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iptables</title>
+      <link>https://szulinek.pl/pl/posts/iptables/</link>
+      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/iptables/</guid>
+      <description>reguł← firewalla czyli iptables</description>
+    </item>
+    
+  </channel>
+</rss>

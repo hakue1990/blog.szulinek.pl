@@ -7,7 +7,7 @@ cover:
     alt: 'this is an alt!'
 
 tags: ["Tech","www","server",".htaccess"] 
-categories: ["server","Tech"]
+categories: ["hosting","Tech","apache2"]
 showToc: true
 TocOpen: false
 draft: false

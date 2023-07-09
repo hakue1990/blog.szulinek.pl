@@ -5,13 +5,31 @@
     <link>https://szulinek.pl/pl/categories/</link>
     <description>Recent content in Categories on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>server</title>
-      <link>https://szulinek.pl/pl/categories/server/</link>
+      <title>firewall</title>
+      <link>https://szulinek.pl/pl/categories/firewall/</link>
+      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/categories/firewall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hosting</title>
+      <link>https://szulinek.pl/pl/categories/hosting/</link>
+      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/categories/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apache2</title>
+      <link>https://szulinek.pl/pl/categories/apache2/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/categories/server/</guid>
+      <guid>https://szulinek.pl/pl/categories/apache2/</guid>
       <description></description>
     </item>
     

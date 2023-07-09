@@ -6,7 +6,7 @@ cover:
     image: img/linux.jpg
     alt: 'this is an alt!'
 
-tags: ["Tech","www","website"] 
+tags: ["Tech","www","hosting"] 
 categories: ["www","Tech"]
 showToc: true
 TocOpen: false

@@ -6,8 +6,8 @@ cover:
     image: img/apache-web-server-logo.webp
     alt: 'this is an alt!'
 
-tags: ["Tech","www","server",".htaccess"] 
-categories: ["server","Tech"]
+tags: ["Tech","www","hosting",".htaccess"] 
+categories: ["hosting","Tech","apache2"]
 showToc: true
 TocOpen: false
 draft: false
