@@ -17,6 +17,16 @@
   </url><url>
     <loc>https://szulinek.pl/pl/categories/firewall/</loc>
     <lastmod>2023-07-09T17:34:05+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/categories/firewall/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/categories/firewall/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/tags/hosting/</loc>
     <lastmod>2023-07-09T17:34:05+02:00</lastmod>
@@ -46,6 +56,16 @@
   </url><url>
     <loc>https://szulinek.pl/pl/posts/iptables/</loc>
     <lastmod>2023-07-09T17:34:05+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/posts/iptables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/posts/iptables/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/</loc>
     <lastmod>2023-07-09T17:34:05+02:00</lastmod>

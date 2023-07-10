@@ -5,7 +5,25 @@
     <link>https://szulinek.pl/tags/</link>
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hosting</title>
+      <link>https://szulinek.pl/tags/hosting/</link>
+      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/tags/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://szulinek.pl/tags/tech/</link>
+      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/tags/tech/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>.htaccess</title>
       <link>https://szulinek.pl/tags/.htaccess/</link>
@@ -16,29 +34,11 @@
     </item>
     
     <item>
-      <title>hosting</title>
-      <link>https://szulinek.pl/tags/hosting/</link>
-      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/tags/hosting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>server</title>
       <link>https://szulinek.pl/tags/server/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
       <guid>https://szulinek.pl/tags/server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://szulinek.pl/tags/tech/</link>
-      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/tags/tech/</guid>
       <description></description>
     </item>
     

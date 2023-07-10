@@ -98,12 +98,8 @@ params:
     Title: Hello Stranger!
     Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac tincidunt nulla. Praesent eleifend vel ligula vel convallis. Nulla ac mauris et risus molestie rhoncus sed eu arcu. Nam suscipit porta augue vel porttitor. Praesent varius quam ante, at auctor augue porttitor id. Nulla ut neque id justo posuere efficitur sed vel odio. Quisque a porttitor turpis. Ut gravida, arcu a ultrices pharetra, risus erat molestie sem, eget porttitor sapien nunc a neque..
   socialIcons:
-    - name: facebook
-      url: "https://facebook.com"
     - name: github
       url: "https://github.com/hakue1990"
-    - name: youtube
-      url: "https://youtube.com"
     - name: url
       url: "https://szulinek.pl"
     - name: linkedin
