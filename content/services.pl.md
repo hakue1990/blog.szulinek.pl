@@ -19,4 +19,3 @@ Wraz z projektowaniem stron internetowych oferuję również rozwój backendu i 
 
 Bezpieczeństwo i niezawodność są dla mnie niezwykle ważne. Dlatego dbam o stosowanie najlepszych praktyk w zakresie zabezpieczeń, testowania i utrzymania strony. Zapewniam również wsparcie techniczne po wdrożeniu, aby klient mógł być pewny, że jestem zawsze gotów pomóc w przypadku jakichkolwiek pytań lub problemów.
 
-Proszę zauważyć, że ten tłumaczenie ma charakter ogólny. Jeśli potrzebujesz oficjalnego tłumaczenia, zalecam skonsultowanie się z profesjonalnym tłumaczem.

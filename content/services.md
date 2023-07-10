@@ -18,5 +18,3 @@ In addition to web design, I also offer backend and frontend development service
 ### Security and Reliability
 
 Security and reliability are of utmost importance to me. I adhere to best practices in terms of security, testing, and website maintenance. I also provide technical support after deployment, ensuring that clients can rely on me for any questions or issues that may arise.
-
-Please note that this translation is provided for general reference. If you need an official translation, it is recommended to consult with a professional translator.
