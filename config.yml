@@ -43,7 +43,7 @@ languages:
         - name: Blog
           url: posts
         - name: Kontakt
-          url: /contact/
+          url: /pl/contact/
     menu:
       main:
         - name: O mnie
@@ -78,7 +78,7 @@ languages:
         - name: Blog
           url: /en/posts
         - name: Contact
-          url: /en//contact
+          url: /en/contact
     menu:
       main:
         - name: About
