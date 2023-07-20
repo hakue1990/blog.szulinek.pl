@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IT Tech Anytime</title>
+    <link>https://szulinek.pl/en/</link>
+    <description>Recent content on IT Tech Anytime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iptables</title>
+      <link>https://szulinek.pl/en/posts/iptables/</link>
+      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/iptables/</guid>
+      <description>firewall rules</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://szulinek.pl/en/services/</link>
+      <pubDate>Fri, 07 Jul 2023 17:41:18 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/services/</guid>
+      <description>Web Design Web design is my passion. I emphasize aesthetics, intuitive user interfaces, and responsiveness to provide an optimal experience for visitors. I work with the latest technologies and design trends to create unique and modern websites that stand out from the competition.
+Web Application Development In addition to web design, I also offer backend and frontend development services. I use programming languages and frameworks that are suitable for each specific project to ensure optimal performance and scalability.</description>
+    </item>
+    
+    <item>
+      <title>.htaccess file</title>
+      <link>https://szulinek.pl/en/posts/htaccess-file/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/htaccess-file/</guid>
+      <description>Plik .htaccess</description>
+    </item>
+    
+    <item>
+      <title>System Administration</title>
+      <link>https://szulinek.pl/en/posts/system_administration/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/system_administration/</guid>
+      <description>Cloud servers and more!</description>
+    </item>
+    
+    <item>
+      <title>Web development</title>
+      <link>https://szulinek.pl/en/posts/www_websites/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/www_websites/</guid>
+      <description>fast as hell websites</description>
+    </item>
+    
+    <item>
+      <title>Website optimization</title>
+      <link>https://szulinek.pl/en/posts/fast_website/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/fast_website/</guid>
+      <description>Co musisz wiedzieć o optymalizacji stron www?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://szulinek.pl/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://szulinek.pl/en/about/</guid>
+      <description>Whoami I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
+Expirence I have considerable experience working with servers and internet infrastructure. On a daily basis, I administer hosts of various scales, both in the cloud and on local machines. My skills include server configuration, deployment of web applications, and performance monitoring.
+Contact If you need assistance with server management, website optimization, or creating fast web solutions, feel free to get in touch.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://szulinek.pl/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://szulinek.pl/en/contact/</guid>
+      <description></description>
+    </item>
+    
+    
+    <item>
+      <title>Categories</title>
+      <link>https://szulinek.pl/en/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://szulinek.pl/en/categories/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

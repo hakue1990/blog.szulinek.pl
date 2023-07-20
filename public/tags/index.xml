@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on IT Tech Anytime</title>
-    <link>https://szulinek.pl/tags/</link>
+    <link>localhost/tags/</link>
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="localhost/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hosting</title>
-      <link>https://szulinek.pl/tags/hosting/</link>
+      <link>localhost/tags/hosting/</link>
       <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
       
-      <guid>https://szulinek.pl/tags/hosting/</guid>
+      <guid>localhost/tags/hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>https://szulinek.pl/tags/tech/</link>
+      <link>localhost/tags/tech/</link>
       <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
       
-      <guid>https://szulinek.pl/tags/tech/</guid>
+      <guid>localhost/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>.htaccess</title>
-      <link>https://szulinek.pl/tags/.htaccess/</link>
+      <link>localhost/tags/.htaccess/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/tags/.htaccess/</guid>
+      <guid>localhost/tags/.htaccess/</guid>
       <description></description>
     </item>
     
     <item>
       <title>server</title>
-      <link>https://szulinek.pl/tags/server/</link>
+      <link>localhost/tags/server/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/tags/server/</guid>
+      <guid>localhost/tags/server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>https://szulinek.pl/tags/website/</link>
+      <link>localhost/tags/website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/tags/website/</guid>
+      <guid>localhost/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>www</title>
-      <link>https://szulinek.pl/tags/www/</link>
+      <link>localhost/tags/www/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/tags/www/</guid>
+      <guid>localhost/tags/www/</guid>
       <description></description>
     </item>
     

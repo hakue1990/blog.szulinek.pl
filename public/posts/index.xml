@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on IT Tech Anytime</title>
-    <link>https://szulinek.pl/posts/</link>
+    <link>localhost/posts/</link>
     <description>Recent content in Posts on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="localhost/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iptables</title>
-      <link>https://szulinek.pl/posts/iptables/</link>
+      <link>localhost/posts/iptables/</link>
       <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
       
-      <guid>https://szulinek.pl/posts/iptables/</guid>
+      <guid>localhost/posts/iptables/</guid>
       <description>firewall rules</description>
     </item>
     
     <item>
       <title>.htaccess file</title>
-      <link>https://szulinek.pl/posts/htaccess-file/</link>
+      <link>localhost/posts/htaccess-file/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/posts/htaccess-file/</guid>
+      <guid>localhost/posts/htaccess-file/</guid>
       <description>Plik .htaccess</description>
     </item>
     
     <item>
       <title>System Administration</title>
-      <link>https://szulinek.pl/posts/system_administration/</link>
+      <link>localhost/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/posts/system_administration/</guid>
+      <guid>localhost/posts/system_administration/</guid>
       <description>Cloud servers and more!</description>
     </item>
     
     <item>
       <title>Web development</title>
-      <link>https://szulinek.pl/posts/www_websites/</link>
+      <link>localhost/posts/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/posts/www_websites/</guid>
+      <guid>localhost/posts/www_websites/</guid>
       <description>fast as hell websites</description>
     </item>
     
     <item>
       <title>Website optimization</title>
-      <link>https://szulinek.pl/posts/fast_website/</link>
+      <link>localhost/posts/fast_website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/posts/fast_website/</guid>
+      <guid>localhost/posts/fast_website/</guid>
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     

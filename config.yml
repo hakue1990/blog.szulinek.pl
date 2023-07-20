@@ -1,5 +1,5 @@
 baseURL: "https://szulinek.pl"
-languageCode: ["en", "pl"]
+languageCode: ["pl", "en"]
 title: IT Tech Anytime
 theme: PaperMod
 
@@ -21,42 +21,11 @@ minify:
   disableXML: true
   minifyOutput: true
 
+
+## Poniższy parametr jest kluczowy jeśli chodzi wielojęzyczność
+defaultContentLanguage: pl
+defaultContentLanguageInSubdir: true
 languages:
-  en:
-    languageName: ":en:"
-    languageAltTitle: English
-    weight: 2
-    title: IT Tech Anytime
-    # taxonomies:
-    #   category: FRcategories
-    #   tag: FRtags
-    #   series: FRseries
-    profileMode:
-      enabled: true
-      title: IT without a headache!
-      subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-      buttons:
-        - name: Blog
-          url: posts
-        - name: Contact
-          url: /contact
-    menu:
-      main:
-        - name: About
-          url: about
-          weight: 5
-        - name: Services
-          url: services/
-          weight: 10
-        - name: Blog
-          url: posts/
-          weight: 15
-        - name: Contact
-          url: contact/
-          weight: 20
-        - name: Portfolio
-          url: https://portfolio.szulinek.pl#projects
-          weight: 25
   pl:
     languageName: ":pl:"
     languageAltTitle: Polski
@@ -74,7 +43,7 @@ languages:
         - name: Blog
           url: posts
         - name: Kontakt
-          url: /pl/contact/
+          url: /contact/
     menu:
       main:
         - name: O mnie
@@ -92,6 +61,42 @@ languages:
         - name: Portfolio
           url: https://portfolio.szulinek.pl#projects
           weight: 25
+  en:
+    languageName: ":en:"
+    languageAltTitle: English
+    weight: 2
+    title: IT Tech Anytime
+    # taxonomies:
+    #   category: FRcategories
+    #   tag: FRtags
+    #   series: FRseries
+    profileMode:
+      enabled: true
+      title: IT without a headache!
+      subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+      buttons:
+        - name: Blog
+          url: /en/posts
+        - name: Contact
+          url: /en//contact
+    menu:
+      main:
+        - name: About
+          url: /en/about
+          weight: 5
+        - name: Services
+          url: /en/services/
+          weight: 10
+        - name: Blog
+          url: /en/posts/
+          weight: 15
+        - name: Contact
+          url: /en/contact/
+          weight: 20
+        - name: Portfolio
+          url: https://portfolio.szulinek.pl#projects
+          weight: 25
+  
 params:
   defaultTheme: dark
   homeInfoParams:
@@ -120,6 +125,6 @@ params:
 
     buttons:
       - name: Archives
-        url: "/archives/"
+        url: "/en/archives/"
       - name: Contact
-        url: "/contact/"
+        url: "/en/contact/"

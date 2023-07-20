@@ -1,19 +1,19 @@
 ---
-title: ".htaccess file"
+title: "plik .htaccess"
 date: 2023-06-27T20:39:16+02:00
 draft: false
 cover:
     image: img/apache-web-server-logo.webp
     alt: 'this is an alt!'
 
-tags: ["Tech","www","server",".htaccess"] 
+tags: ["Tech","www","hosting",".htaccess"] 
 categories: ["hosting","Tech","apache2"]
 showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Plik .htaccess"
+description: "Przydatne reguły pliku .htaccess"
 # canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -31,82 +31,90 @@ params:
     ShowShareButtons: true
 ---
 
-## What is the .htaccess file?
+## Czym jest plik .htaccess ?
 
-The .htaccess file is nothing more than a configuration file used by the Apache server to define and modify website behaviors. It can contain rules for redirections, authentication, access blocking, and other instructions related to website management. The .htaccess file is located in the main website directory or in specific subdirectories and is used to make changes to the server configuration without accessing the main configuration file.
+ to nic innego jakplik konfiguracyjny używany przez serwer Apache do definiowania i modyfikowania zachowań witryny. Może zawierać reguły przekierowań, uwierzytelniania, blokowania dostępu oraz inne instrukcje dotyczące zarządzania witryną. Plik .htaccess znajduje się w głównym katalogu witryny lub w poszczególnych podkatalogach i jest używany do wprowadzania zmian w konfiguracji serwera bez potrzeby dostępu do głównego pliku konfiguracyjnego.
 
-## Here are a few useful .htaccess rules:
+##  Oto kilka przydatnych reguł .htaccess:
 
-### 1. **Rewriterule**:
-Allows rewriting of URLs for a more readable and user-friendly format. It can be used to create simplified URLs or redirect traffic to other pages.
+### 1. **Rewriterule**: 
+Pozwala na przepisywanie adresów URL w celu bardziej czytelnego i przyjaznego dla użytkownika formatu. Można używać go do tworzenia uproszczonych adresów URL lub przekierowywania ruchu na inne strony.
 
-Example of a `RewriteRule` rule could be redirecting a simplified URL to a target file or page. For example:
+Przykładem reguły `RewriteRule` może być przekierowanie uproszczonego adresu URL na docelowy plik lub stronę. Na przykład:
 
-```markdown
-RewriteEngine On
-RewriteRule ^products/(\d+)$ product.php?id=$1 [L]
-```
+   ```markdown
+   RewriteEngine On
+   RewriteRule ^products/(\d+)$ product.php?id=$1 [L]
+   ```
 
-The above rule rewrites the URL `example.com/products/123` to `example.com/product.php?id=123`, where `123` is the product ID.
+   Powyższa reguła przepisuje adres URL `example.com/products/123` na `example.com/product.php?id=123`, gdzie `123` to identyfikator produktu.
 
-### 2. **Redirect**:
-Used to redirect users from one URL to another. Useful when a page has been moved or its structure has changed.
+### 2. **Redirect**: 
+Służy do przekierowania użytkowników z jednego adresu URL na inny. Przydatne, gdy strona została przeniesiona lub zmieniła swoją strukturę.
 
-Example of a `Redirect` rule could be redirecting from one URL to another. For example:
+Przykładem reguły `Redirect` może być przekierowanie z jednego adresu URL na inny. Na przykład:
 
-```markdown
-Redirect 301 /old-page.html /new-page.html
-```
+   ```markdown
+   Redirect 301 /old-page.html /new-page.html
+   ```
 
-The above rule redirects any request for `example.com/old-page.html` to `example.com/new-page.html` with a 301 response code, indicating a permanent redirect.
+   Powyższa reguła przekierowuje każde żądanie dla `example.com/old-page.html` na `example.com/new-page.html` z kodem odpowiedzi 301, wskazującym na trwałe przekierowanie.
 
-### 3. **Deny/Allow**:
-Allows blocking or granting access to specific directories or files on the server. Restrictions can be set for specific IP addresses or IP ranges.
+### 3. **Deny/Allow**: 
+Pozwala na blokowanie lub zezwalanie na dostęp do konkretnych katalogów lub plików na serwerze. Można ustawić ograniczenia dla określonych adresów IP lub zakresów IP.
 
-Example of `Deny` and `Allow` rules could be blocking access to a specific directory based on an IP address. For example:
+Przykładem reguł `Deny` i `Allow` może być blokada dostępu do określonego katalogu na podstawie adresu IP. Na przykład:
 
-```markdown
-Deny from 192.168.0.1
-Allow from all
-```
+   ```markdown
+   Deny from 192.168.0.1
+   Allow from all
+   ```
 
-The above rules block access to the directory for users with the IP address `192.168.0.1`, but allow access for all other users.
+   Powyższe reguły blokują dostęp do katalogu dla użytkowników z adresu IP `192.168.0.1`, ale pozwalają na dostęp dla wszystkich innych użytkowników.
 
-### 4. **Expires/Header**:
-Enables setting expiration dates for specific file types on the server, facilitating better browser cache management. Headers such as Cache-Control or Last-Modified can be set.
+### 4. **Expires/Header**: 
+Pozwala na ustawienie daty wygaśnięcia dla określonych typów plików na serwerze, co pozwala na lepsze zarządzanie pamięcią podręczną przeglądarki. Można ustawić nagłówki, takie jak Cache-Control czy Last-Modified.
 
-Example of `ExpiresByType` and `Header` rules could be setting the expiration date for CSS files to 7 days. For example:
+Przykładem reguły `ExpiresByType` i `Header` może być ustawienie daty wygaśnięcia dla plików typu `text/css` na 7 dni. Na przykład:
 
-```markdown
-ExpiresByType text/css "access plus 7 days"
-Header set Cache-Control "public"
-```
+   ```markdown
+   ExpiresByType text/css "access plus 7 days"
+   Header set Cache-Control "public"
+   ```
 
-The above rules set the expiration date for CSS files to 7 days from the time of retrieval and set the `Cache-Control` header to "public", allowing caching in the browser's cache.
+   Powyższe reguły ustawiają datę wygaśnięcia dla plików CSS na 7 dni od momentu pobrania i ustawiają nagłówek `Cache-Control` na "public", zezwalając na przechowywanie w pamięci podręcznej przeglądarki.
 
-### 5. **AuthType/AuthName/Require**:
-Used to create security measures for directories or pages using HTTP authentication. Users and passwords can be created, which will be required for access.
+### 5. **AuthType/AuthName/Require**: 
+Służą do tworzenia zabezpieczeń dla katalogów lub stron za pomocą uwierzytelniania HTTP. Można tworzyć użytkowników i hasła, które będą wymagane do dostępu.
 
-Example of `AuthType`, `AuthName`, and `Require` rules could be creating a protected directory requiring authentication. For example:
+Przykładem reguł `AuthType`, `AuthName` i `Require` może być tworzenie zabezpieczonego katalogu wymagającego uwierzytelnienia. Na przykład:
 
-```markdown
-AuthType Basic
-AuthName "Restricted Area"
-AuthUserFile /path/to/.htpasswd
-Require valid-user
-```
+   ```markdown
+   AuthType Basic
+   AuthName "Restricted Area"
+   AuthUserFile /path/to/.htpasswd
+   Require valid-user
+   ```
 
-The above rules require authentication for accessing a specific directory. Users must enter valid authentication credentials, which are stored in the `.htpasswd` file.
+   Powyższe reguły wymagają uwierzytelnienia dla dostępu do danego katalogu. Użytkownicy muszą wprowadzić prawidłowe dane uwierzytelniające, które są przechowywane w pliku `.htpasswd`.
 
-### 6. **ErrorDocument**:
-Allows customization of error pages displayed when the server encounters a problem, such as a 404 error (page not found). Users can be redirected to another page or a custom error message can be displayed.
+### 6. **ErrorDocument**: 
+Pozwala na dostosowanie stron błędów, które są wyświetlane, gdy serwer napotka problem, na przykład błąd 404 (strona nie znaleziona). Można przekierować użytkownika na inną stronę lub wyświetlić własną treść błędu.
 
-Example of an `ErrorDocument` rule could be customizing the 404 error page (page not found). For example:
+To tylko kilka przykładów reguł .htaccess. Ważne jest, aby zrozumieć, że .htaccess to plik konfiguracyjny serwera Apache, który pozwala na dostosowanie zachowań serwera. Reguły .htaccess mogą być bardzo potężne i warto dobrze poznać dokumentację Apache przed ich stosowaniem.
 
-```markdown
-ErrorDocument 404 /error-pages/404.html
-```
+Przykładem reguły `ErrorDocument` może być dostosowanie strony błędu 404 (strona nie znaleziona). Na przykład:
 
-The above rule redirects users to the `example.com/error-pages/404.html` page when they encounter a 404 error.
+   ```markdown
+   ErrorDocument 404 /error-pages/404.html
+   ```
 
-These are just a few examples of .htaccess rules. It's important to understand that .htaccess is an Apache server configuration file that allows customization of server behavior. .htaccess rules can be powerful, and it's recommended to familiarize yourself with the Apache documentation before applying them.
+   Powyższa reguła przekierowuje użytkowników na stronę `example.com/error-pages/404.html`, gdy napotkają błąd 404.
+
+To tylko przykładowe reguły .htaccess. Zawsze należy dostosować je do własnych potrzeb i upewnić się, że są zgodne z wymaganiami serwera i aplikacji.
+
+
+
+
+
+

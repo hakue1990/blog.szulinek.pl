@@ -1,20 +1,21 @@
 ---
-title: "Services"
-date: 2023-07-07T17:41:18+02:00
+title: "Usługi"
+date: 2023-07-07T17:41:21+02:00
 draft: false
 cover:
     image: img/services.jpg
-    alt: 'Sercvices'
+    alt: 'Usługi'
 ---
 
-### Web Design
+### Projektowanie stron internetowych
 
-Web design is my passion. I emphasize aesthetics, intuitive user interfaces, and responsiveness to provide an optimal experience for visitors. I work with the latest technologies and design trends to create unique and modern websites that stand out from the competition.
+Projektowanie stron internetowych to moja pasja. Kładę duży nacisk na estetykę, intuicyjny interfejs użytkownika i responsywność, aby zapewnić optymalne doświadczenie dla odwiedzających. Pracuję z najnowszymi technologiami i trendami projektowania, aby stworzyć unikalne i nowoczesne strony, które wyróżniają się na tle konkurencji.
 
-### Web Application Development
+### Tworzenie aplikacji internetowych
 
-In addition to web design, I also offer backend and frontend development services. I use programming languages and frameworks that are suitable for each specific project to ensure optimal performance and scalability. My web applications are always tailored to the individual needs of clients and user-friendly.
+Wraz z projektowaniem stron internetowych oferuję również rozwój backendu i frontendu. Korzystam z języków programowania i frameworków, które są odpowiednie do konkretnego projektu, aby zapewnić optymalną wydajność i skalowalność. Moje aplikacje internetowe są zawsze dopasowane do indywidualnych potrzeb klientów i łatwe w obsłudze.
 
-### Security and Reliability
+### Bezpieczeństwo i niezawodność
 
-Security and reliability are of utmost importance to me. I adhere to best practices in terms of security, testing, and website maintenance. I also provide technical support after deployment, ensuring that clients can rely on me for any questions or issues that may arise.
+Bezpieczeństwo i niezawodność są dla mnie niezwykle ważne. Dlatego dbam o stosowanie najlepszych praktyk w zakresie zabezpieczeń, testowania i utrzymania strony. Zapewniam również wsparcie techniczne po wdrożeniu, aby klient mógł być pewny, że jestem zawsze gotów pomóc w przypadku jakichkolwiek pytań lub problemów.
+

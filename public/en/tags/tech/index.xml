@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech on IT Tech Anytime</title>
+    <link>https://szulinek.pl/en/tags/tech/</link>
+    <description>Recent content in Tech on IT Tech Anytime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iptables</title>
+      <link>https://szulinek.pl/en/posts/iptables/</link>
+      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/iptables/</guid>
+      <description>firewall rules</description>
+    </item>
+    
+    <item>
+      <title>.htaccess file</title>
+      <link>https://szulinek.pl/en/posts/htaccess-file/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/htaccess-file/</guid>
+      <description>Plik .htaccess</description>
+    </item>
+    
+    <item>
+      <title>System Administration</title>
+      <link>https://szulinek.pl/en/posts/system_administration/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/system_administration/</guid>
+      <description>Cloud servers and more!</description>
+    </item>
+    
+    <item>
+      <title>Web development</title>
+      <link>https://szulinek.pl/en/posts/www_websites/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/www_websites/</guid>
+      <description>fast as hell websites</description>
+    </item>
+    
+    <item>
+      <title>Website optimization</title>
+      <link>https://szulinek.pl/en/posts/fast_website/</link>
+      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/fast_website/</guid>
+      <description>Co musisz wiedzieć o optymalizacji stron www?</description>
+    </item>
+    
+  </channel>
+</rss>

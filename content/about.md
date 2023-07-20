@@ -3,7 +3,7 @@
 draft: false
 cover:
     image: img/about.jpg
-    alt: 'About'
+    alt: 'O mnie'
 buttons:
     - name: Archives
       url: "/archives/"
@@ -11,18 +11,15 @@ buttons:
       url: "/archives/"
 ---
 
-# Whoami
+# O mnie
 
-I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
+Jestem specjalistą IT specjalizującym się w zarządzaniu serwerami, optymalizacji stron internetowych i tworzeniu błyskawicznych witryn.
 
-## Expirence
+## Doświadczenie
 
-I have considerable experience working with servers and internet infrastructure. On a daily basis, I administer hosts of various scales, both in the cloud and on local machines. My skills include server configuration, deployment of web applications, and performance monitoring.
+Posiadam znaczne doświadczenie w pracy z serwerami i infrastrukturą internetową. Codziennie administruję hostami o różnej skali, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwera, wdrażanie aplikacji internetowych oraz monitorowanie wydajności.
 
+## Kontakt
 
-
-## Contact
-
-If you need assistance with server management, website optimization, or creating fast web solutions, feel free to get in touch.
-
+Jeśli potrzebujesz pomocy w zarządzaniu serwerem, optymalizacji strony internetowej lub tworzeniu szybkich rozwiązań internetowych, śmiało się ze mną skontaktuj.
 

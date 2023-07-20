@@ -1,5 +1,5 @@
 ---
-title: "Web development"
+title: "Web dev"
 date: 2023-06-27T20:39:16+02:00
 draft: true
 cover:
@@ -34,13 +34,13 @@ params:
     comments: true
 ---
 
+## Strony szybkie jak diabli
 
-## Fast as hell websites
 
-Web development plays a pivotal role in shaping the digital landscape we interact with every day. It involves the creation and maintenance of websites and web applications. With a diverse range of programming languages and frameworks, web developers bring ideas to life on the internet.
+Tworzenie stron internetowych odgrywa kluczową rolę w kształtowaniu cyfrowego krajobrazu, z którym codziennie się spotykamy. Obejmuje ono tworzenie i utrzymanie witryn internetowych oraz aplikacji webowych. Dzięki różnorodnym językom programowania i frameworkom, twórcy stron internetowych przekształcają pomysły w rzeczywistość w internecie.
 
-Web developers utilize **HTML**, **CSS**, and **JavaScript** to design and structure web pages, ensuring a seamless user experience. They also integrate backend technologies like **PHP**, **Python**, or **Ruby** to handle server-side functionality and data processing. Additionally, knowledge of databases and security measures is crucial to safeguard sensitive information.
+Twórcy stron internetowych wykorzystują **HTML**, **CSS** i **JavaScript** do projektowania i strukturyzacji stron, zapewniając płynne doświadczenia użytkowników. Integrują także technologie backendowe, takie jak **PHP**, **Python** lub **Ruby**, aby obsługiwać funkcje po stronie serwera i przetwarzanie danych. Ponadto, znajomość baz danych i środków zabezpieczających jest istotna w celu ochrony poufnych informacji.
 
-Constantly evolving, web development embraces new trends like responsive design, mobile optimization, and the use of APIs for enhanced functionality. Skilled web developers possess problem-solving abilities, attention to detail, and a passion for creating innovative digital experiences.
+Tworzenie stron internetowych nieustannie ewoluuje, obejmując nowe trendy, takie jak responsywny design, optymalizacja mobilna i wykorzystanie interfejsów API w celu wzmocnienia funkcjonalności. Wprawni twórcy stron internetowych posiadają umiejętność rozwiązywania problemów, skrupulatność i pasję do tworzenia innowacyjnych doświadczeń cyfrowych.
 
-In today's digital era, web development remains a thriving field, empowering businesses and individuals to connect, engage, and thrive in the online world.
+W dzisiejszej cyfrowej erze, tworzenie stron internetowych pozostaje dynamiczną dziedziną, umożliwiającą firmom i osobom indywidualnym nawiązywanie połączeń, angażowanie się i osiąganie sukcesów w świecie online.
