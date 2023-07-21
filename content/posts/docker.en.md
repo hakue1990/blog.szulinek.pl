@@ -70,7 +70,7 @@ docker rm <CONTAINER ID>
 
 Remove all containers (both running and stopped):
 ```
-docker rm $(docker ps -a -q)
+docker rm --force $(docker ps -a -q)
 ```
 
 ## Managing Images
@@ -81,7 +81,7 @@ docker rmi <IMAGE ID>
 
 Remove all available images:
 ```
-docker rmi $(docker images -q)
+docker rmi --force $(docker images -q)
 ```
 
 ## Pulling Images

@@ -70,7 +70,7 @@ docker rm <CONTAINER ID>
 
 Usuń wszystkie kontenery (zarówno aktywne, jak i nieaktywne):
 ```
-docker rm $(docker ps -a -q)
+docker rm --force $(docker ps -a -q)
 ```
 
 ## Zarządzanie obrazami
@@ -81,7 +81,7 @@ docker rmi <IMAGE ID>
 
 Usuń wszystkie dostępne obrazy:
 ```
-docker rmi $(docker images -q)
+docker rmi --force $(docker images -q)
 ```
 
 ## Pobieranie obrazu
