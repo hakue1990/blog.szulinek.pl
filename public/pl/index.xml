@@ -5,7 +5,16 @@
     <link>https://szulinek.pl/pl/</link>
     <description>Recent content on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 07:14:12 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker cheatsheet</title>
+      <link>https://szulinek.pl/pl/posts/docker/</link>
+      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/docker/</guid>
+      <description>Docker czyli o kontenerach</description>
+    </item>
+    
     <item>
       <title>Iptables</title>
       <link>https://szulinek.pl/pl/posts/iptables/</link>

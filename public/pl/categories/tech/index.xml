@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tech on IT Tech Anytime</title>
+    <title>tech on IT Tech Anytime</title>
     <link>https://szulinek.pl/pl/categories/tech/</link>
-    <description>Recent content in Tech on IT Tech Anytime</description>
+    <description>Recent content in tech on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jun 2023 20:39:16 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 07:14:12 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker cheatsheet</title>
+      <link>https://szulinek.pl/pl/posts/docker/</link>
+      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/docker/</guid>
+      <description>Docker czyli o kontenerach</description>
+    </item>
+    
     <item>
       <title>Administracja systemami</title>
       <link>https://szulinek.pl/pl/posts/system_administration/</link>

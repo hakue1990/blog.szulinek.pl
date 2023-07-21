@@ -5,22 +5,40 @@
     <link>https://szulinek.pl/en/tags/</link>
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 07:14:12 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://szulinek.pl/en/tags/docker/</link>
+      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://szulinek.pl/en/tags/tech/</link>
+      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>www</title>
+      <link>https://szulinek.pl/en/tags/www/</link>
+      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/tags/www/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hosting</title>
       <link>https://szulinek.pl/en/tags/hosting/</link>
       <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
       
       <guid>https://szulinek.pl/en/tags/hosting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://szulinek.pl/en/tags/tech/</link>
-      <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -48,15 +66,6 @@
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
       <guid>https://szulinek.pl/en/tags/website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>www</title>
-      <link>https://szulinek.pl/en/tags/www/</link>
-      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/tags/www/</guid>
       <description></description>
     </item>
     
