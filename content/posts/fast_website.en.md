@@ -2,6 +2,7 @@
 title: "Website optimization"
 date: 2023-06-27T20:39:16+02:00
 draft: true
+author: ["Adam"]
 cover:
     image: img/fast_website.jpg
     alt: 'this is an alt!'

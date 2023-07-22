@@ -2,6 +2,7 @@
 title: "Docker cheatsheet"
 date: 2023-07-21T07:14:12+02:00
 draft: true
+author: ["Adam"]
 cover:
     image: img/docker.png
     alt: 'this is an alt!'

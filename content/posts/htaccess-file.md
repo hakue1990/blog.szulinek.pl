@@ -2,6 +2,7 @@
 title: "plik .htaccess"
 date: 2023-06-27T20:39:16+02:00
 draft: false
+author: ["Adam"]
 cover:
     image: img/apache-web-server-logo.webp
     alt: 'this is an alt!'

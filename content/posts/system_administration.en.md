@@ -2,6 +2,7 @@
 title: "System Administration"
 date: 2023-06-27T20:39:16+02:00
 draft: false
+author: ["Adam"]
 cover:
     image: img/linux.jpg
     alt: 'this is an alt!'
