@@ -133,7 +133,6 @@ params:
 
 
   assets: 
-    disableHLJS: true 
     favicon: "/assets/favicon/favicon.ico" 
     favicon16x16: "/assets/favicon/favicon-16x16.png" 
     avicon32x32: "/assets/favicon/favicon-32x32.png" 

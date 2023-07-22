@@ -1,8 +1,7 @@
 ---
-title: "Docker cheatsheet"
+title: "Docker Cheatsheet"
 date: 2023-07-21T07:14:12+02:00
 draft: true
-author: ["Adam"]
 cover:
     image: img/docker.png
     alt: 'this is an alt!'
@@ -31,6 +30,9 @@ UseHugoToc: true
 params:
     ShowShareButtons: true
 ---
+
+## C
+
 ## Obrazy 
 Pokaż, jakie obrazy są dostępne lokalnie:
 ```
@@ -71,7 +73,7 @@ docker rm <CONTAINER ID>
 
 Usuń wszystkie kontenery (zarówno aktywne, jak i nieaktywne):
 ```
-docker rm --force $(docker ps -a -q)
+docker rm $(docker ps -a -q)
 ```
 
 ## Zarządzanie obrazami
@@ -82,7 +84,7 @@ docker rmi <IMAGE ID>
 
 Usuń wszystkie dostępne obrazy:
 ```
-docker rmi --force $(docker images -q)
+docker rmi $(docker images -q)
 ```
 
 ## Pobieranie obrazu
