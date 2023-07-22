@@ -31,8 +31,6 @@ params:
     ShowShareButtons: true
 ---
 
-## C
-
 ## Obrazy 
 Pokaż, jakie obrazy są dostępne lokalnie:
 ```

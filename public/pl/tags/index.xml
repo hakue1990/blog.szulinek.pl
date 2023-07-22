@@ -5,20 +5,20 @@
     <link>https://szulinek.pl/pl/tags/</link>
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Jul 2023 21:22:03 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 18:47:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bash</title>
-      <link>https://szulinek.pl/pl/tags/bash/</link>
-      <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
+      <title>cheatsheet</title>
+      <link>https://szulinek.pl/pl/tags/cheatsheet/</link>
+      <pubDate>Sat, 22 Jul 2023 18:47:05 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/tags/bash/</guid>
+      <guid>https://szulinek.pl/pl/tags/cheatsheet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
       <link>https://szulinek.pl/pl/tags/tech/</link>
-      <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
+      <pubDate>Sat, 22 Jul 2023 18:47:05 +0200</pubDate>
       
       <guid>https://szulinek.pl/pl/tags/tech/</guid>
       <description></description>
@@ -27,9 +27,18 @@
     <item>
       <title>www</title>
       <link>https://szulinek.pl/pl/tags/www/</link>
-      <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
+      <pubDate>Sat, 22 Jul 2023 18:47:05 +0200</pubDate>
       
       <guid>https://szulinek.pl/pl/tags/www/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://szulinek.pl/pl/tags/bash/</link>
+      <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/tags/bash/</guid>
       <description></description>
     </item>
     

@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 21 Jul 2023 07:14:12 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/categories/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker cheatsheet</title>
-      <link>https://szulinek.pl/en/posts/docker/</link>
+      <title>Docker Cheatsheet</title>
+      <link>https://szulinek.pl/en/posts/docker-cheatsheet/</link>
       <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/docker/</guid>
+      <guid>https://szulinek.pl/en/posts/docker-cheatsheet/</guid>
       <description>little About Docker Containers</description>
     </item>
     
