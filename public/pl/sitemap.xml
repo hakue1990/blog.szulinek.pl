@@ -4,12 +4,42 @@
   <url>
     <loc>https://szulinek.pl/pl/tags/bash/</loc>
     <lastmod>2023-07-21T21:22:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/bash/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/bash/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/categories/bash/</loc>
     <lastmod>2023-07-21T21:22:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/categories/bash/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/categories/bash/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/posts/bash-cheatsheet/</loc>
     <lastmod>2023-07-21T21:22:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/posts/bash-cheatsheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/posts/bash-cheatsheet/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/categories/</loc>
     <lastmod>2023-07-21T21:22:03+02:00</lastmod>

@@ -33,7 +33,7 @@ params:
 
 ## Czym jest plik .htaccess ?
 
- to nic innego jakplik konfiguracyjny używany przez serwer Apache do definiowania i modyfikowania zachowań witryny. Może zawierać reguły przekierowań, uwierzytelniania, blokowania dostępu oraz inne instrukcje dotyczące zarządzania witryną. Plik .htaccess znajduje się w głównym katalogu witryny lub w poszczególnych podkatalogach i jest używany do wprowadzania zmian w konfiguracji serwera bez potrzeby dostępu do głównego pliku konfiguracyjnego.
+ to nic innego jak plik konfiguracyjny używany przez serwer Apache do definiowania i modyfikowania zachowań witryny. Może zawierać reguły przekierowań, uwierzytelniania, blokowania dostępu oraz inne instrukcje dotyczące zarządzania witryną. Plik .htaccess znajduje się w głównym katalogu witryny lub w poszczególnych podkatalogach i jest używany do wprowadzania zmian w konfiguracji serwera bez potrzeby dostępu do głównego pliku konfiguracyjnego.
 
 ##  Oto kilka przydatnych reguł .htaccess:
 

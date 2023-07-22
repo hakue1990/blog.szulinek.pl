@@ -14,7 +14,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "bash komendy"
+description: "Zacznij pisać skrypty powłoki"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
