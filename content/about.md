@@ -21,5 +21,5 @@ Posiadam znaczne doświadczenie w pracy z serwerami i infrastrukturą internetow
 
 ## Kontakt
 
-Jeśli potrzebujesz pomocy w zarządzaniu serwerem, optymalizacji strony internetowej lub tworzeniu szybkich rozwiązań internetowych, śmiało się ze mną skontaktuj.
+Jeśli potrzebujesz pomocy w zarządzaniu serwerem, optymalizacji strony internetowej lub tworzeniu szybkich rozwiązań internetowych, [śmiało się ze mną skontaktuj.](https://szulinek.pl/pl/contact/)
 

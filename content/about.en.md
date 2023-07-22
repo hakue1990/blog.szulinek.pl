@@ -23,6 +23,6 @@ I have considerable experience working with servers and internet infrastructure.
 
 ## Contact
 
-If you need assistance with server management, website optimization, or creating fast web solutions, feel free to get in touch.
+If you need assistance with server management, website optimization, or creating fast web solutions, feel [free to get in touch.](https://szulinek.pl/en/contact/)
 
 
