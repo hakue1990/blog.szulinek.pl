@@ -3,11 +3,11 @@ title: "Docker Cheatsheet"
 date: 2023-07-21T07:14:12+02:00
 draft: true
 cover:
-    image: img/docker.png
-    alt: 'this is an alt!'
+    image: img/blog/docker.webp
+    alt: 'docker'
 
-tags: ["tech","www","docker"] 
-categories: ["www","tech","docker"]
+tags: ["docker","web","cheatsheet"] 
+categories: ["docker","web","cheatsheet"] 
 showToc: true
 TocOpen: false
 draft: false
@@ -30,6 +30,20 @@ UseHugoToc: true
 params:
     ShowShareButtons: true
 ---
+
+## Co to jest Docker?
+
+Docker to sposób na **konteneryzację aplikacji** (umieszczanie kodu w boksach, które mogą działać samodzielnie). W magiczny sposób tworzy on komputer wirtualny, ale tak naprawdę **nie są to komputery wirtualne**.
+
+**Kontenery** to boksy, które **nie mają systemu operacyjnego hosta**, więc są **niezależne** od urządzenia, na którym działają.
+
+Korzyści:
+
+- **Izolacja**: Każdy kontener działa w odseparowanym środowisku.
+- **Przenośność**: Kontenery są niezależne od środowiska.
+- **Skalowalność**: Łatwe dodawanie i usuwanie kontenerów w zależności od obciążenia.
+- **Szybkość**: Szybkie uruchamianie i zatrzymywanie kontenerów dzięki mechanizmom jądra systemu operacyjnego.
+
 
 ## Obrazy 
 Pokaż, jakie obrazy są dostępne lokalnie:

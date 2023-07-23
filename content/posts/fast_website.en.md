@@ -4,11 +4,11 @@ date: 2023-06-27T20:39:16+02:00
 draft: true
 author: ["Adam"]
 cover:
-    image: img/fast_website.jpg
+    image: img/blog/fast_website.webp
     alt: 'this is an alt!'
 
-tags: ["Tech","www","website"] 
-categories: ["www","Tech"]
+tags: ["web", "tech"] 
+categories: ["web","tech"]
 showToc: true
 TocOpen: false
 draft: false

@@ -4,7 +4,7 @@ date: 2023-07-21T21:22:03+02:00
 draft: false
 author: ["Adam"]
 cover:
-    image: img/bash.webp
+    image: img/blog/bash.webp
     alt: 'bash'
 
 tags: ["tech","www","bash"] 

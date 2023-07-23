@@ -1,14 +1,14 @@
 ---
-title: "Mysql Cheatsheet"
+title: "MySql Cheatsheet"
 date: 2023-07-22T19:33:36+02:00
 draft: false
 author: ["Adam"]
 cover:
-    image: img/mysql.jpg
-    alt: 'bash'
+    image: img/blog/mysql.webp
+    alt: 'mysql'
 
-tags: ["tech","www","cheatsheet"] 
-categories: ["tech","www","cheatsheet"]
+tags: ["tech","web","cheatsheet"] 
+categories: ["tech","web","cheatsheet"]
 showToc: true
 TocOpen: false
 draft: false

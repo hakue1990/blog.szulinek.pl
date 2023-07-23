@@ -4,7 +4,7 @@ date: 2023-06-27T20:39:16+02:00
 draft: true
 author: ["Adam"]
 cover:
-    image: img/website.jpg
+    image: img/blog/website.png
     alt: 'this is an alt!'
 
 tags: ["Tech","www","website"] 

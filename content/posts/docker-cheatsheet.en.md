@@ -4,11 +4,11 @@ date: 2023-07-21T07:14:12+02:00
 draft: true
 author: ["Adam"]
 cover:
-    image: img/docker.png
-    alt: 'this is an alt!'
+    image: img/blog/docker.webp
+    alt: 'docker'
 
-tags: ["tech","www","docker"] 
-categories: ["www","tech","docker"]
+tags: ["docker","web","cheatsheet"] 
+categories: ["docker","web","cheatsheet"] 
 showToc: true
 TocOpen: false
 draft: false
@@ -31,6 +31,21 @@ UseHugoToc: true
 params:
     ShowShareButtons: true
 ---
+
+## What is Docker?
+
+Docker is a way to **containerize applications** (placing code in boxes that can operate independently). It magically creates a virtual computer, but in reality, **these are not virtual machines**.
+
+**Containers** are boxes that **do not have a host operating system**, so they are **independent** of the device they run on.
+
+Benefits:
+
+- **Isolation**: Each container operates in a separate environment.
+- **Portability**: Containers are independent of the environment.
+- **Scalability**: Easy addition and removal of containers based on the workload.
+- **Speed**: Quick start and stop of containers thanks to the operating system kernel mechanisms.
+
+
 ## Docker Images
 Show available images locally:
 ```

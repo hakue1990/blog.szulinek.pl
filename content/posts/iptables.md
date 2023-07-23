@@ -4,7 +4,7 @@ date: 2023-07-09T17:34:05+02:00
 draft: false
 author: ["Adam"]
 cover:
-    image: img/iptables_filter.jpg
+    image: img/blog/iptables_filter.webp
     alt: 'iptables rules'
 
 tags: ["Tech","hosting",] 

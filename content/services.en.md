@@ -3,7 +3,7 @@ title: "Services"
 date: 2023-07-07T17:41:18+02:00
 draft: false
 cover:
-    image: img/services.jpg
+    image: img/services.png
     alt: 'Sercvices'
 ---
 

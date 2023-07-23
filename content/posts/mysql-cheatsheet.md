@@ -4,11 +4,11 @@ date: 2023-07-22T18:47:05+02:00
 draft: false
 author: ["Adam"]
 cover:
-    image: img/mysql.jpg
+    image: img/blog/mysql.webp
     alt: 'bash'
 
-tags: ["tech","www","cheatsheet"] 
-categories: ["tech","www","cheatsheet"]
+tags: ["tech","web","cheatsheet"] 
+categories: ["tech","web","cheatsheet"]
 showToc: true
 TocOpen: false
 draft: false
