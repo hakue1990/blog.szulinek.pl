@@ -36,7 +36,7 @@ params:
 
 Bash to tzw. powłoka systemu Linux. To nic innego jak program, który umożliwia nam komunikację z systemem. Są różne powłoki dla systemu Linux ale Bash jest zdecydowanie najpopularniejszy. Dla niezliczonej ilości użytkowników jest on podstawowym narzędziem pracy. 
 
-## Co mogę zrobić za pomocą powłoski systemu BASH ?
+## Co mogę zrobić za pomocą powłoki systemu BASH ?
 
 Wszystko! Łatwiej byłoby napisać czego się nie da zrobić.
 
