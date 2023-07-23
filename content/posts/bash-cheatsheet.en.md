@@ -32,8 +32,24 @@ params:
     ShowShareButtons: true 
 ---
 
-### Bash Cheatsheet
+## What is Bash?
 
+Bash is a so-called Linux shell. It is nothing more than a program that allows us to communicate with the system. There are various shells for the Linux system, but Bash is by far the most popular. For countless users, it is a fundamental tool for their work.
+
+## What can I do with the BASH shell?
+
+Everything! It would be easier to list what you cannot do.
+
+Think of any task that takes a lot of time in the Linux system. Now, imagine that you can easily automate that task using Bash.
+
+With Bash scripts, you can, for example:
+
+* Create your own commands
+* Perform calculations
+* Manipulate files
+* Automate tasks
+
+And much more :)
 ## How to start writing shell scripts?
 
 Below are a few excellent resources to begin your journey with shell scripts:

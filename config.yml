@@ -98,7 +98,7 @@ languages:
           weight: 25
   
 params:
-
+  ShowCodeCopyButtons: true
   defaultTheme: dark
   homeInfoParams:
     Title: Hello Stranger!

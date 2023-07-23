@@ -32,8 +32,28 @@ params:
     ShowShareButtons: true 
 ---
 
-### Bash Cheatsheet
+## Co to Jest Bash ?
 
+Bash to tzw. powłoka systemu Linux. To nic innego jak program, który umożliwia nam komunikację z systemem. Są różne powłoki dla systemu Linux ale Bash jest zdecydowanie najpopularniejszy. Dla niezliczonej ilości użytkowników jest on podstawowym narzędziem pracy. 
+
+## Co mogę zrobić za pomocą powłoski systemu BASH ?
+
+Wszystko! Łatwiej byłoby napisać czego się nie da zrobić.
+
+Pomyśl o dowolnym zadaniu, które w systemie Linux zajmuje sporo czasu. I pomyśl teraz, że to zadanie możesz łatwo zautomatyzować za pomocą Bash.
+
+Za pomocą skryptów Bash możesz na przykład:
+
+* pisać własne komendy
+* wykonywać obliczenia
+* operacje na plikach
+* automatyzować zadania
+
+I wiele więcej :) 
+
+Popatrzmy na prosty przykład. Wyobraź sobie, że często zmieniasz nazwy plików w katalogu. Ręczna zmian nazw przy dużej ilości plików jest pracochłonna. Wystarczy napisać prosty skrypt, który będzie to robił automatycznie. Będzie w stanie w parę sekund zmienić nazwy tysięcy plików.
+
+Jeśli nauczysz się podstaw skryptowania to praca w Linuxie będzie po prostu łatwiejsza, szybsza i dużo przyjemniejsza.
 
 
 ## Jak zacząć pisać skrypty powłoki?
@@ -608,3 +628,4 @@ if grep -q 'foo' ~/.bash_history; then
 fi
 ```
 
+<!-- ![a](/img/about.jpg) -->
