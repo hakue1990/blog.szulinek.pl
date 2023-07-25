@@ -15,5 +15,14 @@
       <description>Mysql cheatsheet</description>
     </item>
     
+    <item>
+      <title>Docker Cheatsheet</title>
+      <link>https://szulinek.pl/pl/posts/docker-cheatsheet/</link>
+      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/docker-cheatsheet/</guid>
+      <description>Docker czyli o kontenerach</description>
+    </item>
+    
   </channel>
 </rss>

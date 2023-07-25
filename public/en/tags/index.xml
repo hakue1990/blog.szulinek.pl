@@ -25,11 +25,11 @@
     </item>
     
     <item>
-      <title>www</title>
-      <link>https://szulinek.pl/en/tags/www/</link>
+      <title>web</title>
+      <link>https://szulinek.pl/en/tags/web/</link>
       <pubDate>Sat, 22 Jul 2023 19:33:36 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/www/</guid>
+      <guid>https://szulinek.pl/en/tags/web/</guid>
       <description></description>
     </item>
     
@@ -39,6 +39,15 @@
       <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
       
       <guid>https://szulinek.pl/en/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>www</title>
+      <link>https://szulinek.pl/en/tags/www/</link>
+      <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/tags/www/</guid>
       <description></description>
     </item>
     

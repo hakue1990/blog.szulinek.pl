@@ -157,22 +157,29 @@
     padding: 0.25em 0.75em;
   }
 }
-
+/* MOBILE VIEW */
   @media (max-width: 600px) {
     .section--5 {
       overflow-x: hidden;
+      background-color: var(--tertiary);
     }
-  
+    .contact-monkey {
+      display: none;
+    }
     .section--5 form.form {
       width: 100%;
       box-shadow: none;
+      border: none;
+      background-color: var(--tertiary);
     }
   }
-
+/* TABLET VIEW */
   @media (min-width: 601px) and (max-width: 959px) {
     .section--5 {
       overflow-x: hidden;
+      
     }
+    s
   
     .section--5 form.form {
       width: 70%;

@@ -25,15 +25,6 @@
     </item>
     
     <item>
-      <title>Docker Cheatsheet</title>
-      <link>https://szulinek.pl/en/posts/docker-cheatsheet/</link>
-      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/posts/docker-cheatsheet/</guid>
-      <description>little About Docker Containers</description>
-    </item>
-    
-    <item>
       <title>Iptables</title>
       <link>https://szulinek.pl/en/posts/iptables/</link>
       <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>

@@ -5,16 +5,7 @@
     <link>https://szulinek.pl/pl/tags/www/</link>
     <description>Recent content in www on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jul 2023 18:47:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/www/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mysql Cheatsheet</title>
-      <link>https://szulinek.pl/pl/posts/mysql-cheatsheet/</link>
-      <pubDate>Sat, 22 Jul 2023 18:47:05 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/pl/posts/mysql-cheatsheet/</guid>
-      <description>Mysql cheatsheet</description>
-    </item>
-    
+    <lastBuildDate>Fri, 21 Jul 2023 21:22:03 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/www/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash Cheatsheet</title>
       <link>https://szulinek.pl/pl/posts/bash-cheatsheet/</link>
@@ -25,30 +16,12 @@
     </item>
     
     <item>
-      <title>Docker Cheatsheet</title>
-      <link>https://szulinek.pl/pl/posts/docker-cheatsheet/</link>
-      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/pl/posts/docker-cheatsheet/</guid>
-      <description>Docker czyli o kontenerach</description>
-    </item>
-    
-    <item>
       <title>Administracja systemami</title>
       <link>https://szulinek.pl/pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
       <guid>https://szulinek.pl/pl/posts/system_administration/</guid>
       <description>Serwery typu Cloud i nie tylko</description>
-    </item>
-    
-    <item>
-      <title>Optymalizacja stron www</title>
-      <link>https://szulinek.pl/pl/posts/fast_website/</link>
-      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/pl/posts/fast_website/</guid>
-      <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
     <item>

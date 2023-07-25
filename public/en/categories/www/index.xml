@@ -5,16 +5,7 @@
     <link>https://szulinek.pl/en/categories/www/</link>
     <description>Recent content in www on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jul 2023 19:33:36 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/categories/www/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MySql Cheatsheet</title>
-      <link>https://szulinek.pl/en/posts/mysql-cheatsheet/</link>
-      <pubDate>Sat, 22 Jul 2023 19:33:36 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/posts/mysql-cheatsheet/</guid>
-      <description>Mysql cheatsheet</description>
-    </item>
-    
+    <lastBuildDate>Fri, 21 Jul 2023 21:22:03 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/categories/www/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash Cheatsheet</title>
       <link>https://szulinek.pl/en/posts/bash-cheatsheet/</link>
@@ -22,15 +13,6 @@
       
       <guid>https://szulinek.pl/en/posts/bash-cheatsheet/</guid>
       <description>Start writting shell scripts!</description>
-    </item>
-    
-    <item>
-      <title>Docker Cheatsheet</title>
-      <link>https://szulinek.pl/en/posts/docker-cheatsheet/</link>
-      <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/posts/docker-cheatsheet/</guid>
-      <description>little About Docker Containers</description>
     </item>
     
     <item>
@@ -49,15 +31,6 @@
       
       <guid>https://szulinek.pl/en/posts/www_websites/</guid>
       <description>fast as hell websites</description>
-    </item>
-    
-    <item>
-      <title>Website optimization</title>
-      <link>https://szulinek.pl/en/posts/fast_website/</link>
-      <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/posts/fast_website/</guid>
-      <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
   </channel>
