@@ -139,4 +139,40 @@ Run the docker-compose.yaml file in detached mode:
 ```
 docker-compose up -d
 ```
+## Copying from Host to Container:
+#### Copying a Single File:
+```bash
+docker cp [path_to_file_on_host] [container_name_or_id]:[path_in_container]
+```
+Example:
+```bash
+docker cp ./local_file.txt my_container:/app/local_file.txt
+```
+#### Copying an Entire Folder:
+```bash
+docker cp [path_to_folder_on_host] [container_name_or_id]:[path_in_container]
+```
+Example:
+```bash
+docker cp ./folder_on_host my_container:/app/
+```
+
+## Copying from Container to Host:
+#### Copying a Single File:
+```bash
+docker cp [container_name_or_id]:[path_in_container] [path_on_host]
+```
+Example:
+```bash
+docker cp my_container:/app/file_in_container.txt ./file_on_host.txt
+```
+#### Copying an Entire Folder (to a folder on the host):
+```bash
+docker cp [container_name_or_id]:[path_in_container] [folder_path_on_host]
+```
+Example:
+```bash
+docker cp my_container:/app/folder_in_container ./folder_on_host/
+```
+
 

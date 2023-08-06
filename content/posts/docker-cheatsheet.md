@@ -85,7 +85,7 @@ docker rm <CONTAINER ID>
 
 Usuń wszystkie kontenery (zarówno aktywne, jak i nieaktywne):
 ```
-docker rm $(docker ps -a -q)
+docker rm --force $(docker ps -a -q)
 ```
 
 ## Zarządzanie obrazami
@@ -96,7 +96,7 @@ docker rmi <IMAGE ID>
 
 Usuń wszystkie dostępne obrazy:
 ```
-docker rmi $(docker images -q)
+docker rmi --force $(docker images -q)
 ```
 
 ## Pobieranie obrazu
@@ -138,4 +138,38 @@ Uruchom plik docker-compose.yaml w trybie detached (tło):
 ```
 docker-compose up -d
 ```
+## Kopiowanie z hosta do kontenera:
+####    Kopiowanie pojedynczego pliku:
+```bash
+docker cp [ścieżka_do_pliku_na_hostcie] [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze]
+```
+Przykład:
+```bash
+docker cp ./lokalny_plik.txt moj_kontener:/app/lokalny_plik.txt
+```
+####    Kopiowanie całego folderu:
+```bash
+docker cp [ścieżka_do_folderu_na_hostcie] [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze]
+```
+Przykład:
+```bash
+docker cp ./folder_na_hostcie moj_kontener:/app/
+```
+## Kopiowanie z kontenera do hosta:
+#### Kopiowanie pojedynczego pliku:
 
+```bash
+docker cp [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze] [ścieżka_na_hostcie]
+```
+#### Przykład:
+```bash
+docker cp moj_kontener:/app/plik_w_kontenerze.txt ./plik_w_hostcie.txt
+```
+####    Kopiowanie całego folderu (do folderu na hoście):
+```bash
+docker cp [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze] [ścieżka_folderu_na_hostcie]
+```
+#### Przykład:
+```bash
+docker cp moj_kontener:/app/folder_w_kontenerze ./folder_na_hostcie/
+```
