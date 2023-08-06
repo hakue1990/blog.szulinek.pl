@@ -58,6 +58,10 @@ languages:
         - name: Kontakt
           url: contact/
           weight: 20
+        - name: Archiwa
+          url: /pl/archives/
+          weight: 20
+
         # - name: Portfolio
         #   url: https://portfolio.szulinek.pl#projects
         #   weight: 25
@@ -93,6 +97,10 @@ languages:
         - name: Contact
           url: /en/contact/
           weight: 20
+        - name: Archives
+          url: /en/archives/
+          weight: 20
+
         # - name: Portfolio
         #   url: https://portfolio.szulinek.pl#projects
         #   weight: 25
