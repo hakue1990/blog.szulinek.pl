@@ -43,6 +43,16 @@
   </url><url>
     <loc>https://szulinek.pl/pl/tags/nextcloud/</loc>
     <lastmod>2023-08-07T17:41:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/nextcloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/nextcloud/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/categories/nextcloud/</loc>
     <lastmod>2023-08-07T17:41:15+02:00</lastmod>
@@ -85,9 +95,29 @@
   </url><url>
     <loc>https://szulinek.pl/pl/tags/toturial/</loc>
     <lastmod>2023-08-07T17:41:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/toturial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/toturial/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/categories/toturial/</loc>
     <lastmod>2023-08-07T17:41:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/categories/toturial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/categories/toturial/"
+                />
   </url><url>
     <loc>https://szulinek.pl/pl/tags/web/</loc>
     <lastmod>2023-08-07T17:41:15+02:00</lastmod>
