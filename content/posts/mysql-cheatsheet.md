@@ -29,8 +29,7 @@ UseHugoToc: true
 params:
     ShowShareButtons: true 
 ---
-
-### Wyświetlanie danych
+## Wyświetlanie danych
 
 ```sql
 -- Wyświetl dostępne bazy danych
@@ -47,7 +46,7 @@ SHOW PROCESSLIST;
 KILL numer_procesu;
 ```
 
-### Selecty
+## Selecty
 
 ```sql
 -- Wybierz wszystkie kolumny z danej tabeli
@@ -74,7 +73,7 @@ SELECT DISTINCT pole1 FROM ...
 SELECT DISTINCT pole1, pole2 FROM ...
 ```
 
-### Select - Join
+## Select - Join
 
 ```sql
 -- Wybierz dane z dwóch tabel, które mają pasujące wartości wskazanych pól
@@ -85,7 +84,7 @@ SELECT ... FROM tabela1 LEFT JOIN tabela2 ON tabela1.id1 = tabela2.id2 WHERE war
 SELECT ... FROM tabela1 JOIN (tabela2 JOIN tabela3 ON ...) ON ...
 ```
 
-### Warunki (Conditions)
+## Warunki (Conditions)
 
 ```sql
 pole1 = wartość1
@@ -99,7 +98,7 @@ warunek1 AND warunek2
 warunek1 OR warunek2
 ```
 
-### Tworzenie / Usuwanie bazy danych
+## Tworzenie / Usuwanie bazy danych
 
 ```sql
 -- Tworzenie nowej bazy danych o nazwie DatabaseName
@@ -114,19 +113,19 @@ DROP DATABASE DatabaseName;
 ALTER DATABASE DatabaseName CHARACTER SET utf8;
 ```
 
-### Backup bazy danych do pliku SQL
+## Backup bazy danych do pliku SQL
 
 ```sql
 mysqldump -u NazwaUżytkownika -p NazwaBazyDanych > nazwapliku_backup.sql
 ```
 
-### Przywracanie bazy danych z pliku backup SQL
+## Przywracanie bazy danych z pliku backup SQL
 
 ```sql
 mysql -u NazwaUżytkownika -p NazwaBazyDanych < nazwapliku_backup.sql;
 ```
 
-### Naprawa tabel po nieprawidłowym zamknięciu systemu
+## Naprawa tabel po nieprawidłowym zamknięciu systemu
 
 ```sql
 -- Naprawa wszystkich tabel we wszystkich bazach danych
@@ -135,14 +134,14 @@ mysqlcheck --all-databases;
 mysqlcheck --all-databases --fast;
 ```
 
-### Wstawianie danych (Insert)
+## Wstawianie danych (Insert)
 
 ```sql
 -- Wstawienie wartości do określonych pól tabeli
 INSERT INTO tabela1 (pole1, pole2) VALUES (wartość1, wartość2);
 ```
 
-### Usuwanie danych (Delete)
+## Usuwanie danych (Delete)
 
 ```sql
 -- Usunięcie wszystkich danych z danej tabeli (zostawia tabelę bez rekordów)
@@ -153,7 +152,7 @@ DELETE FROM tabela1 WHERE warunek;
 DELETE FROM tabela1, tabela2 WHERE tabela1.id1 = tabela2.id2 AND warunek;
 ```
 
-### Aktualizacja danych (Update)
+## Aktualizacja danych (Update)
 
 ```sql
 -- Aktualizacja wartości jednego pola w danej tabeli spełniającej określony warunek
@@ -164,7 +163,7 @@ UPDATE tabela1, tabela2 SET pole1=nowa_wartość1, pole2=nowa_wartość2, ... WH
 2.id2 AND warunek;
 ```
 
-### Tworzenie / Usuwanie / Modyfikacja tabel
+## Tworzenie / Usuwanie / Modyfikacja tabel
 
 ```sql
 -- Tworzenie nowej tabeli o określonych polach i typach danych
@@ -219,7 +218,7 @@ ALTER TABLE tabela CHANGE stare_pole1 nowe_pole1 typ1 FIRST;
 ALTER TABLE tabela CHANGE stare_pole1 nowe_pole1 typ1 AFTER inne_pole;
 ```
 
-### Klucze (Keys)
+## Klucze (Keys)
 
 ```sql
 -- Tworzenie tabeli z kluczem głównym składającym się z jednego lub więcej pól
@@ -228,7 +227,7 @@ CREATE TABLE tabela (..., PRIMARY KEY (pole1, pole2));
 CREATE TABLE tabela (..., FOREIGN KEY (pole1, pole2) REFERENCES tabela2 (t2_pole1, t2_pole2));
 ```
 
-### Użytkownicy i uprawnienia
+## Użytkownicy i uprawnienia
 
 ```sql
 -- Tworzenie nowego użytkownika 'user' z dostępem tylko do bazy danych na localhost
@@ -253,7 +252,7 @@ SET PASSWORD = OLD_PASSWORD('nowe_haslo');
 DROP USER 'user'@'host';
 ```
 
-### Typy danych (Główne typy danych)
+## Typy danych (Główne typy danych)
 
 ```sql
 TINYINT (1 bajt: -128 do +127)
@@ -288,7 +287,7 @@ Warianty dla TEXT i BLOB: TINY (maksymalny rozmiar=255), MEDIUM (maksymalny rozm
 
 ENUM ('wartość1', 'wartość2', ...) -- (domyślnie NULL lub '' jeśli NOT NULL)
 ```
-### Resetowanie hasła roota
+## Resetowanie hasła roota
 
 1. Zatrzymaj serwer MySQL:
 ```bash

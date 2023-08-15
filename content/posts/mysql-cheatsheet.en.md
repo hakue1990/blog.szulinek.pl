@@ -30,7 +30,7 @@ params:
     ShowShareButtons: true 
 ---
 
-### Displaying Data
+## Displaying Data
 
 ```sql
 -- Display available databases
@@ -47,7 +47,7 @@ SHOW PROCESSLIST;
 KILL process_number;
 ```
 
-### Select Queries
+## Select Queries
 
 ```sql
 -- Select all columns from a specific table
@@ -74,7 +74,7 @@ SELECT DISTINCT column1 FROM ...
 SELECT DISTINCT column1, column2 FROM ...
 ```
 
-### Select - Join
+## Select - Join
 
 ```sql
 -- Select data from two tables that have matching values in the specified fields
@@ -85,7 +85,7 @@ SELECT ... FROM table1 LEFT JOIN table2 ON table1.id1 = table2.id2 WHERE conditi
 SELECT ... FROM table1 JOIN (table2 JOIN table3 ON ...) ON ...
 ```
 
-### Conditions
+## Conditions
 
 ```sql
 column1 = value1
@@ -99,7 +99,7 @@ condition1 AND condition2
 condition1 OR condition2
 ```
 
-### Creating / Deleting Databases
+## Creating / Deleting Databases
 
 ```sql
 -- Creating a new database with the name DatabaseName
@@ -114,19 +114,19 @@ DROP DATABASE DatabaseName;
 ALTER DATABASE DatabaseName CHARACTER SET utf8;
 ```
 
-### Database Backup to SQL File
+## Database Backup to SQL File
 
 ```sql
 mysqldump -u UserName -p DatabaseName > backup_file.sql
 ```
 
-### Restoring a Database from SQL Backup File
+## Restoring a Database from SQL Backup File
 
 ```sql
 mysql -u UserName -p DatabaseName < backup_file.sql;
 ```
 
-### Repairing Tables After Improper System Shutdown
+## Repairing Tables After Improper System Shutdown
 
 ```sql
 -- Repair all tables in all databases
@@ -135,14 +135,14 @@ mysqlcheck --all-databases;
 mysqlcheck --all-databases --fast;
 ```
 
-### Data Insertion (Insert)
+## Data Insertion (Insert)
 
 ```sql
 -- Inserting values into specific fields of a table
 INSERT INTO table1 (column1, column2) VALUES (value1, value2);
 ```
 
-### Data Deletion (Delete)
+## Data Deletion (Delete)
 
 ```sql
 -- Deleting all data from a specific table (leaving the table with no records)
@@ -153,7 +153,7 @@ DELETE FROM table1 WHERE condition;
 DELETE FROM table1, table2 WHERE table1.id1 = table2.id2 AND condition;
 ```
 
-### Data Update (Update)
+## Data Update (Update)
 
 ```sql
 -- Updating the value of a single field in a specific table that meets a specified condition
@@ -162,7 +162,7 @@ UPDATE table1 SET column1=new_value1 WHERE condition;
 UPDATE table1, table2 SET column1=new_value1, column2=new_value2, ... WHERE table1.id1 = table2.id2 AND condition;
 ```
 
-### Creating / Deleting / Modifying Tables
+## Creating / Deleting / Modifying Tables
 
 ```sql
 -- Creating a new table with specified fields and data types
@@ -219,7 +219,7 @@ ALTER TABLE table CHANGE old_column1 new_column1 type1 FIRST;
 ALTER TABLE table CHANGE old_column1 new_column1 type1 AFTER another_column;
 ```
 
-### Keys
+## Keys
 
 ```sql
 -- Creating a table with a primary key composed of one or more fields
@@ -228,7 +228,7 @@ CREATE TABLE table (..., PRIMARY KEY (column1, column2));
 CREATE TABLE table (..., FOREIGN KEY (column1, column2) REFERENCES table2 (t2_column1, t2_column2));
 ```
 
-### Users and Permissions
+## Users and Permissions
 
 ```sql
 -- Creating a new user 'user' with access only to the database on localhost
@@ -253,7 +253,7 @@ SET PASSWORD = OLD_PASSWORD('new_password');
 DROP USER 'user'@'host';
 ```
 
-### Data Types (Main Data Types)
+## Data Types (Main Data Types)
 
 ```sql
 TINYINT (1 byte: -128 to +127)
@@ -285,7 +285,7 @@ Variants for TEXT and BLOB: TINY (maximum size=255), MEDIUM (maximum size=~16000
 ENUM ('value1', 'value2', ...) -- (by default, NULL or '' if NOT NULL)
 ```
 
-### Resetting the Root Password
+## Resetting the Root Password
 
 1. Stop the MySQL server:
 ```bash

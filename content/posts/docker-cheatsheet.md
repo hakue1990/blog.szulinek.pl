@@ -139,7 +139,7 @@ Uruchom plik docker-compose.yaml w trybie detached (tło):
 docker-compose up -d
 ```
 ## Kopiowanie z hosta do kontenera:
-####    Kopiowanie pojedynczego pliku:
+**Kopiowanie pojedynczego pliku:**
 ```bash
 docker cp [ścieżka_do_pliku_na_hostcie] [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze]
 ```
@@ -147,7 +147,7 @@ Przykład:
 ```bash
 docker cp ./lokalny_plik.txt moj_kontener:/app/lokalny_plik.txt
 ```
-####    Kopiowanie całego folderu:
+**Kopiowanie całego folderu:**
 ```bash
 docker cp [ścieżka_do_folderu_na_hostcie] [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze]
 ```
@@ -156,20 +156,19 @@ Przykład:
 docker cp ./folder_na_hostcie moj_kontener:/app/
 ```
 ## Kopiowanie z kontenera do hosta:
-#### Kopiowanie pojedynczego pliku:
-
+**Kopiowanie pojedynczego pliku:**
 ```bash
 docker cp [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze] [ścieżka_na_hostcie]
 ```
-#### Przykład:
+**Przykład:**
 ```bash
 docker cp moj_kontener:/app/plik_w_kontenerze.txt ./plik_w_hostcie.txt
 ```
-####    Kopiowanie całego folderu (do folderu na hoście):
+**Kopiowanie całego folderu (do folderu na hoście):**
 ```bash
 docker cp [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze] [ścieżka_folderu_na_hostcie]
 ```
-#### Przykład:
+**Przykład:**
 ```bash
 docker cp moj_kontener:/app/folder_w_kontenerze ./folder_na_hostcie/
 ```
