@@ -177,11 +177,68 @@ docker cp [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze] [ścieżka_folderu_n
 docker cp moj_kontener:/app/folder_w_kontenerze ./folder_na_hostcie/
 ```
 ## Sieci w Dockerze
-**Pokaż wszystkie sieci:**
+
+![reverse-proxy](/img/blog/docker-network.png "Nextcloud reverse_proxy")
+
+
+### Pobierz szczegóły portu dla kontenera:
+```bash
+docker container port <container-name>
+
+# 80/tcp -> 0.0.0.0:80
+# 80/tcp -> :::80
+```
+### Pobierz IP dla kontenera:
+```bash
+docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
+```
+### Pokaż wszystkie sieci:
 ```bash
 docker network ls
 ```
-## Zbadaj sieć:
+### Zbadaj sieć:
 ```bash
 docker network inspect <network-name>
 ```
+### Utwórz wirtualną sieć:
+```bash
+docker network create <network-name>
+```
+Aby użyć customowego bridge, możemy skorzystać z opcji --driver.
+### Podłącz sieć do kontenera:
+```bash
+docker network connect <network-name> <container-name>
+```
+### Odłącz sieć do kontenera:
+```bash
+docker network disconnect <network-name> <container-name>
+```
+### Podłącz się do sieci podczas uruchamiania kontenera:
+```bash
+docker container run -d --name <container-name> --network <network-name> <image>
+```
+### Domyślne typy sieci:
+
+- **Bridge** lub **Docker0** - domyślna wirtualna sieć mapowana na adres IP hosta. Pozwala kontenerom na komunikację między sobą, gdy działają na tym samym hoście Dockera.
+
+- **host** - specjalna sieć, która przyłącza kontener bezpośrednio do hosta, pomijając wirtualną sieć.
+
+- **none** - W kontenerze dostępny jest tylko interfejs localhost.
+
+Przy użyciu sieci w Dockerze możemy **zapewnić**, że:
+
+**powiązane** aplikacje są w tej samej **sieci** Dockera,
+ich komunikacja odbywa się **tylko** w ramach wirtualnej sieci,
+ruch może być przekierowywany z hosta do kontenera tylko wtedy, gdy **publikujemy** kontener za pomocą opcji **--publish** lub **-p**.
+### DNS
+Kontenery mogą komunikować się ze sobą w tej samej wirtualnej sieci za pomocą nazw hostów.
+
+Docker domyślnie przypisuje nazwę hosta na podstawie nazwy kontenera. Niemniej jednak, możemy również używać aliasów.
+
+Aby dostarczyć kontenerom aliasy sieciowe, możemy postępować w następujący sposób:
+```bash
+docker container run --rm --network <nazwa-sieci> --network-alias <alias-sieciowy-kontenera> <obraz>
+```
+Dzięki temu kontenery w tej samej wirtualnej sieci mogą ze sobą komunikować się za pomocą aliasów.
+
+Flaga --rm sprawia, że kontener zostanie trwale usunięty po zakończeniu działania.

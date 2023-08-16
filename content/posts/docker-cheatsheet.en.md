@@ -177,5 +177,82 @@ Example:
 ```bash
 docker cp my_container:/app/folder_in_container ./folder_on_host/
 ```
+## Docker Networks
 
+![reverse-proxy](/img/blog/docker-network.png "Nextcloud reverse_proxy")
+
+### Get port details for a container:
+```bash
+docker container port <container-name>
+
+# 80/tcp -> 0.0.0.0:80
+# 80/tcp -> :::80
+```
+
+### Get IP address for a container:
+```bash
+docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
+```
+
+### Show all networks:
+```bash
+docker network ls
+```
+
+### Inspect a network:
+```bash
+docker network inspect <network-name>
+```
+
+### Create a virtual network:
+```bash
+docker network create <network-name>
+```
+
+To use a custom bridge, we can use the `--driver` option.
+
+### Attach a network to a container:
+```bash
+docker network connect <network-name> <container-name>
+```
+
+### Detach a network from a container:
+```bash
+docker network disconnect <network-name> <container-name>
+```
+
+### Connect to a network while running a container:
+```bash
+docker container run -d --name <container-name> --network <network-name> <image>
+```
+
+### Default Network Types:
+
+- **Bridge** or **Docker0** - the default virtual network mapped to the host IP. It allows containers to communicate with each other when running on the same Docker host.
+
+- **Host** - a special network that attaches the container directly to the host by skipping the virtual network.
+
+- **None** - Only the localhost interface is available in the container.
+
+By using Docker networks, we can **ensure** that:
+
+- **related** apps are on the same Docker **network**,
+- their **inter-communication** is restricted to the virtual network,
+- traffic can be forwarded from host to container only if we **publish** the container with the `--publish` or `-p` option.
+
+### DNS
+
+Containers can communicate with other containers in the same virtual network using hostnames.
+
+Docker defaults the hostname to the container's name. However, we can also use aliases.
+
+To provide network aliases for containers, we can do the following:
+
+```bash
+docker container run --rm --network <network-name> --network-alias <container-network-alias> <image>
+```
+
+With this approach, containers in the same virtual network can communicate with each other using aliases.
+
+The `--rm` flag ensures that the container is permanently deleted upon exit.
 
