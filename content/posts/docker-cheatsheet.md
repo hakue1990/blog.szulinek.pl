@@ -132,6 +132,10 @@ Odpali logi kontenera:
 ```
 docker logs <CONTAINER ID>
 ```
+Ich lokalizacja na hoście to:
+```bash
+tail -f /var/lib/docker/containers/<container id>/<container id>-json.log
+```
 
 ## Docker Compose
 Uruchom plik docker-compose.yaml w trybie detached (tło):
@@ -171,4 +175,13 @@ docker cp [nazwa_lub_id_kontenera]:[ścieżka_w_kontenerze] [ścieżka_folderu_n
 **Przykład:**
 ```bash
 docker cp moj_kontener:/app/folder_w_kontenerze ./folder_na_hostcie/
+```
+## Sieci w Dockerze
+**Pokaż wszystkie sieci:**
+```bash
+docker network ls
+```
+## Zbadaj sieć:
+```bash
+docker network inspect <network-name>
 ```

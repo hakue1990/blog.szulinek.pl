@@ -133,7 +133,10 @@ Display container logs:
 ```
 docker logs <CONTAINER ID>
 ```
-
+Their location on the host is:
+```bash
+tail -f /var/lib/docker/containers/<container id>/<container id>-json.log
+```
 ## Docker Compose
 Run the docker-compose.yaml file in detached mode:
 ```
