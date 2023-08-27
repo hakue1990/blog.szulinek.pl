@@ -38,7 +38,7 @@ Nie zamierzam ci mówić, dlaczego powinieneś używać Nextcloud. Zamiast tego,
 
 Poradnik wykorzystuje konfigurację reverse proxy Nginx, dzięki której możesz wdrożyć swoją instancję **Nextcloud z SSL**. W ten sposób adres URL Twojego wdrożenia Nextcloud będzie używał protokołu HTTPS, a transfer plików będzie odbywał się w sposób bezpieczny.
 
-Pod koniec poradnika podzielę się kilkoma wskazówkami dla użytkowników chmury Linode w celu zmniejszenia wysiłku przy wdrażaniu Nextcloud.
+Pod koniec poradnika podzielę się kilkoma wskazówkami dla użytkowników chmury Linux w celu zmniejszenia wysiłku przy wdrażaniu Nextcloud.
 Wymagania wstępne
 
 Zanim przejdziemy dalej, musisz się upewnić, że pewne rzeczy są załatwione. Oto czego potrzebujesz:

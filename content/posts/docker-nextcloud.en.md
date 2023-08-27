@@ -37,7 +37,7 @@ I'm not going to tell you why you should use Nextcloud. Instead, I will show you
 
 This guide utilizes a Nginx reverse proxy configuration, which allows you to deploy your Nextcloud instance with SSL. This way, your Nextcloud deployment's URL will use the HTTPS protocol, and file transfers will be secure.
 
-Towards the end of the guide, I will share some tips for Linode cloud users to make deploying Nextcloud easier.
+Towards the end of the guide, I will share some tips for Linux cloud users to make deploying Nextcloud easier.
 Prerequisites
 
 Before we proceed, you need to make sure a few things are in order. Here's what you need:

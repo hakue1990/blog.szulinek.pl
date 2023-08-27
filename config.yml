@@ -46,7 +46,7 @@ languages:
           url: /pl/contact/
     menu:
       main:
-        - name: O mnie
+        - name: Whoami
           url: about
           weight: 5
         - name: Usługi
@@ -85,7 +85,7 @@ languages:
           url: /en/contact
     menu:
       main:
-        - name: About
+        - name: Whoami
           url: /en/about
           weight: 5
         - name: Services
