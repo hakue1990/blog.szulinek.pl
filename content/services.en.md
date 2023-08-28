@@ -18,3 +18,7 @@ In addition to web design, I also offer backend and frontend development service
 ### Security and Reliability
 
 Security and reliability are of utmost importance to me. I adhere to best practices in terms of security, testing, and website maintenance. I also provide technical support after deployment, ensuring that clients can rely on me for any questions or issues that may arise.
+
+### Deploying Web Applications in the Cloud
+
+I provide a service for deploying web applications in cloud environments. This allows you to enjoy scalability, security, and swift deployment. Your project deserves modern solutions. I'm ready to assist you with that.
