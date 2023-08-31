@@ -2,9 +2,9 @@
 title: "Traefik, Docker i SSL"
 date: 2023-08-31T09:43:45+02:00
 draft: true
-
+author: ["Adam"]
 cover:
-    image: img/blog/traefik.png
+    image: img/blog/traefik-logo.jpg
     alt: 'docker'
 
 tags: ["docker","traefik"] 
@@ -33,7 +33,22 @@ UseHugoToc: true
 
 Traefik to dynamiczny serwer proxy oraz równoważący obciążenie o otwartym kodzie źródłowym. Często używany jest jako narzędzie do zarządzania ruchem w środowiskach kontenerowych, takich jak Docker. To narzędzie umożliwia automatyczne przekierowywanie ruchu sieciowego do różnych serwisów na podstawie zdefiniowanych reguł konfiguracyjnych. Dodatkowo, obsługuje wiele protokołów komunikacyjnych, w tym HTTP, TCP oraz UDP.
 
-### Konfiguracja w środowisku Docker:
+W tym poradniku pokażę Ci jak skonfigurować Traefik w Dockerze.
+
+## Zalety korzystania z Traefik
+
+Traefik to narzędzie do odwzorowywania ruchu sieciowego w architekturze mikroserwisowej. Jego główne zalety to:
+
+- **Dynamiczna konfiguracja:** Automatyczne wykrywanie nowych usług i dostosowywanie routingu.
+- **Obsługa wielu źródeł danych:** Możliwość integracji z różnymi źródłami konfiguracji.
+- **Wsparcie dla kontenerów: Łatwe** zarządzanie ruchem w kontenerach Docker i innych technologiach.
+- **Wbudowane zabezpieczenia:** Wsparcie dla certyfikatów SSL, autoryzacji i uwierzytelniania.
+- **Loadbalancer:** Rozkładanie ruchu w sposób równomierny na dostępne usługi.
+- **Współpraca z wieloma systemami:** Integracja z narzędziami monitorującymi i orkiestratorami.
+
+![reverse-proxy](/img/blog/traefik1.png "Nextcloud reverse_proxy")
+
+## Konfiguracja w środowisku Docker:
 
 Pierwszym krokiem jest utworzenie struktury katalogów dla Traefika:
 ```bash
@@ -144,13 +159,13 @@ networks:
 
 Następnie w katalogu **data** tworzymy plik **config.yml**.
 
-### Ustawienie hasła BasicAuth:
+## Ustawienie hasła BasicAuth:
 ```bash
 sudo apt update
 sudo apt install apache2-utils
 ```
 
-### Generowanie hasha hasła dla BasicAuth:
+## Generowanie hasha hasła dla BasicAuth:
 ```bash
 echo $(htpasswd -nb "<USER>" "<PASSWORD>") | sed -e s/\\$/\\$\\$/g
 ```

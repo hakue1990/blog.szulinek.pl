@@ -2,9 +2,9 @@
 title: "Traefik, Docker and SSL"
 date: 2023-08-31T09:43:45+02:00
 draft: true
-
+author: ["Adam"]
 cover:
-    image: img/blog/traefik.png
+    image: img/blog/traefik-logo.jpg
     alt: 'docker'
 
 tags: ["docker","traefik"] 
@@ -30,11 +30,26 @@ UseHugoToc: true
 ---
 ## What is Traefik?
 
-Traefik is an open-source, dynamic proxy server and load balancer often used as a tool to manage traffic in containerized environments like Docker. It enables automatic redirection of network traffic to different services based on configuration rules and supports multiple communication protocols including HTTP, TCP, and UDP.
+Traefik is an open-source dynamic reverse proxy and load balancer. It's often used as a tool for managing traffic in containerized environments, such as Docker. This tool enables automatic redirection of network traffic to different services based on defined configuration rules. Additionally, it supports various communication protocols including HTTP, TCP, and UDP.
 
-### Docker Setup:
+In this guide, I'll show you how to set up Traefik within Docker.
 
-Start by creating the directory structure for Traefik:
+## Benefits of Using Traefik
+
+Traefik is a tool for routing network traffic in a microservices architecture. Its key advantages are:
+
+- **Dynamic Configuration:** Automatically detects new services and adjusts routing.
+- **Multiple Data Source Support:** Can integrate with various configuration sources.
+- **Container Support:** Easily manages traffic in Docker containers and other technologies.
+- **Built-in Security:** Supports SSL certificates, authentication, and authorization.
+- **Load Balancing:** Distributes traffic evenly among available services.
+- **Integration with Multiple Systems:** Integrates with monitoring tools and orchestrators.
+
+![reverse-proxy](/img/blog/traefik1.png "Nextcloud reverse_proxy")
+
+## Configuration in Docker Environment:
+
+The first step is to create a directory structure for Traefik:
 ```bash
 mkdir traefik
 cd traefik
@@ -89,7 +104,7 @@ certificatesResolvers:
           - "1.0.0.1:53"
 ```
 
-Next, create the **network** Traefik will use, let's name it "proxy":
+Next, create a **network** that Traefik will use, let's name it "proxy":
 ```bash
 docker network create proxy
 ```
@@ -141,15 +156,15 @@ networks:
     external: true
 ```
 
-Then, in the **data** directory, create the **config.yml** file.
+Then, in the **data** directory, create a **config.yml** file.
 
-### Basic Auth Password:
+## Setting up BasicAuth Password:
 ```bash
 sudo apt update
 sudo apt install apache2-utils
 ```
 
-### Generate the password:
+## Generating BasicAuth Password Hash:
 ```bash
 echo $(htpasswd -nb "<USER>" "<PASSWORD>") | sed -e s/\\$/\\$\\$/g
 ```
