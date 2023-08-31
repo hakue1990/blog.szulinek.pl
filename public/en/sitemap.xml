@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://szulinek.pl/en/categories/</loc>
-    <lastmod>2023-08-07T17:41:29+02:00</lastmod>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -13,6 +13,110 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/categories/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/tags/docker/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/docker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/docker/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/categories/docker/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/categories/docker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/categories/docker/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/posts/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/posts/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/tags/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/tags/traefik/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/traefik/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/traefik/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/categories/traefik/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/categories/traefik/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/categories/traefik/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/posts/traefik-docker/</loc>
+    <lastmod>2023-08-31T09:43:45+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/posts/traefik-docker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/posts/traefik-docker/"
                 />
   </url><url>
     <loc>https://szulinek.pl/en/posts/docker-nextcloud/</loc>
@@ -26,19 +130,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/posts/docker-nextcloud/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/</loc>
-    <lastmod>2023-08-07T17:41:29+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/"
                 />
   </url><url>
     <loc>https://szulinek.pl/en/tags/nextcloud/</loc>
@@ -65,32 +156,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/categories/nextcloud/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/posts/</loc>
-    <lastmod>2023-08-07T17:41:29+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/posts/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/tags/</loc>
-    <lastmod>2023-08-07T17:41:29+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/tags/"
                 />
   </url><url>
     <loc>https://szulinek.pl/en/tags/toturial/</loc>
@@ -273,32 +338,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/categories/www/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/tags/docker/</loc>
-    <lastmod>2023-07-21T07:14:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/tags/docker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/tags/docker/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/categories/docker/</loc>
-    <lastmod>2023-07-21T07:14:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/categories/docker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/categories/docker/"
                 />
   </url><url>
     <loc>https://szulinek.pl/en/posts/docker-cheatsheet/</loc>
