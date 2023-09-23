@@ -1,1 +1,2 @@
-# blog.szulinek.pl
+# Szulinek.pl
+My personal portfolio and blog website
