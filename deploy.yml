@@ -34,4 +34,4 @@ jobs:
         run: apt update -y && apt install rsync -y
 
       - name: Deploy
-        run: rsync -avhe "ssh -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_TARGET }}:${{ secrets.SSH_PATH }} --delete
+        run: rsync -avhe "ssh -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_TARGET }}:${{ secrets.SSH_PATH }} --delete 
