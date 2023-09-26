@@ -1,0 +1,37 @@
+name: Deploy website
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get files
+        uses: actions/checkout@v3
+        with: 
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with: 
+          key: ${{ secrets.SSH_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
+      - name: Install rsync
+        run: apt update -y && apt install rsync -y
+
+      - name: Deploy
+        run: rsync -avhe "ssh -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_TARGET }}:${{ secrets.SSH_PATH }} --delete
