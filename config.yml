@@ -37,7 +37,7 @@ languages:
     #   series: FRseries
     profileMode:
       enabled: true
-      title: IT bez bólu głowyDeploy Test!
+      title: IT bez bólu głowyDeploy Test 2 [second try]!
       subtitle: "☄️ Szybko | ☁️ Płynnie | 🌙 Zwinnie | 📱 Responsywnie"
       buttons:
         - name: Blog
