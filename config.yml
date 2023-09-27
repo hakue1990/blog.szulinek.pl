@@ -37,7 +37,7 @@ languages:
     #   series: FRseries
     profileMode:
       enabled: true
-      title: IT bez bólu głowyDeploy Test 2 [second try]!
+      title: IT bez bólu głowy!
       subtitle: "☄️ Szybko | ☁️ Płynnie | 🌙 Zwinnie | 📱 Responsywnie"
       buttons:
         - name: Blog
@@ -121,7 +121,7 @@ params:
 
 ## add Logo
   label:
-        text: "Szulinek.pl"
+        text: "Szulinek IT"
         icon: "/img/coding.png"
         iconHeight: 35
 
