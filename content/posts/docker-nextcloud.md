@@ -3,7 +3,7 @@ title: "Docker Nextcloud"
 date: 2023-08-07T17:41:15+02:00
 draft: false
 cover:
-    image: img/blog/nc.jpg
+    image: img/post-images/nc-post.png
     alt: 'nextcloud'
 
 tags: ["nextcloud","web","toturial"] 

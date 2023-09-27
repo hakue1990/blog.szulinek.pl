@@ -4,8 +4,8 @@ date: 2023-06-27T20:39:16+02:00
 draft: true
 author: ["Adam"]
 cover:
-    image: img/blog/fast_website.webp
-    alt: 'this is an alt!'
+    image: img/post-images/fast-website-post.png
+    alt: 'this is an aasedlt!'
 
 tags: ["web", "tech"] 
 categories: ["web","tech"]

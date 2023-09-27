@@ -4,7 +4,7 @@ date: 2023-07-22T18:47:05+02:00
 draft: false
 author: ["Adam"]
 cover:
-    image: img/blog/mysql.webp
+    image: img/post-images/mysql-post.png
     alt: 'bash'
 
 tags: ["tech","web","cheatsheet"] 

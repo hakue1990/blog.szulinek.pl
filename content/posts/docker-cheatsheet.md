@@ -3,7 +3,7 @@ title: "Docker Cheatsheet"
 date: 2023-07-21T07:14:12+02:00
 draft: true
 cover:
-    image: img/blog/docker.webp
+    image: img/post-images/docker-post.png
     alt: 'docker'
 
 tags: ["docker","web","cheatsheet"] 

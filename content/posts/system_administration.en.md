@@ -4,7 +4,7 @@ date: 2023-06-27T20:39:16+02:00
 draft: false
 author: ["Adam"]
 cover:
-    image: img/blog/linux.webp
+    image: img/post-images/system-post.png
     alt: 'this is an alt!'
 
 tags: ["Tech","www","hosting"] 

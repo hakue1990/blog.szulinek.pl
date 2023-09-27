@@ -4,7 +4,7 @@ date: 2023-08-31T09:43:45+02:00
 draft: true
 author: ["Adam"]
 cover:
-    image: img/blog/traefik-logo.jpg
+    image: img/post-images/traefik-post.png
     alt: 'docker'
 
 tags: ["docker","traefik"] 
