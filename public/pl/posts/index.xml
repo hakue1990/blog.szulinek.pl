@@ -5,7 +5,16 @@
     <link>https://szulinek.pl/pl/posts/</link>
     <description>Recent content in Posts on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 31 Aug 2023 09:43:45 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Sep 2023 19:13:12 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy hugo app &amp;&amp; github actions</title>
+      <link>https://szulinek.pl/pl/posts/github-actions-deploy-hugo-app/</link>
+      <pubDate>Thu, 28 Sep 2023 19:13:12 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/github-actions-deploy-hugo-app/</guid>
+      <description>hugo app deploy &amp;amp;&amp;amp; github actions</description>
+    </item>
+    
     <item>
       <title>Traefik, Docker i SSL</title>
       <link>https://szulinek.pl/pl/posts/traefik-docker/</link>
