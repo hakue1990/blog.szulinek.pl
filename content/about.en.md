@@ -13,7 +13,7 @@ buttons:
 
 # Whoami
 
-I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
+My name is Adam and I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
 
 ## Expirence
 

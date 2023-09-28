@@ -13,7 +13,7 @@ buttons:
 
 # Whoami
 
-Jestem specjalistą IT specjalizującym się w zarządzaniu serwerami, optymalizacji stron internetowych i tworzeniu błyskawicznych witryn.
+Na imię mam Adam i jestem specjalistą IT specjalizującym się w zarządzaniu serwerami, optymalizacji stron internetowych i tworzeniu błyskawicznych witryn.
 
 ## Doświadczenie
 
