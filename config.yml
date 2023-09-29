@@ -61,6 +61,9 @@ languages:
         - name: Archiwa
           url: /pl/archives/
           weight: 20
+        - name: Szukaj
+          url: search
+          weight: 25
 
         # - name: Portfolio
         #   url: https://portfolio.szulinek.pl#projects
@@ -100,6 +103,9 @@ languages:
         - name: Archives
           url: /en/archives/
           weight: 20
+        - name: Search
+          url: search
+          weight: 25
 
         # - name: Portfolio
         #   url: https://portfolio.szulinek.pl#projects
@@ -146,3 +152,10 @@ params:
     avicon32x32: "/assets/favicon/favicon-32x32.png" 
     apple_touch_icon: "/assets/favicon/apple-touch-icon.png" 
     # safari_pinned_tab: "/assets/favicon/" 
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
