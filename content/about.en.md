@@ -3,7 +3,7 @@
 title: "Whoami"
 draft: false
 cover:
-    image: img/about.jpg
+    image: img/assets/about.jpg
     alt: 'About'
 buttons:
     - name: Archives

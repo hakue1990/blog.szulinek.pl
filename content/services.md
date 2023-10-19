@@ -3,7 +3,7 @@ title: "Usługi"
 date: 2023-07-07T17:41:21+02:00
 draft: false
 cover:
-    image: img/services.png
+    image: img/assets/services.png
     alt: 'Usługi'
 ---
 ### Wdrażanie aplikacji webowych w chmurze

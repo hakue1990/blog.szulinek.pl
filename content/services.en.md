@@ -3,7 +3,7 @@ title: "Services"
 date: 2023-07-07T17:41:18+02:00
 draft: false
 cover:
-    image: img/services.png
+    image: img/assets/services.png
     alt: 'Sercvices'
 ---
 ### Deploying Web Applications in the Cloud
