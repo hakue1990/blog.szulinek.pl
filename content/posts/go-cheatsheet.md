@@ -29,13 +29,13 @@ UseHugoToc: true
 ---
 ## Wprowadzenie
 
-Go, znany także jako Golang, to język programowania stworzony przez Google. Jest językiem open source, cechującym się wyjątkową wydajnością i efektywnością - jest idealny do tworzenia oprogramowania serwerowego, narzędzi deweloperskich oraz aplikacji internetowych. Dzięki swojej prostocie, Go jest coraz bardziej popularny w tworzeniu skalowalnych i wydajnych aplikacji webowych oraz mikrousług.
+Go, znany także jako Golang, to język programowania stworzony przez Google. Jest to język open source charakteryzujący się wyjątkową wydajnością i efektywnością. Jest idealny do tworzenia oprogramowania serwerowego, narzędzi dla programistów i aplikacji internetowych. Ze względu na swoją prostotę, Go zyskuje coraz większą popularność w tworzeniu skalowalnych i wydajnych aplikacji internetowych oraz mikrousług.
 
 ## Przydatne linki
 
-### [A Tour of Go](https://go.dev/tour/welcome/1) 
-### [Go repl](https://replit.com/languages/go) 
-### [Go Lang wiki](https://github.com/golang/go/wiki/)
+- [A Tour of Go](https://go.dev/tour/welcome/1)
+- [Go repl](https://replit.com/languages/go)
+- [Go Lang wiki](https://github.com/golang/go/wiki/)
 
 ## Hello World!
 
@@ -52,9 +52,12 @@ func main() {
 func greetMe(name string) string {
   return "Hello, " + name + "!"
 }
+```
 
+```sh
 $ go build
 ```
+
 ## Zmienne
 
 ```go
@@ -66,8 +69,7 @@ var x, y int = 1, 2
 var x, msg = 1, "Hello, world!"
 msg = "Hello"
 
-Deklaracja listy
-
+// Deklaracja listy
 var (
   x int
   y = 20
@@ -79,9 +81,11 @@ var (
 msg := "Hello"
 x, msg := 1, "Hello"
 ```
+
 ## Stałe
 
-Stałe mogą przyjmować wartości znakowe, tekstowe, logiczne lub numeryczne.
+Stałe mogą przyjmować wartości liczbowe, tekstowe, logiczne lub numeryczne.
+
 ```go
 const Phi = 1.618
 const Size int64 = 1024
@@ -100,6 +104,7 @@ const (
   Saturday
 )
 ```
+
 ## Podstawowe typy danych
 
 ### String
@@ -109,127 +114,151 @@ str := "Hello"
 
 str := `Multiline
 string`
-
 ```
-### Number
+
+### Liczby
+
 ```go
 num := 3          // int
 num := 3.         // float64
 num := 3 + 4i     // complex128
 num := byte('a')  // byte (alias for uint8)
 ```
-#### inne typy liczbowe
+
+### Inne typy liczbowe
+
 ```go
-var u uint = 7        // uint (unsigned)
-var p float32 = 22.7  // 32-bit float
+var u uint = 7        // uint (bez znaku)
+var p float32 = 22.7  // float 32-bitowy
 ```
-### Arrays
-tablice mają zdefiniowany rozmiar
+
+### Tablice
+
+Tablice mają zdefiniowany rozmiar.
+
 ```go
 // var numbers [5]int
 numbers := [...]int{0, 0, 0, 0, 0}
 ```
 
-### Slices [ Wycinki ]
-wycinki mają dynamiczną wielkość w przeciwieństwie do tablic
+### Wycinki (Slices)
+
+Wycinki mają dynamiczną wielkość w przeciwieństwie do tablic.
+
 ```go
 slice := []int{2, 3, 4}
 
 slice := []byte("Hello")
-
 ```
 
-### Pointers
-Wskaźniki wskazują na lokalizację pamięci zmiennej
-```go
-func main () {
-  b := *getPointer()
-  fmt.Println("Value is", b)
-}
- 
+### Wskaźniki
 
-func getPointer () (myPointer *int) {
+Wskaźniki wskazują na lokalizację w pamięci zmiennej.
+
+```go
+func main() {
+  b := *getPointer()
+  fmt.Println("Wartość to", b)
+}
+
+func getPointer() *int {
   a := 234
   return &a
 }
- 
 
 a := new(int)
 *a = 234
 ```
+
 ### Konwersje typów
+
 ```go
 i := 2
 f := float64(i)
 u := uint(i)
 ```
+
 ## Kontrola przepływu
 
 ### Warunki
-```go
-if day == "sunday" || day == "saturday" {
-  rest()
-} else if day == "monday" && isTired() {
-  groan()
-} else {
-  work()
-}
-```
-### Statements in if
-Warunek w instrukcji if może być poprzedzony instrukcją przed średnikiem (;). Zmienne zadeklarowane w tej instrukcji są w zakresie tylko do momentu zakończenia instrukcji if.
-```go
-if _, err := doThing(); err != nil {
-  fmt.Println("Uh oh")
-}
 
+```go
+if day == "niedziela" || day == "sobota" {
+  odpocznij()
+} else if day == "poniedziałek" && jestesZmęczony() {
+  jęk()
+} else {
+  pracuj()
+}
 ```
-### Switch
+
+### Instrukcje w warunkach
+
+Warunek w instrukcji "if" może być poprzedzony instrukcją przed średnikiem (;). Zmienne zadeklarowane w tej instrukcji są dostępne tylko w jej zakresie.
+
+```go
+if _, err := zrobCos(); err != nil {
+  fmt.Println("Ups!")
+}
+```
+
+### Instrukcja "switch"
+
 ```go
 switch day {
-  case "sunday":
-    // cases don't "fall through" by default!
+  case "niedziela":
+    // przypadki nie "przechodzą" domyślnie
     fallthrough
 
-  case "saturday":
-    rest()
+  case "sobota":
+    odpocznij()
 
   default:
-    work()
+    pracuj()
 }
-
 ```
-### Pętla For
+
+### Pętla "for"
+
 ```go
 for count := 0; count <= 10; count++ {
-  fmt.Println("My counter is at", count)
+  fmt.Println("Licznik wynosi", count)
 }
 ```
-### Pętla For-Range 
+
+### Pętla "for" z zakresem (for-range)
+
 ```go
-entry := []string{"Jack","John","Jones"}
+entry := []string{"Jack", "John", "Jones"}
 for i, val := range entry {
-  fmt.Printf("At position %d, the character %s is present\n", i, val)
+  fmt.Printf("Na pozycji %d znajduje się postać %s\n", i, val)
 }
 ```
-### Pętla While
+
+### Pętla "while"
+
 ```go
 n := 0
 x := 42
 for n != x {
-  n := guess()
+  n := zgadnij()
 }
 ```
-## Funckje
 
-W Go funkcje są obiektami pierwszej klasy.
-### Lambdas
+## Funkcje
+
+W języku Go, funkcje są obiektami pierwszej klasy.
+
+### Lambdy
+
 ```go
 myfunc := func() bool {
   return x > 10000
 }
-
 ```
-### Wiele typów zwracanych
+
+### Wiele wartości zwracanych
+
 ```go
 a, b := getMessage()
 
@@ -237,9 +266,11 @@ func getMessage() (a string, b string) {
   return "Hello", "World"
 }
 ```
+
 ### Nazwane wartości zwracane
 
 Poprzez zdefiniowanie nazw wartości zwracanych w sygnaturze funkcji, zwrócenie (bez argumentów) spowoduje zwrócenie zmiennych o tych nazwach.
+
 ```go
 func split(sum int) (x, y int) {
   x = sum * 4 / 9
@@ -257,36 +288,282 @@ import "fmt"
 import "math/rand"
 
 import (
-  "fmt"        // gives fmt.Println
-  "math/rand"  // gives rand.Intn
+  "fmt"        // daje fmt.Println
+  "math/rand"  // daje rand.Intn
 )
-
 ```
-oba przypadki są takie same
+
+Oba przypadki są takie same.
 
 ### Aliasy
-```go
 
+```go
 import r "math/rand"
 
 r.Intn()
-
 ```
+
 ### Paczki
 
-Każdy plik pakietu musi zaczynać się od słowa kluczowego 'package'.
+Każdy plik paczki musi zaczynać się od słowa kluczowego 'package'.
 
 ```go
 package hello
-
-
 ```
 
-### Eksporotwanie nazw
+###
+
+ Eksportowanie nazw
 
 Nazwy eksportowane zaczynają się od wielkich liter.
+
 ```go
-func Hello () {
+func Hello() {
   ···
+}
+```
+
+## Współbieżność
+
+### Goroutines
+
+Kanały są bezpiecznymi obiektami komunikacji używanymi w gorutynach.
+
+```go
+func main() {
+  // Kanał
+  ch := make(chan string)
+
+  // Rozpocznij gorutyny równolegle
+  go push("Moe", ch)
+  go push("Larry", ch)
+  go push("Curly", ch)
+
+  // Odczytaj 3 wyniki
+  // (Ponieważ nasze gorutyny są równoległe,
+  // kolejność nie jest gwarantowana!)
+  fmt.Println(<-ch, <-ch, <-ch)
+}
+ 
+func push(name string, ch chan string) {
+  msg := "Hej, " + name
+  ch <- msg
+}
+```
+
+### Kanały buforowane
+
+Kanały buforowane ograniczają ilość wiadomości, które mogą przechowywać.
+
+```go
+ch := make(chan int, 2)
+ch <- 1
+ch <- 2
+ch <- 3
+// błąd krytyczny:
+// wszystkie gorutyny są uśpione - deadlock!
+```
+
+### Zamykanie kanałów
+
+```go
+ch <- 1
+ch <- 2
+ch <- 3
+close(ch)
+```
+
+Iteruje przez kanał do momentu jego zamknięcia.
+
+```go
+for i := range ch {
+  ···
+}
+```
+
+Kanał jest zamknięty, jeśli ok == false.
+
+```go
+v, ok := <-ch
+```
+
+### WaitGroup
+
+```go
+import "sync"
+
+func main() {
+  var wg sync.WaitGroup
+  
+  for _, item := range itemList {
+    // Zwiększ licznik WaitGroup
+    wg.Add(1)
+    go doOperation(&wg, item)
+  }
+  // Czekaj, aż gorutyny zakończą pracę
+  wg.Wait()
+}
+
+func doOperation(wg *sync.WaitGroup, item string) {
+  defer wg.Done()
+  // Wykonaj operację na elemencie
+  // ...
+}
+```
+
+WaitGroup oczekuje na zakończenie zbioru gorutyn. Główna gorutyna wywołuje metodę Add, aby ustawić liczbę gorutyn, na które ma czekać. Każda gorutyna wywołuje wg.Done() po zakończeniu swojej pracy.
+
+## Kontrola błędów
+
+### Defer
+
+"Defer" w języku Go jest mechanizmem, który pozwala na opóźnione wykonanie funkcji do momentu zakończenia otaczającej ją funkcji. Argumenty są ewaluowane natychmiast, ale samo wywołanie funkcji jest opóźnione do późniejszego czasu.
+
+```go
+func main() {
+  defer fmt.Println("Gotowe")
+  fmt.Println("Pracuję...")
+}
+```
+
+### Funkcje opóźnione
+
+```go
+func main() {
+  defer func() {
+    fmt.Println("Gotowe")
+  }()
+  fmt.Println("Pracuję...")
+}
+```
+
+Lambdy (anonimowe funkcje) są lepiej dostosowane do bloków "defer".
+
+```go
+func main() {
+  var d = int64(0)
+  defer func(d *int64) {
+    fmt.Printf("& %v Unix Sec\n", *d)
+  }(&d)
+  fmt.Print("Gotowe ")
+  d = time.Now().Unix()
+}
+```
+
+Blok "defer" używa aktualnej wartości zmiennej "d", chyba że użyjemy wskaźnika, aby uzyskać ostateczną wartość na końcu funkcji "main".
+
+## Struktury
+
+### Definiowanie
+
+```go
+type Vertex struct {
+  X int
+  Y int
+}
+
+func main() {
+  v := Vertex{1, 2}
+  v.X = 4
+  fmt.Println(v.X, v.Y)
+}
+```
+
+### Literały
+
+```go
+v := Vertex{X: 1, Y: 2}
+
+// Nazwy pól mogą być pominięte
+v := Vertex{1, 2}
+
+// Pole Y jest domyślne
+v := Vertex{X: 1}
+```
+
+### Używanie wskaźników do struktur
+
+```go
+v := &Vertex{1, 2}
+v.X = 2
+```
+
+Odpowiednie wyrażenie v.X jest takie samo jak (*v).X, gdy v jest wskaźnikiem.
+
+## Metody
+
+### Odbiorcy
+
+```go
+type Vertex struct {
+  X, Y float64
+}
+
+func (v Vertex) Abs() float64 {
+  return math.Sqrt(v.X * v.X + v.Y * v.Y)
+}
+
+v := Vertex{1, 2}
+v.Abs()
+```
+
+W języku Go nie ma klas, ale można definiować funkcje z odbiorcami.
+
+### Mutacje
+
+```go
+func (v *Vertex) Scale(f float64) {
+  v.X = v.X * f
+  v.Y = v.Y * f
+}
+
+v := Vertex{6, 12}
+v.Scale(0.5)
+// `v` zostanie zaktualizowane
+```
+
+Poprzez zdefiniowanie odbiorcy jako wskaźnika (*Vertex), można dokonywać mutacji danych.
+
+## Interfejsy
+
+### Podstawowy interfejs
+
+```go
+type Shape interface {
+  Area() float64
+  Perimeter() float64
+}
+```
+
+### Struktury
+
+```go
+type Rectangle struct {
+  Length, Width float64
+}
+```
+
+Struktura Rectangle implementuje interfejs Shape w sposób domyślny, poprzez zaimplementowanie wszystkich jego metod.
+
+### Metody
+
+```go
+func (r Rectangle) Area() float64 {
+  return r.Length * r.Width
+}
+
+func (r Rectangle) Perimeter() float64 {
+  return 2 * (r.Length + r.Width)
+}
+```
+
+Metody zdefiniowane w interfejsie Shape są zaimplementowane w strukturze Rectangle.
+
+### Przykład interfejsu
+
+```go
+func main() {
+  var r Shape = Rectangle{Length: 3, Width: 4}
+  fmt.Printf("Typ r: %T, Pole: %v, Obwód: %v.", r, r.Area(), r.Perimeter())
 }
 ```
