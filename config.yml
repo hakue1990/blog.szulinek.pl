@@ -61,9 +61,9 @@ languages:
         - name: Archiwa
           url: /pl/archives/
           weight: 20
-        - name: Szukaj
-          url: search
-          weight: 25
+        # - name: Szukaj
+        #   url: search
+        #   weight: 25
 
         # - name: Portfolio
         #   url: https://portfolio.szulinek.pl#projects
@@ -103,9 +103,9 @@ languages:
         - name: Archives
           url: /en/archives/
           weight: 20
-        - name: Search
-          url: search
-          weight: 25
+        # - name: Search
+        #   url: search
+        #   weight: 25
 
         # - name: Portfolio
         #   url: https://portfolio.szulinek.pl#projects
