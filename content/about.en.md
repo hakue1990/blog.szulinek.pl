@@ -14,16 +14,14 @@ buttons:
 
 # Whoami
 
-My name is Adam and I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
+My name is Adam, and I work as an IT specialist. I manage cloud servers on a daily basis and optimize websites.
 
-## Expirence
+## Experience
 
-I have considerable experience working with servers and internet infrastructure. On a daily basis, I administer hosts of various scales, both in the cloud and on local machines. My skills include server configuration, deployment of web applications, and performance monitoring.
-
-
+I have significant experience working with internet infrastructure. I administer hosts of various scales, both in the cloud and on local machines, on a daily basis. My skills include server configuration, deploying web applications, performance monitoring, and scripting.
 
 ## Contact
 
-If you need assistance with server management, website optimization, or creating fast web solutions, feel [free to get in touch.](https://szulinek.pl/en/contact/)
+If you need assistance with server management, website optimization, or creating fast internet solutions, [feel free to get in touch with me.](https://szulinek.pl/pl/contact/)
 
 

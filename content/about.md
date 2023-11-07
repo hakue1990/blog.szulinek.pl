@@ -14,13 +14,13 @@ buttons:
 
 # Whoami
 
-Na imię mam Adam i jestem specjalistą IT specjalizującym się w zarządzaniu serwerami, optymalizacji stron internetowych i tworzeniu błyskawicznych witryn.
+Na imię mam Adam i jestem specjalistą IT, na codzień zarządzam serwerami w chmurze, optymalizuje strony internetowe 
 
 ## Doświadczenie
 
-Posiadam znaczne doświadczenie w pracy z serwerami i infrastrukturą internetową. Codziennie administruję hostami o różnej skali, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwera, wdrażanie aplikacji internetowych oraz monitorowanie wydajności.
+Posiadam znaczne doświadczenie w pracy z infrastrukturą internetową. Codziennie administruję hostami o różnej skali, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwera, wdrażanie aplikacji internetowych, monitorowanie wydajności i pisanie skryptów.
 
 ## Kontakt
 
-Jeśli potrzebujesz pomocy w zarządzaniu serwerem, optymalizacji strony internetowej lub tworzeniu szybkich rozwiązań internetowych, [śmiało się ze mną skontaktuj.](https://szulinek.pl/pl/contact/)
+Jeśli potrzebujesz pomocy w zarządzaniu serwerem, optymalizacji strony  lub tworzeniu szybkich rozwiązań internetowych, [śmiało się ze mną skontaktuj.](https://szulinek.pl/pl/contact/)
 
