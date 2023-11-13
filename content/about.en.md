@@ -14,7 +14,7 @@ buttons:
 
 # Whoami
 
-My name is Adam, and I work as an IT specialist. I manage cloud servers on a daily basis and optimize websites.
+My name is Adam, and I am an IT specialist. I manage cloud servers on a daily basis, optimize websites, and ensure the stable and fast operation of webervices.
 
 ## Experience
 

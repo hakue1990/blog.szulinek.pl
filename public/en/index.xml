@@ -5,7 +5,16 @@
     <link>https://szulinek.pl/en/</link>
     <description>Recent content on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Sep 2023 19:13:12 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2023 20:38:06 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Cheatsheet</title>
+      <link>https://szulinek.pl/en/posts/go-cheatsheet/</link>
+      <pubDate>Thu, 19 Oct 2023 20:38:06 +0200</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/go-cheatsheet/</guid>
+      <description>Go cheatsheet</description>
+    </item>
+    
     <item>
       <title>Deploy hugo app &amp;&amp; github actions</title>
       <link>https://szulinek.pl/en/posts/github-actions-deploy-hugo-app/</link>
@@ -75,8 +84,8 @@
       <pubDate>Fri, 07 Jul 2023 17:41:18 +0200</pubDate>
       
       <guid>https://szulinek.pl/en/services/</guid>
-      <description>Web Design Web design is my passion. I emphasize aesthetics, intuitive user interfaces, and responsiveness to provide an optimal experience for visitors. I work with the latest technologies and design trends to create unique and modern websites that stand out from the competition.
-Web Application Development In addition to web design, I also offer backend and frontend development services. I use programming languages and frameworks that are suitable for each specific project to ensure optimal performance and scalability.</description>
+      <description>Deploying Web Applications in the Cloud I provide a service for deploying web applications in cloud environments. This allows you to enjoy scalability, security, and swift deployment. Your project deserves modern solutions. I&amp;rsquo;m ready to assist you with that.
+Security and Reliability Security and reliability are of utmost importance to me. I adhere to best practices in terms of security, testing, and website maintenance. I also provide technical support after deployment, ensuring that clients can rely on me for any questions or issues that may arise.</description>
     </item>
     
     <item>
@@ -115,19 +124,18 @@ Web Application Development In addition to web design, I also offer backend and 
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
+    
     <item>
-      <title></title>
-      <link>https://szulinek.pl/en/about/</link>
+      <title>Categories</title>
+      <link>https://szulinek.pl/en/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://szulinek.pl/en/about/</guid>
-      <description>Whoami I am an IT professional specializing in server management, website optimization, and the creation of blazing-fast websites.
-Expirence I have considerable experience working with servers and internet infrastructure. On a daily basis, I administer hosts of various scales, both in the cloud and on local machines. My skills include server configuration, deployment of web applications, and performance monitoring.
-Contact If you need assistance with server management, website optimization, or creating fast web solutions, feel free to get in touch.</description>
+      <guid>https://szulinek.pl/en/categories/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title></title>
+      <title>Contact</title>
       <link>https://szulinek.pl/en/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -137,12 +145,14 @@ Contact If you need assistance with server management, website optimization, or 
     
     
     <item>
-      <title>Categories</title>
-      <link>https://szulinek.pl/en/categories/</link>
+      <title>Whoami</title>
+      <link>https://szulinek.pl/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://szulinek.pl/en/categories/</guid>
-      <description></description>
+      <guid>https://szulinek.pl/en/about/</guid>
+      <description>Whoami My name is Adam, and I am an IT specialist. I manage cloud servers on a daily basis, optimize websites, and ensure the stable and fast operation of webervices.
+Experience I have significant experience working with internet infrastructure. I administer hosts of various scales, both in the cloud and on local machines, on a daily basis. My skills include server configuration, deploying web applications, performance monitoring, and scripting.
+Contact If you need assistance with server management, website optimization, or creating fast internet solutions, feel free to get in touch with me.</description>
     </item>
     
   </channel>

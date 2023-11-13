@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://szulinek.pl/en/categories/</loc>
-    <lastmod>2023-09-28T19:13:12+02:00</lastmod>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -13,6 +13,110 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/categories/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/tags/cheatsheet/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/cheatsheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/cheatsheet/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/categories/cheatsheet/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/categories/cheatsheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/categories/cheatsheet/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/tags/go/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/go/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/go/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/categories/go/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/categories/go/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/categories/go/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/posts/go-cheatsheet/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/posts/go-cheatsheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/posts/go-cheatsheet/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/posts/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/posts/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/tags/</loc>
+    <lastmod>2023-10-19T20:38:06+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/tags/"
                 />
   </url><url>
     <loc>https://szulinek.pl/en/posts/github-actions-deploy-hugo-app/</loc>
@@ -78,45 +182,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/categories/hugo/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/</loc>
-    <lastmod>2023-09-28T19:13:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/posts/</loc>
-    <lastmod>2023-09-28T19:13:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/posts/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/tags/</loc>
-    <lastmod>2023-09-28T19:13:12+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/tags/"
                 />
   </url><url>
     <loc>https://szulinek.pl/en/tags/docker/</loc>
@@ -273,32 +338,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/categories/web/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/tags/cheatsheet/</loc>
-    <lastmod>2023-07-22T19:33:36+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/tags/cheatsheet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/tags/cheatsheet/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/categories/cheatsheet/</loc>
-    <lastmod>2023-07-22T19:33:36+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/categories/cheatsheet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/categories/cheatsheet/"
                 />
   </url><url>
     <loc>https://szulinek.pl/en/posts/mysql-cheatsheet/</loc>
@@ -577,30 +616,6 @@
                 href="https://szulinek.pl/en/posts/fast_website/"
                 />
   </url><url>
-    <loc>https://szulinek.pl/en/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/about/"
-                />
-  </url><url>
-    <loc>https://szulinek.pl/en/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://szulinek.pl/pl/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://szulinek.pl/en/contact/"
-                />
-  </url><url>
     <loc>https://szulinek.pl/en/archives/</loc>
     <xhtml:link
                 rel="alternate"
@@ -623,6 +638,42 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://szulinek.pl/en/categories/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/contact/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/search/"
+                />
+  </url><url>
+    <loc>https://szulinek.pl/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://szulinek.pl/pl/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://szulinek.pl/en/about/"
                 />
   </url>
 </urlset>

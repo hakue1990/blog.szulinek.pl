@@ -14,7 +14,7 @@ buttons:
 
 # Whoami
 
-Na imię mam Adam i jestem specjalistą IT, na codzień zarządzam serwerami w chmurze, optymalizuje strony internetowe 
+Na imię mam Adam i jestem specjalistą IT, na codzień zarządzam serwerami w chmurze, optymalizuje strony internetowe oraz dbam o stabilne i szybkie działanie usług w sieci.
 
 ## Doświadczenie
 
