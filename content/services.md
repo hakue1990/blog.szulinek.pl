@@ -8,11 +8,11 @@ cover:
 ---
 ### Wdrażanie aplikacji webowych w chmurze
 
-Oferuję usługę wdrażania aplikacji webowych w środowiskach chmurowych. Dzięki temu możesz cieszyć się skalowalnością, bezpieczeństwem i szybkim wdrożeniem. Twój projekt zasługuje na nowoczesne rozwiązania. Jestem gotów Ci w tym pomóc.
+Oferuję usługę wdrażania aplikacji webowych w środowiskach chmurowych. Dzięki temu możesz cieszyć się skalowalnością, bezpieczeństwem i szybkim deployem. Twój projekt zasługuje na nowoczesne rozwiązania. Jestem gotów Ci w tym pomóc.
 
 ### Bezpieczeństwo i niezawodność
 
-Bezpieczeństwo i niezawodność są dla mnie niezwykle ważne. Dlatego dbam o stosowanie najlepszych praktyk w zakresie zabezpieczeń, testowania i utrzymania strony. Zapewniam również wsparcie techniczne po wdrożeniu, aby klient mógł być pewny, że jestem zawsze gotów pomóc w przypadku jakichkolwiek pytań lub problemów.
+Bezpieczeństwo jest dla mnie niezwykle ważne. Dlatego dbam o stosowanie najlepszych praktyk w zakresie zabezpieczeń, testowania i utrzymania aplikacji. Zapewniam również wsparcie techniczne po wdrożeniu, aby klient mógł być pewny, że jestem zawsze gotów pomóc w przypadku jakichkolwiek pytań lub problemów.
 
 
 ### Tworzenie aplikacji internetowych
@@ -23,4 +23,4 @@ Wraz z projektowaniem stron internetowych oferuję również rozwój backendu i 
 
 ### Projektowanie stron internetowych
 
-Projektowanie stron internetowych to moja pasja. Kładę duży nacisk na estetykę, intuicyjny interfejs użytkownika i responsywność, aby zapewnić optymalne doświadczenie dla odwiedzających. Pracuję z najnowszymi technologiami i trendami projektowania, aby stworzyć unikalne i nowoczesne strony, które wyróżniają się na tle konkurencji.
+Kładę duży nacisk na estetykę, intuicyjny interfejs użytkownika i responsywność, aby zapewnić optymalne doświadczenie dla odwiedzających. Pracuję z najnowszymi technologiami i trendami projektowania, aby stworzyć unikalne i nowoczesne strony, które wyróżniają się na tle konkurencji.

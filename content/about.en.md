@@ -18,7 +18,7 @@ My name is Adam, and I am an IT specialist. I manage cloud servers on a daily ba
 
 ## Experience
 
-I have significant experience working with internet infrastructure. I administer hosts of various scales, both in the cloud and on local machines, on a daily basis. My skills include server configuration, deploying web applications, performance monitoring, and scripting.
+I have experience working with internet infrastructure. I administer hosts of various scales daily, both in the cloud and locally. I am capable of configuring servers, deploying web applications, monitoring performance, and scripting.
 
 ## Contact
 

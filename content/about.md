@@ -18,7 +18,7 @@ Na imię mam Adam i jestem specjalistą IT, na codzień zarządzam serwerami w c
 
 ## Doświadczenie
 
-Posiadam znaczne doświadczenie w pracy z infrastrukturą internetową. Codziennie administruję hostami o różnej skali, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwera, wdrażanie aplikacji internetowych, monitorowanie wydajności i pisanie skryptów.
+Posiadam doświadczenie w pracy z infrastrukturą internetową. Codziennie administruję hostami o różnej skali -  w chmurze oraz lokalnie. Potrafię skonfigurować serwer oraz wdrożyć aplikacje internetowe, monitoruje wydajnośc i piszę skrypty.
 
 ## Kontakt
 

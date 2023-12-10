@@ -28,14 +28,15 @@ params:
     ShowShareButtons: true
 ---
 
-## Na windowsie
-Jeśli twój system operacyjny to Windows
+## Co będziemy robić?
 
-### czym jest CMD?
+W tym artykule opiszę jak wyświetlić hasło do Wifi pod warunkiem że twój komputer wcześniej podłączył się do tej sieci.
 
-CMD to narzędzie do tłumaczenia poleceń w systemie Windows. System operacyjny Windows posiada narzędzie do tłumaczenia poleceń o nazwie CMD, które jest używane do tworzenia osadzonych odwołań. Większość tych poleceń korzysta z dokumentów i plików wsadowych do automatyzacji zadań, wykonywania zadań administracyjnych na wysokim poziomie oraz rozwiązywania problemów związanych z systemem Windows.
+## Na Windowsie
 
-Windows Command Processor to oficjalna nazwa wiersza polecenia, znana również jako command shell, cmd prompt lub poprzez swoją nazwę pliku, cmd.exe.
+Skorzystamy z CMD czyli narzędzia do tłumaczenia poleceń w systemie Windows. CMD jest używane do tworzenia osadzonych odwołań. Większość tych poleceń korzysta z dokumentów i plików wsadowych do automatyzacji zadań, wykonywania zadań administracyjnych na wysokim poziomie oraz rozwiązywania problemów związanych z systemem operacyjnym.
+
+Windows Command Processor to oficjalna nazwa wiersza polecenia, znana również jako command shell czy cmd prompt.
 
 ### Otwórz CMD jako administrator
 

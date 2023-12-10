@@ -27,14 +27,17 @@ UseHugoToc: true
 params:
     ShowShareButtons: true
 ---
-## On Windows
-If your operating system is Windows
 
-### What is CMD?
+## What Will We Be Doing?
 
-CMD is a command-line translation tool in the Windows operating system. Windows OS has a command-line translation tool called CMD, which is used to create embedded references. Most of those commands use batch documents and files to automate tasks, perform high-level administrative tasks, and troubleshoot or resolve certain Windows issues.
+In this article, I will describe how to display the Wi-Fi password, provided that your computer has previously connected to this network.
 
-Windows Command Processor is the official name of the command prompt, also known as command shell, cmd prompt, or by its file name, cmd.exe.
+
+## Na Windowsie
+
+Skorzystamy z CMD czyli narzędzia do tłumaczenia poleceń w systemie Windows. CMD jest używane do tworzenia osadzonych odwołań. Większość tych poleceń korzysta z dokumentów i plików wsadowych do automatyzacji zadań, wykonywania zadań administracyjnych na wysokim poziomie oraz rozwiązywania problemów związanych z systemem operacyjnym.
+
+Windows Command Processor to oficjalna nazwa wiersza polecenia, znana również jako command shell czy cmd prompt.
 
 ### Open CMD as Administrator
 
