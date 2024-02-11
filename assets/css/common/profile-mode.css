@@ -12,9 +12,10 @@
 }
 
 .profile_inner {
-    display: grid;
-    grid-template-rows: auto 1fr auto; /* Pierwszy wiersz dla obrazka, drugi wiersz dla h1 i span, trzeci wiersz dla buttonów */
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
 }
 
 .profile .profile_inner h1 {

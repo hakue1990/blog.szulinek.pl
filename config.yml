@@ -37,7 +37,7 @@ languages:
       subtitle: "☄️ Szybko | ☁️ Płynnie | 🌙 Zwinnie | 📱 Responsywnie"
       imageUrl: "/img/dark.png" # optional
       imageTitle: "szulinek the fox" # optional
-      imageWidth: 400 # custom size
+      imageWidth: 370 # custom size
       imageHeight: 300 # custom size
       buttons:
         - name: Blog
@@ -69,18 +69,21 @@ languages:
     languageAltTitle: English
     weight: 2
     title: IT Tech Anytime
+    
     # taxonomies:
     #   category: FRcategories
     #   tag: FRtags
     #   series: FRseries
     profileMode:
       enabled: true
-      imageUrl: "/img/dark.png" # optional
-      imageTitle: "szulinek the fox" # optional
-      imageWidth: 370 # custom size
-      imageHeight: 300 # custom size
       title: IT without a headache!
       subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+      imageUrl: "/img/dark.png" # optional
+      imageTitle: "szulinek the fox" # optional
+
+      imageWidth: 370 # custom size
+      imageHeight: 300 # custom size
       buttons:
         - name: Blog
           url: /en/posts
