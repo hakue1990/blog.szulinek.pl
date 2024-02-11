@@ -5,7 +5,17 @@
     <link>https://szulinek.pl/pl/</link>
     <description>Recent content on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Oct 2023 20:37:55 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language>
+    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="https://szulinek.pl/pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jak wyświetlić hasło do Wifi?</title>
+      <link>https://szulinek.pl/pl/posts/display-wifi-password/</link>
+      <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/display-wifi-password/</guid>
+      <description>Jak wyświetlić hasło do Wifi?</description>
+    </item>
+    
     <item>
       <title>Go Cheatsheet</title>
       <link>https://szulinek.pl/pl/posts/go-cheatsheet/</link>
@@ -84,8 +94,8 @@
       <pubDate>Fri, 07 Jul 2023 17:41:21 +0200</pubDate>
       
       <guid>https://szulinek.pl/pl/services/</guid>
-      <description>Wdrażanie aplikacji webowych w chmurze Oferuję usługę wdrażania aplikacji webowych w środowiskach chmurowych. Dzięki temu możesz cieszyć się skalowalnością, bezpieczeństwem i szybkim wdrożeniem. Twój projekt zasługuje na nowoczesne rozwiązania. Jestem gotów Ci w tym pomóc.
-Bezpieczeństwo i niezawodność Bezpieczeństwo i niezawodność są dla mnie niezwykle ważne. Dlatego dbam o stosowanie najlepszych praktyk w zakresie zabezpieczeń, testowania i utrzymania strony. Zapewniam również wsparcie techniczne po wdrożeniu, aby klient mógł być pewny, że jestem zawsze gotów pomóc w przypadku jakichkolwiek pytań lub problemów.</description>
+      <description>Wdrażanie aplikacji webowych w chmurze Oferuję usługę wdrażania aplikacji webowych w środowiskach chmurowych. Dzięki temu możesz cieszyć się skalowalnością, bezpieczeństwem i szybkim deployem. Twój projekt zasługuje na nowoczesne rozwiązania. Jestem gotów Ci w tym pomóc.
+Bezpieczeństwo i niezawodność Bezpieczeństwo jest dla mnie niezwykle ważne. Dlatego dbam o stosowanie najlepszych praktyk w zakresie zabezpieczeń, testowania i utrzymania aplikacji. Zapewniam również wsparcie techniczne po wdrożeniu, aby klient mógł być pewny, że jestem zawsze gotów pomóc w przypadku jakichkolwiek pytań lub problemów.</description>
     </item>
     
     <item>
@@ -151,7 +161,7 @@ Bezpieczeństwo i niezawodność Bezpieczeństwo i niezawodność są dla mnie n
       
       <guid>https://szulinek.pl/pl/about/</guid>
       <description>Whoami Na imię mam Adam i jestem specjalistą IT, na codzień zarządzam serwerami w chmurze, optymalizuje strony internetowe oraz dbam o stabilne i szybkie działanie usług w sieci.
-Doświadczenie Posiadam znaczne doświadczenie w pracy z infrastrukturą internetową. Codziennie administruję hostami o różnej skali, zarówno w chmurze, jak i na lokalnych maszynach. Moje umiejętności obejmują konfigurację serwera, wdrażanie aplikacji internetowych, monitorowanie wydajności i pisanie skryptów.
+Doświadczenie Posiadam doświadczenie w pracy z infrastrukturą internetową. Codziennie administruję hostami o różnej skali - w chmurze oraz lokalnie. Potrafię skonfigurować serwer oraz wdrożyć aplikacje internetowe, monitoruje wydajnośc i piszę skrypty.
 Kontakt Jeśli potrzebujesz pomocy w zarządzaniu serwerem, optymalizacji strony lub tworzeniu szybkich rozwiązań internetowych, śmiało się ze mną skontaktuj.</description>
     </item>
     

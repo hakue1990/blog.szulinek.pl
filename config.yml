@@ -1,5 +1,5 @@
 baseURL: "https://szulinek.pl"
-languageCode: ["pl", "en"]
+#languageCode: ["pl", "en"]
 title: IT Tech Anytime
 theme: PaperMod
 
@@ -14,13 +14,9 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 
-
-
-
 minify:
   disableXML: true
   minifyOutput: true
-
 
 ## Poniższy parametr jest kluczowy jeśli chodzi wielojęzyczność
 defaultContentLanguage: pl
@@ -39,6 +35,10 @@ languages:
       enabled: true
       title: IT bez bólu głowy!
       subtitle: "☄️ Szybko | ☁️ Płynnie | 🌙 Zwinnie | 📱 Responsywnie"
+      imageUrl: "/img/dark.png" # optional
+      imageTitle: "szulinek the fox" # optional
+      imageWidth: 400 # custom size
+      imageHeight: 300 # custom size
       buttons:
         - name: Blog
           url: posts
@@ -61,13 +61,9 @@ languages:
         - name: Archiwa
           url: /pl/archives/
           weight: 20
-        # - name: Szukaj
-        #   url: search
-        #   weight: 25
+########### END POLISH ##########
+########### ENGLISH ##########
 
-        # - name: Portfolio
-        #   url: https://portfolio.szulinek.pl#projects
-        #   weight: 25
   en:
     languageName: ":en:"
     languageAltTitle: English
@@ -79,6 +75,10 @@ languages:
     #   series: FRseries
     profileMode:
       enabled: true
+      imageUrl: "/img/dark.png" # optional
+      imageTitle: "szulinek the fox" # optional
+      imageWidth: 370 # custom size
+      imageHeight: 300 # custom size
       title: IT without a headache!
       subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
       buttons:
@@ -107,16 +107,11 @@ languages:
         #   url: search
         #   weight: 25
 
-        # - name: Portfolio
-        #   url: https://portfolio.szulinek.pl#projects
-        #   weight: 25
-  
+  ########### END ENGLISH ##########
 params:
   ShowCodeCopyButtons: true
   defaultTheme: dark
   homeInfoParams:
-    Title: Hello Stranger!
-    Content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac tincidunt nulla. Praesent eleifend vel ligula vel convallis. Nulla ac mauris et risus molestie rhoncus sed eu arcu. Nam suscipit porta augue vel porttitor. Praesent varius quam ante, at auctor augue porttitor id. Nulla ut neque id justo posuere efficitur sed vel odio. Quisque a porttitor turpis. Ut gravida, arcu a ultrices pharetra, risus erat molestie sem, eget porttitor sapien nunc a neque..
   socialIcons:
     - name: github
       url: "https://github.com/hakue1990"
@@ -124,38 +119,10 @@ params:
       url: "https://szulinek.pl"
     - name: linkedin
       url: "https://www.linkedin.com/in/adam-ha%C5%82da%C5%9B-49616a183/"
-
-## add Logo
+## add Logo to Navbar
   label:
         text: "Szulinek IT"
         icon: "/img/coding.png"
-        iconHeight: 35
-
-### Add Image to a Hero Section
-
-  profileMode:
-    enabled: true
-    title: "Tech without a headache!" # optional default will be site title
-    subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-
-    buttons:
-      - name: Archives
-        url: "/en/archives/"
-      - name: Contact
-        url: "/en/contact/"
-    author: ["Me", "You"]
+        iconHeight: 40
 
 
-  assets: 
-    favicon: "/assets/favicon/favicon.ico" 
-    favicon16x16: "/assets/favicon/favicon-16x16.png" 
-    avicon32x32: "/assets/favicon/favicon-32x32.png" 
-    apple_touch_icon: "/assets/favicon/apple-touch-icon.png" 
-    # safari_pinned_tab: "/assets/favicon/" 
-
-
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary

@@ -5,7 +5,17 @@
     <link>https://szulinek.pl/pl/tags/web/</link>
     <description>Recent content in web on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Aug 2023 17:41:15 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language>
+    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jak wyświetlić hasło do Wifi?</title>
+      <link>https://szulinek.pl/pl/posts/display-wifi-password/</link>
+      <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
+      
+      <guid>https://szulinek.pl/pl/posts/display-wifi-password/</guid>
+      <description>Jak wyświetlić hasło do Wifi?</description>
+    </item>
+    
     <item>
       <title>Docker Nextcloud</title>
       <link>https://szulinek.pl/pl/posts/docker-nextcloud/</link>

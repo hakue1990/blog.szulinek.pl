@@ -5,7 +5,17 @@
     <link>https://szulinek.pl/en/</link>
     <description>Recent content on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Oct 2023 20:38:06 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="https://szulinek.pl/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to display Wifi password?</title>
+      <link>https://szulinek.pl/en/posts/display-wifi-password/</link>
+      <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
+      
+      <guid>https://szulinek.pl/en/posts/display-wifi-password/</guid>
+      <description>How to display Wifi pass?</description>
+    </item>
+    
     <item>
       <title>Go Cheatsheet</title>
       <link>https://szulinek.pl/en/posts/go-cheatsheet/</link>
@@ -84,8 +94,8 @@
       <pubDate>Fri, 07 Jul 2023 17:41:18 +0200</pubDate>
       
       <guid>https://szulinek.pl/en/services/</guid>
-      <description>Deploying Web Applications in the Cloud I provide a service for deploying web applications in cloud environments. This allows you to enjoy scalability, security, and swift deployment. Your project deserves modern solutions. I&amp;rsquo;m ready to assist you with that.
-Security and Reliability Security and reliability are of utmost importance to me. I adhere to best practices in terms of security, testing, and website maintenance. I also provide technical support after deployment, ensuring that clients can rely on me for any questions or issues that may arise.</description>
+      <description>Deployment of Web Applications in the Cloud I offer a service for deploying web applications in cloud environments. This allows you to enjoy scalability, security, and fast deployment. Your project deserves modern solutions, and I am ready to assist you in achieving that.
+Security and Reliability Security is of utmost importance to me. Therefore, I ensure the implementation of best practices in security, testing, and application maintenance. I also provide post-deployment technical support, ensuring clients can have confidence that I am always ready to help with any questions or issues.</description>
     </item>
     
     <item>
@@ -151,7 +161,7 @@ Security and Reliability Security and reliability are of utmost importance to me
       
       <guid>https://szulinek.pl/en/about/</guid>
       <description>Whoami My name is Adam, and I am an IT specialist. I manage cloud servers on a daily basis, optimize websites, and ensure the stable and fast operation of webervices.
-Experience I have significant experience working with internet infrastructure. I administer hosts of various scales, both in the cloud and on local machines, on a daily basis. My skills include server configuration, deploying web applications, performance monitoring, and scripting.
+Experience I have experience working with internet infrastructure. I administer hosts of various scales daily, both in the cloud and locally. I am capable of configuring servers, deploying web applications, monitoring performance, and scripting.
 Contact If you need assistance with server management, website optimization, or creating fast internet solutions, feel free to get in touch with me.</description>
     </item>
     

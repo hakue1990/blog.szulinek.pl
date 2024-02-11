@@ -5,7 +5,26 @@
     <link>https://szulinek.pl/en/tags/</link>
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Oct 2023 20:38:06 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>toturial</title>
+      <link>https://szulinek.pl/en/tags/toturial/</link>
+      <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
+      
+      <guid>https://szulinek.pl/en/tags/toturial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://szulinek.pl/en/tags/web/</link>
+      <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
+      
+      <guid>https://szulinek.pl/en/tags/web/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cheatsheet</title>
       <link>https://szulinek.pl/en/tags/cheatsheet/</link>
@@ -66,24 +85,6 @@
       <pubDate>Mon, 07 Aug 2023 17:41:29 +0200</pubDate>
       
       <guid>https://szulinek.pl/en/tags/nextcloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>toturial</title>
-      <link>https://szulinek.pl/en/tags/toturial/</link>
-      <pubDate>Mon, 07 Aug 2023 17:41:29 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/tags/toturial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://szulinek.pl/en/tags/web/</link>
-      <pubDate>Mon, 07 Aug 2023 17:41:29 +0200</pubDate>
-      
-      <guid>https://szulinek.pl/en/tags/web/</guid>
       <description></description>
     </item>
     
