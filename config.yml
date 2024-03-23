@@ -3,9 +3,6 @@ baseURL: "https://szulinek.pl"
 title: IT Tech Anytime
 theme: PaperMod
 
-
-
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -65,7 +62,6 @@ languages:
           url: /pl/archives/
           weight: 20
 
-
 ########### END POLISH ##########
 ########### ENGLISH ##########
 
@@ -120,9 +116,14 @@ languages:
 
   ########### END ENGLISH ##########
 params:
-  assets:
-    disableHLJS: true
-    favicon: "assets/favicon.ico"
+  assets: 
+    assets:
+        disableHLJS: true
+        favicon: "./assets/favicon/favicon.ico"
+        favicon16x16: "./assets/favicon/favicon-16x16.png"
+        favicon32x32: "./assets/favicon/favicon-32x32.png"
+
+
   ShowCodeCopyButtons: true
   defaultTheme: dark
   homeInfoParams:
