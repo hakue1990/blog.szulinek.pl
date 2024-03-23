@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>github on IT Tech Anytime</title>
-    <link>https://szulinek.pl/en/categories/github/</link>
-    <description>Recent content in github on IT Tech Anytime</description>
+    <title>Github on IT Tech Anytime</title>
+    <link>http://localhost:1313/en/categories/github/</link>
+    <description>Recent content in Github on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Sep 2023 19:13:12 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Sep 2023 19:13:12 +0200</lastBuildDate><atom:link href="http://localhost:1313/en/categories/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploy hugo app &amp;&amp; github actions</title>
-      <link>https://szulinek.pl/en/posts/github-actions-deploy-hugo-app/</link>
+      <link>http://localhost:1313/en/posts/github-actions-deploy-hugo-app/</link>
       <pubDate>Thu, 28 Sep 2023 19:13:12 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/github-actions-deploy-hugo-app/</guid>
+      <guid>http://localhost:1313/en/posts/github-actions-deploy-hugo-app/</guid>
       <description>hugo app deploy &amp;amp;&amp;amp; github actions</description>
     </item>
     

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>nextcloud on IT Tech Anytime</title>
-    <link>https://szulinek.pl/en/tags/nextcloud/</link>
-    <description>Recent content in nextcloud on IT Tech Anytime</description>
+    <title>Nextcloud on IT Tech Anytime</title>
+    <link>http://localhost:1313/en/tags/nextcloud/</link>
+    <description>Recent content in Nextcloud on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Aug 2023 17:41:29 +0200</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/nextcloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 17:41:29 +0200</lastBuildDate><atom:link href="http://localhost:1313/en/tags/nextcloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Nextcloud</title>
-      <link>https://szulinek.pl/en/posts/docker-nextcloud/</link>
+      <link>http://localhost:1313/en/posts/docker-nextcloud/</link>
       <pubDate>Mon, 07 Aug 2023 17:41:29 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/docker-nextcloud/</guid>
+      <guid>http://localhost:1313/en/posts/docker-nextcloud/</guid>
       <description>my own NextCloud</description>
     </item>
     

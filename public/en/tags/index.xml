@@ -2,152 +2,152 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on IT Tech Anytime</title>
-    <link>https://szulinek.pl/en/tags/</link>
+    <link>http://localhost:1313/en/tags/</link>
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>toturial</title>
-      <link>https://szulinek.pl/en/tags/toturial/</link>
+      <title>Toturial</title>
+      <link>http://localhost:1313/en/tags/toturial/</link>
       <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/toturial/</guid>
+      <guid>http://localhost:1313/en/tags/toturial/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>web</title>
-      <link>https://szulinek.pl/en/tags/web/</link>
+      <title>Web</title>
+      <link>http://localhost:1313/en/tags/web/</link>
       <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/web/</guid>
+      <guid>http://localhost:1313/en/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cheatsheet</title>
-      <link>https://szulinek.pl/en/tags/cheatsheet/</link>
+      <title>Cheatsheet</title>
+      <link>http://localhost:1313/en/tags/cheatsheet/</link>
       <pubDate>Thu, 19 Oct 2023 20:38:06 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/cheatsheet/</guid>
+      <guid>http://localhost:1313/en/tags/cheatsheet/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>go</title>
-      <link>https://szulinek.pl/en/tags/go/</link>
+      <title>Go</title>
+      <link>http://localhost:1313/en/tags/go/</link>
       <pubDate>Thu, 19 Oct 2023 20:38:06 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/go/</guid>
+      <guid>http://localhost:1313/en/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>github</title>
-      <link>https://szulinek.pl/en/tags/github/</link>
+      <title>Github</title>
+      <link>http://localhost:1313/en/tags/github/</link>
       <pubDate>Thu, 28 Sep 2023 19:13:12 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/github/</guid>
+      <guid>http://localhost:1313/en/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>https://szulinek.pl/en/tags/hugo/</link>
+      <title>Hugo</title>
+      <link>http://localhost:1313/en/tags/hugo/</link>
       <pubDate>Thu, 28 Sep 2023 19:13:12 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/hugo/</guid>
+      <guid>http://localhost:1313/en/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>docker</title>
-      <link>https://szulinek.pl/en/tags/docker/</link>
+      <title>Docker</title>
+      <link>http://localhost:1313/en/tags/docker/</link>
       <pubDate>Thu, 31 Aug 2023 09:43:45 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/docker/</guid>
+      <guid>http://localhost:1313/en/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>traefik</title>
-      <link>https://szulinek.pl/en/tags/traefik/</link>
+      <title>Traefik</title>
+      <link>http://localhost:1313/en/tags/traefik/</link>
       <pubDate>Thu, 31 Aug 2023 09:43:45 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/traefik/</guid>
+      <guid>http://localhost:1313/en/tags/traefik/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>nextcloud</title>
-      <link>https://szulinek.pl/en/tags/nextcloud/</link>
+      <title>Nextcloud</title>
+      <link>http://localhost:1313/en/tags/nextcloud/</link>
       <pubDate>Mon, 07 Aug 2023 17:41:29 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/nextcloud/</guid>
+      <guid>http://localhost:1313/en/tags/nextcloud/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tech</title>
-      <link>https://szulinek.pl/en/tags/tech/</link>
+      <title>Tech</title>
+      <link>http://localhost:1313/en/tags/tech/</link>
       <pubDate>Sat, 22 Jul 2023 19:33:36 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/tech/</guid>
+      <guid>http://localhost:1313/en/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bash</title>
-      <link>https://szulinek.pl/en/tags/bash/</link>
+      <title>Bash</title>
+      <link>http://localhost:1313/en/tags/bash/</link>
       <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/bash/</guid>
+      <guid>http://localhost:1313/en/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>www</title>
-      <link>https://szulinek.pl/en/tags/www/</link>
+      <title>Www</title>
+      <link>http://localhost:1313/en/tags/www/</link>
       <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/www/</guid>
+      <guid>http://localhost:1313/en/tags/www/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hosting</title>
-      <link>https://szulinek.pl/en/tags/hosting/</link>
+      <title>Hosting</title>
+      <link>http://localhost:1313/en/tags/hosting/</link>
       <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/hosting/</guid>
+      <guid>http://localhost:1313/en/tags/hosting/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>.htaccess</title>
-      <link>https://szulinek.pl/en/tags/.htaccess/</link>
+      <title>.Htaccess</title>
+      <link>http://localhost:1313/en/tags/.htaccess/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/.htaccess/</guid>
+      <guid>http://localhost:1313/en/tags/.htaccess/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>server</title>
-      <link>https://szulinek.pl/en/tags/server/</link>
+      <title>Server</title>
+      <link>http://localhost:1313/en/tags/server/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/server/</guid>
+      <guid>http://localhost:1313/en/tags/server/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>website</title>
-      <link>https://szulinek.pl/en/tags/website/</link>
+      <title>Website</title>
+      <link>http://localhost:1313/en/tags/website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/tags/website/</guid>
+      <guid>http://localhost:1313/en/tags/website/</guid>
       <description></description>
     </item>
     

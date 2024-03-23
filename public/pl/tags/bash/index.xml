@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>bash on IT Tech Anytime</title>
-    <link>https://szulinek.pl/pl/tags/bash/</link>
-    <description>Recent content in bash on IT Tech Anytime</description>
+    <title>Bash on IT Tech Anytime</title>
+    <link>http://localhost:1313/pl/tags/bash/</link>
+    <description>Recent content in Bash on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Fri, 21 Jul 2023 21:22:03 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 21:22:03 +0200</lastBuildDate><atom:link href="http://localhost:1313/pl/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash Cheatsheet</title>
-      <link>https://szulinek.pl/pl/posts/bash-cheatsheet/</link>
+      <link>http://localhost:1313/pl/posts/bash-cheatsheet/</link>
       <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/bash-cheatsheet/</guid>
+      <guid>http://localhost:1313/pl/posts/bash-cheatsheet/</guid>
       <description>Zacznij pisać skrypty powłoki</description>
     </item>
     

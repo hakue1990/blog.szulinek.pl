@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>web on IT Tech Anytime</title>
-    <link>https://szulinek.pl/en/tags/web/</link>
-    <description>Recent content in web on IT Tech Anytime</description>
+    <title>Web on IT Tech Anytime</title>
+    <link>http://localhost:1313/en/tags/web/</link>
+    <description>Recent content in Web on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="https://szulinek.pl/en/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to display Wifi password?</title>
-      <link>https://szulinek.pl/en/posts/display-wifi-password/</link>
+      <link>http://localhost:1313/en/posts/display-wifi-password/</link>
       <pubDate>Tue, 14 Nov 2023 18:47:37 +0100</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/display-wifi-password/</guid>
+      <guid>http://localhost:1313/en/posts/display-wifi-password/</guid>
       <description>How to display Wifi pass?</description>
     </item>
     
     <item>
       <title>Docker Nextcloud</title>
-      <link>https://szulinek.pl/en/posts/docker-nextcloud/</link>
+      <link>http://localhost:1313/en/posts/docker-nextcloud/</link>
       <pubDate>Mon, 07 Aug 2023 17:41:29 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/docker-nextcloud/</guid>
+      <guid>http://localhost:1313/en/posts/docker-nextcloud/</guid>
       <description>my own NextCloud</description>
     </item>
     
     <item>
       <title>MySql Cheatsheet</title>
-      <link>https://szulinek.pl/en/posts/mysql-cheatsheet/</link>
+      <link>http://localhost:1313/en/posts/mysql-cheatsheet/</link>
       <pubDate>Sat, 22 Jul 2023 19:33:36 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/mysql-cheatsheet/</guid>
+      <guid>http://localhost:1313/en/posts/mysql-cheatsheet/</guid>
       <description>Mysql cheatsheet</description>
     </item>
     
     <item>
       <title>Docker Cheatsheet</title>
-      <link>https://szulinek.pl/en/posts/docker-cheatsheet/</link>
+      <link>http://localhost:1313/en/posts/docker-cheatsheet/</link>
       <pubDate>Fri, 21 Jul 2023 07:14:12 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/docker-cheatsheet/</guid>
+      <guid>http://localhost:1313/en/posts/docker-cheatsheet/</guid>
       <description>little About Docker Containers</description>
     </item>
     
     <item>
       <title>Website optimization</title>
-      <link>https://szulinek.pl/en/posts/fast_website/</link>
+      <link>http://localhost:1313/en/posts/fast_website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/en/posts/fast_website/</guid>
+      <guid>http://localhost:1313/en/posts/fast_website/</guid>
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     

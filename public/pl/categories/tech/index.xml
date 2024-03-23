@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tech on IT Tech Anytime</title>
-    <link>https://szulinek.pl/pl/categories/tech/</link>
-    <description>Recent content in tech on IT Tech Anytime</description>
+    <title>Tech on IT Tech Anytime</title>
+    <link>http://localhost:1313/pl/categories/tech/</link>
+    <description>Recent content in Tech on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sat, 22 Jul 2023 18:47:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 18:47:05 +0200</lastBuildDate><atom:link href="http://localhost:1313/pl/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mysql Cheatsheet</title>
-      <link>https://szulinek.pl/pl/posts/mysql-cheatsheet/</link>
+      <link>http://localhost:1313/pl/posts/mysql-cheatsheet/</link>
       <pubDate>Sat, 22 Jul 2023 18:47:05 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/mysql-cheatsheet/</guid>
+      <guid>http://localhost:1313/pl/posts/mysql-cheatsheet/</guid>
       <description>Mysql cheatsheet</description>
     </item>
     
     <item>
       <title>Bash Cheatsheet</title>
-      <link>https://szulinek.pl/pl/posts/bash-cheatsheet/</link>
+      <link>http://localhost:1313/pl/posts/bash-cheatsheet/</link>
       <pubDate>Fri, 21 Jul 2023 21:22:03 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/bash-cheatsheet/</guid>
+      <guid>http://localhost:1313/pl/posts/bash-cheatsheet/</guid>
       <description>Zacznij pisać skrypty powłoki</description>
     </item>
     
     <item>
       <title>Administracja systemami</title>
-      <link>https://szulinek.pl/pl/posts/system_administration/</link>
+      <link>http://localhost:1313/pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/system_administration/</guid>
+      <guid>http://localhost:1313/pl/posts/system_administration/</guid>
       <description>Serwery typu Cloud i nie tylko</description>
     </item>
     
     <item>
       <title>Optymalizacja stron www</title>
-      <link>https://szulinek.pl/pl/posts/fast_website/</link>
+      <link>http://localhost:1313/pl/posts/fast_website/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/fast_website/</guid>
+      <guid>http://localhost:1313/pl/posts/fast_website/</guid>
       <description>Co musisz wiedzieć o optymalizacji stron www?</description>
     </item>
     
     <item>
       <title>plik .htaccess</title>
-      <link>https://szulinek.pl/pl/posts/htaccess-file/</link>
+      <link>http://localhost:1313/pl/posts/htaccess-file/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/htaccess-file/</guid>
+      <guid>http://localhost:1313/pl/posts/htaccess-file/</guid>
       <description>Przydatne reguły pliku .htaccess</description>
     </item>
     
     <item>
       <title>Web dev</title>
-      <link>https://szulinek.pl/pl/posts/www_websites/</link>
+      <link>http://localhost:1313/pl/posts/www_websites/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/www_websites/</guid>
+      <guid>http://localhost:1313/pl/posts/www_websites/</guid>
       <description>fast as hell websites</description>
     </item>
     

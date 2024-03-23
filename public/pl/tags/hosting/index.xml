@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hosting on IT Tech Anytime</title>
-    <link>https://szulinek.pl/pl/tags/hosting/</link>
-    <description>Recent content in hosting on IT Tech Anytime</description>
+    <title>Hosting on IT Tech Anytime</title>
+    <link>http://localhost:1313/pl/tags/hosting/</link>
+    <description>Recent content in Hosting on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jul 2023 17:34:05 +0200</lastBuildDate><atom:link href="http://localhost:1313/pl/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iptables</title>
-      <link>https://szulinek.pl/pl/posts/iptables/</link>
+      <link>http://localhost:1313/pl/posts/iptables/</link>
       <pubDate>Sun, 09 Jul 2023 17:34:05 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/iptables/</guid>
+      <guid>http://localhost:1313/pl/posts/iptables/</guid>
       <description>reguły firewalla czyli iptables</description>
     </item>
     
     <item>
       <title>Administracja systemami</title>
-      <link>https://szulinek.pl/pl/posts/system_administration/</link>
+      <link>http://localhost:1313/pl/posts/system_administration/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/system_administration/</guid>
+      <guid>http://localhost:1313/pl/posts/system_administration/</guid>
       <description>Serwery typu Cloud i nie tylko</description>
     </item>
     
     <item>
       <title>plik .htaccess</title>
-      <link>https://szulinek.pl/pl/posts/htaccess-file/</link>
+      <link>http://localhost:1313/pl/posts/htaccess-file/</link>
       <pubDate>Tue, 27 Jun 2023 20:39:16 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/htaccess-file/</guid>
+      <guid>http://localhost:1313/pl/posts/htaccess-file/</guid>
       <description>Przydatne reguły pliku .htaccess</description>
     </item>
     

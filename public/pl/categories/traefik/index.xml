@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>traefik on IT Tech Anytime</title>
-    <link>https://szulinek.pl/pl/categories/traefik/</link>
-    <description>Recent content in traefik on IT Tech Anytime</description>
+    <title>Traefik on IT Tech Anytime</title>
+    <link>http://localhost:1313/pl/categories/traefik/</link>
+    <description>Recent content in Traefik on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Thu, 31 Aug 2023 09:43:45 +0200</lastBuildDate><atom:link href="https://szulinek.pl/pl/categories/traefik/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 09:43:45 +0200</lastBuildDate><atom:link href="http://localhost:1313/pl/categories/traefik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Traefik, Docker i SSL</title>
-      <link>https://szulinek.pl/pl/posts/traefik-docker/</link>
+      <link>http://localhost:1313/pl/posts/traefik-docker/</link>
       <pubDate>Thu, 31 Aug 2023 09:43:45 +0200</pubDate>
       
-      <guid>https://szulinek.pl/pl/posts/traefik-docker/</guid>
+      <guid>http://localhost:1313/pl/posts/traefik-docker/</guid>
       <description>Traefik reverse proxy</description>
     </item>
     

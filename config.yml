@@ -55,12 +55,17 @@ languages:
         - name: Blog
           url: posts/
           weight: 15
+        - name: Strony www
+          url: /pl/www/
+          weight: 16
         - name: Kontakt
           url: contact/
           weight: 20
         - name: Archiwa
           url: /pl/archives/
           weight: 20
+
+
 ########### END POLISH ##########
 ########### ENGLISH ##########
 
