@@ -120,6 +120,9 @@ languages:
 
   ########### END ENGLISH ##########
 params:
+  assets:
+    disableHLJS: true
+    favicon: "assets/favicon.ico"
   ShowCodeCopyButtons: true
   defaultTheme: dark
   homeInfoParams:
