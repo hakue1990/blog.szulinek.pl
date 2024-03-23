@@ -2,6 +2,9 @@
 title: "szybkie strony www"
 date: 2024-03-23T20:56:36+01:00
 draft: false
+cover:
+    image: img/assets/websites.png
+    alt: 'Usługi'
 ---
 ### Masz tylko chwilę
 by zainteresować potencjalnego klienta swoją ofertą? Twoja strona internetowa musi spełniać jego potrzeby. Posiadanie witryny online to nie tylko trend, ale też kluczowy fundament, który możemy dla Ciebie stworzyć.

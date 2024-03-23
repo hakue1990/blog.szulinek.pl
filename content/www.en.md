@@ -2,6 +2,9 @@
 title: "Websites"
 date: 2024-03-23T21:14:52+01:00
 draft: false
+cover:
+    image: img/assets/websites.png
+    alt: 'Usługi'
 ---
 
 ### You've only got a moment
