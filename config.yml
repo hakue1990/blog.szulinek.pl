@@ -55,7 +55,7 @@ languages:
         - name: Blog
           url: posts/
           weight: 15
-        - name: Strony www
+        - name: Strony
           url: /pl/www/
           weight: 16
         - name: Kontakt
@@ -105,6 +105,9 @@ languages:
         - name: Blog
           url: /en/posts/
           weight: 15
+        - name: Websites
+          url: /en/www/
+          weight: 16
         - name: Contact
           url: /en/contact/
           weight: 20
