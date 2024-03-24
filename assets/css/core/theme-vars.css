@@ -6,7 +6,7 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: #c8d8d5;
+    --theme: #EBF3E3; /* Light bg Color: */
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
@@ -14,12 +14,12 @@
     --content: rgb(31, 31, 31);
     --hljs-bg: rgb(28, 29, 33);
     /* Background Color: */
-    --code-bg: #c8d8d5; 
+    --code-bg: #EBF3E3; /* Blog bg Color: */
     --border: rgb(238, 238, 238);
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
+    --theme: rgb(29, 30, 32);  /* Dark bg Color: */
     --entry: rgb(46, 46, 51);
     --primary: rgb(218, 218, 219);
     --secondary: rgb(155, 156, 157);
