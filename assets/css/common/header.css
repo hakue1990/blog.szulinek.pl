@@ -25,11 +25,8 @@
 .logo a {
     font-size: 24px;
     font-weight: 700;
+}
 
-}
-#menu > li > a > span {
-    color: white;
-}
 .logo a img, .logo a svg {
     display: inline;
     vertical-align: middle;
@@ -99,57 +96,19 @@ body:not(.dark) #sun {
 @media screen and (max-width: 767px) {
 
         #menu {
-            background-color: white;
+            background-color: black;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
             height: 100vh;
             position: fixed;
-            z-index: 51;
+            z-index: 1;
             right: 0;
+            color: white;
             font-weight: bold;
             width: 50%;
-            transform: translateX(105%);
-            transition: transform 0.3s ease;
-
         }
-        body.dark #menu {
-            background-color: #0A011C;
-            color: white;
-        }
-
-
-
-
-
-body:not(.dark) .hamburger__inner, body:not(.dark)  .hamburger__inner::before,body:not(.dark)  .hamburger__inner::after{
-    background-color: #0A011C;
-}
-
-
-
-        body:not(.dark) #menu {
-            background-color: #B7B8F6;
-            color: black;
-        }
-        #top-link {
-            z-index: 1;
-        }
-/* Dodaj klasę menu--active do animacji przesunięcia menu */
-#menu.menu--active {
-    transform: translateX(20%);
-    transition: transform 0.3s ease;
-}
-
-/* Przykładowa animacja hamburgera */
-.hamburger--active .hamburger__inner::before {
-    transform: translateY(5px) rotate(45deg);
-}
-.hamburger--active .hamburger__inner::after {
-    transform: translateY(-5px) rotate(-45deg);
-}
-
    /*Hamburger button*/
 .hamburger {
     width: 30px;
@@ -158,7 +117,7 @@ body:not(.dark) .hamburger__inner, body:not(.dark)  .hamburger__inner::before,bo
     background: transparent;
     display: block;
     z-index: 100;
-    position: fixed;
+    position: absolute;
     right: 25px;
   }
   
