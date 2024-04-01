@@ -56,3 +56,6 @@ if (themeToggleBtn1) {
         changeContactImg();
     });
 }
+
+
+console.log("laduje js")
