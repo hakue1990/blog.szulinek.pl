@@ -1,7 +1,7 @@
 ---
 title: "Nginx"
 date: 2024-04-02T21:30:35+02:00
-draft: true
+draft: false
 cover:
     image: img/post-images/nginxx.png
     alt: 'nginx'
@@ -25,6 +25,9 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+
+params:
+    ShowShareButtons: true 
 ---
 ## Wprowadzenie:
 ### Ten samouczek będzie miał trzy części:
