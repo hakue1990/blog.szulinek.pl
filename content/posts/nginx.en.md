@@ -31,7 +31,7 @@ params:
 ---
 ## Introduction:
 
-### Today we'll consider:
+### Today we'll consider about:
 
 - *Basic Concepts:* Understanding the difference between directive and context, inheritance model, and the order in which nginx selects server blocks and locations.
 
