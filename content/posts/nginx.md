@@ -31,12 +31,11 @@ params:
 ---
 ## Wprowadzenie:
 
-### Ten samouczek będzie składał się z omówienia:
+### Dziś skupimy się na:
 
 - *Podstawowe pojęcia:* poznanie różnicy między dyrektywą a kontekstem, model dziedziczenia i kolejność, w jakiej nginx wybiera bloki serwera i lokalizacje.
 
 
-Stworzyliśmy serię, w której łatwo znajdziesz odpowiednią konfigurację dla konkretnego tematu (takiego jak gzip, SSL, itp.), lub po prostu przeczytasz wszystko. Dla najlepszego doświadczenia zalecamy skonfigurowanie nginx na własnej maszynie wirtualnej Linux i pobawienie się nim samodzielnie.
 
 ## Czym jest Nginx?
 

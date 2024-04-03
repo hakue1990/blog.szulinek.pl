@@ -31,12 +31,10 @@ params:
 ---
 ## Introduction:
 
-### This tutorial will cover:
+### Today we'll consider:
 
 - *Basic Concepts:* Understanding the difference between directive and context, inheritance model, and the order in which nginx selects server blocks and locations.
 
-
-We've crafted a series where you can easily find the appropriate configuration for a specific topic (such as gzip, SSL, etc.), or simply read through everything. For the best experience, we recommend setting up nginx on your own Linux virtual machine and experimenting with it yourself.
 
 ## What is Nginx?
 
