@@ -1,5 +1,5 @@
 ---
-title: "Nginx"
+title: "Nginx prxy i serwer www"
 date: 2024-04-02T21:30:35+02:00
 draft: false
 cover:
