@@ -30,21 +30,19 @@ params:
     ShowShareButtons: true 
 ---
 ## Introduction:
-### This tutorial will have three parts:
 
-- *Basics concepts:* get to know the difference between directive and context, the inheritance model, and the order in which nginx picks server blocks and locations.
-- *Performance:* tips and tricks on improving speed. We will discuss gzip, caching, buffers, and timeouts.
-- *SSL setup:* set up the configuration to serve content over HTTPS.
+### This tutorial will cover:
 
-We aimed to create a series in which you can easily find the proper configuration for a particular topic (like gzip, SSL, etc.), or simply read it all through. For the best learning experience, we suggest you set nginx up on your own Linux VM and fiddle with it yourself.
+- *Basic Concepts:* Understanding the difference between directive and context, inheritance model, and the order in which nginx selects server blocks and locations.
+
+
+We've crafted a series where you can easily find the appropriate configuration for a specific topic (such as gzip, SSL, etc.), or simply read through everything. For the best experience, we recommend setting up nginx on your own Linux virtual machine and experimenting with it yourself.
 
 ## What is Nginx?
 
-Nginx  is a versatile web server known for its exceptional speed. Beyond serving web content, it functions as a reverse proxy, facilitating seamless integration with slower upstream servers such as Unicorn or Puma. Nginx enables traffic distribution through load balancing, supports media streaming, dynamic image resizing, content caching, and more. Its architecture comprises a master process overseeing worker processes responsible for handling requests, thus ensuring efficient operation.
+Nginx is a versatile web server known for its exceptional speed. Besides serving web content, it functions as a reverse proxy server and proxy, facilitating smooth integration with slower upstream servers like Unicorn or Puma. Nginx allows traffic distribution through load balancing, supports media streaming, dynamic image resizing, content caching, and much more. Its architecture consists of a master process overseeing worker processes responsible for handling requests, ensuring efficient operation.
 
 ## Basic Commands:
-
-
 
 To start nginx, simply type:
 
@@ -52,7 +50,7 @@ To start nginx, simply type:
 [sudo] nginx
 ```
 
-While your nginx instance is running, you can manage it by sending signals:
+Once your nginx server is running, you can manage it by sending signals:
 
 ```
 [sudo] nginx -s signal
@@ -60,16 +58,16 @@ While your nginx instance is running, you can manage it by sending signals:
 
 Available signals:
 
-- ```stop:``` fast shutdown
-- ```quit:``` graceful shutdown (wait for workers to finish their processes)
-- ```reload:``` reload the configuration file
-- ```reopen:``` reopen the log files
+- ```stop:``` quick shutdown
+- ```quit:``` graceful shutdown (waits for workers to finish processing)
+- ```reload:``` reload configuration file
+- ```reopen:``` reopen log files
 
 ## Directive and Context
 
-By default, the nginx configuration file can be found in:
+By default, the nginx configuration file is located at:
 
-```/etc/nginx/nginx.conf```,
+```/etc/nginx/nginx.conf```, 
 
 ```/usr/local/etc/nginx/nginx.conf```, 
 
@@ -77,10 +75,10 @@ or ```/usr/local/nginx/conf/nginx.conf```
 
 This file consists of:
 
-- directive: the option that consists of name and parameters; it should end with a semicolon
+- directive: an option consisting of a name and parameters; should end with a semicolon
 
 ```gzip on;```
-- context: the section where you can declare directives (similar to scope in programming languages)
+- context: a section where you can declare directives (similar to scope in programming languages)
 
 ```bash
 
@@ -95,17 +93,17 @@ http {              # http context
 }
 ```
 
-## Directive types
+## Types of Directives
 
-You have to pay attention when using the same directive in multiple contexts, as the inheritance model differs for different directives. There are 3 types of directives, each with its own inheritance model.
+You need to be careful when using the same directive in multiple contexts because the inheritance model differs for different directives. There are 3 types of directives, each with its own inheritance model.
 
 ### Normal
 
-Has one value per context. Also, it can be defined only once in the context. Subcontexts can override the parent directive, but this override will be valid only in a given subcontext.
+It has one value per context. Additionally, it can be defined only once within a context. Child contexts can override the parent directive, but this override will only be significant within that particular child context.
 
 ```bash
 gzip on;
-gzip off; # illegal to have 2 normal directives in same context
+gzip off; # having 2 normal directives in the same context is illegal
 
 server {
   location /downloads {
@@ -113,32 +111,32 @@ server {
   }
 
   location /assets {
-    # gzip is in here
+    # gzip is here
   }
 }
 ```
 ### Array
 
-Adding multiple directives in the same context will add to the values instead of overwriting them altogether. Defining a directive in a subcontext will override ALL parent values in the given subcontext.
+Adding multiple directives within the same context will add values instead of completely overriding them. Defining a directive within a child context will override ALL parent values within that child context.
 
 ```nginx
 error_log /var/log/nginx/error.log;
-error_log /var/log/nginx/error_notive.log notice;
+error_log /var/log/nginx/error_notice.log notice;
 error_log /var/log/nginx/error_debug.log debug;
 
 server {
   location /downloads {
-    # this will override all the parent directives
+    # this will override all parent directives
     error_log /var/log/nginx/error_downloads.log;
   }
 }
 ```
 
-### Action directive
+### Action Directive
 
-Actions are directives that change things. Their inheritance behaviour will depend on the module.
+Action directives are directives that change something. Their inheritance behavior will depend on the module.
 
-For example, in the case of the rewrite directive, every matching directive will be executed:
+For instance, in the case of the rewrite directive, every matching directive will be executed:
 
 ```nginx
 server {
@@ -151,14 +149,14 @@ server {
 }
 ```
 
-If the user tries to fetch /sample:
+If a user tries to retrieve /anything:
 
-- a server rewrite is executed, rewriting from /sample, to /foobar
-- the location /foobar is matched
-- the first location rewrite is executed, rewriting from /foobar, to /foo
-- the second location rewrite is executed, rewriting from /foo, to /bar
+- The server rewrite will be executed, redirecting from /anything to /foobar
+- The /foobar location will match
+- The first location rewrite will be executed, redirecting from /foobar to /foo
+- The second location rewrite will be executed, redirecting from /foo to /bar
 
-This is a different behaviour than what the return directive provides:
+This is different behavior from what the return directive provides:
 
 ```nginx
 server {
@@ -168,139 +166,146 @@ server {
   }
 }
 ```
-In the case above, the ```200``` status is returned immediately.
+In the above case, a ```200``` status will be immediately returned.
 
-## Processing requests
+## Handling Requests
 
-Inside nginx, you can specify multiple virtual servers, each described by a ```server { }``` context.
+Inside nginx, you can define multiple virtual servers, each described by the ```server { }``` context.
 
 ```nginx
 server {
   listen      *:80 default_server;
   server_name szulinek.pl;
 
-  return 200 "Hello from szulinek.pl";
+  return 200 "Welcome from szulinek.pl";
 }
 
 server {
   listen      *:80;
   server_name foo.co;
 
-  return 200 "Hello from foo.co";
+  return 200 "Welcome from foo.co";
 }
 
 server {
   listen      *:81;
   server_name bar.co;
 
-  return 200 "Hello from bar.co";
+  return 200 "Welcome from bar.co";
 }
 ```
 
-This will give nginx some insight on how to handle incoming requests. Nginx will first check the listen directive to test which virtual server is listening on the given IP:port combination. Then, the value from server_name directive is tested against the Host header, which stores the domain name of the server.
+This allows nginx to specify how to handle incoming requests. Nginx first checks the listen directive to determine which virtual server is listening on a given IP:port combination. Then it checks the value from the server_name directive against the Host header, which holds the server's domain name.
 
-Nginx will choose the virtual server in the following order:
+Nginx selects the virtual server in the following order:
 
-- Server listing on IP:port, with a matching server_name directive;
-- Server listing on IP:port, with the default_server flag;
-- Server listing on IP:port, first one defined;
-- If there are no matches, refuse the connection.
+- Server listening on IP:port, with a matching server_name directive;
+- Server listening on IP:port, with the default_server flag;
+- Server listening on IP:port, first defined;
+- If no matches are found, reject the connection.
 
-In the example above, this will mean:
+In the above example, this means:
 
 ```nginx
-Request to foo.co:80     => "Hello from foo.co"
-Request to www.foo.co:80 => "Hello from szulinek.pl"
-Request to bar.co:80     => "Hello from szulinek.pl"
-Request to bar.co:81     => "Hello from bar.co"
-Request to foo.co:81     => "Hello from bar.co"
+Request for foo.co:80     => "Welcome from foo.co"
+Request for www.foo.co:80 => "Welcome from szulinek.pl"
+Request for bar.co:80     => "Welcome from szulinek.pl"
+Request for bar.co:81     => "Welcome from bar.co"
+Request for foo.co:81     => "Welcome from bar.co"
 ```
-### The server_name directive
 
-The ```server_name``` directive accepts multiple values. It also handles wildcard matching and regular expressions.
+### server_name Directive
+
+The ```server_name``` directive accepts multiple values. It also supports matching using wildcards and regular expressions.
 
 ```nginx
 server_name szulinek.pl www.szulinek.pl; # exact match
-server_name *.szulinek.pl;              # wildcard matching
-server_name netguru.*;                 # wildcard matching
-server_name  ~^[0-9]*\.netguru\.co$;   # regexp matching
+server_name *.szulinek.pl;              # wildcard match
+server_name szulinek.*;                 # wildcard match
+server_name  ~^[0-9]*\.szulinek\.pl$;   # regular expression match
 ```
 
-When there is ambiguity, nginx uses the following order:
+In case of ambiguity, nginx follows this order:
 
  1.   Exact name;
- 2.   Longest wildcard name starting with an asterisk, e.g. “*.example.org”;
- 3.   Longest wildcard name ending with an asterisk, e.g. “mail.*”;
- 4. First matching regular expression (in the order of appearance in the configuration file).
+ 2.   Longest wildcard name starting with an asterisk, e.g., “*.example.org”;
+ 3.   Longest wildcard name ending with an asterisk, e.g., “mail.*”;
+ 4. First regular expression match (in the order they appear in the configuration file).
 
-Nginx will store 3 hash tables: exact names, wildcards starting with an asterisk, and wildcards ending with an asterisk. If the result is not in any of the tables, the regular expressions will be tested sequentially.
+Nginx maintains 3 hash tables: exact names, wildcard names starting with an asterisk, and wildcard names ending with an asterisk. If the result is not found in any of these tables, regular expressions will be tested sequentially.
 
-It is worth keeping in mind that
+It's worth noting that
 
 ```nginx
 server_name .szulinek.pl;
 ```
 
-is an abbreviation of:
+is a shorthand for:
 
 ```nginx
 server_name  szulinek.pl  www.szulinek.pl  *.szulinek.pl;
 ```
 
-With one difference: ```.szulinek.pl``` is stored in the second table, which means that it is a bit slower than an explicit declaration.
+With one difference: ```.szulinek.pl``` is stored in the second table, which means it's slightly slower than explicitly declared.
 
-### listen directive
+### listen Directive
 
-In most cases, you’ll find that the ```listen``` directive accepts IP:port values.
+In most cases, you'll notice that the ```listen``` directive accepts IP:port values.
 
 ```nginx
 listen 127.0.0.1:80;
-listen 127.0.0.1;    # by default port :80 is used
+listen
+
+ 127.0.0.1;    # defaults to port :80
 
 listen *:81;
-listen 81;           # by default all ips are used
+listen 81;           # defaults to all IP addresses
 
 listen [::]:80;      # IPv6 addresses
 listen [::1];        # IPv6 addresses
 ```
-However, it is also possible to specify UNIX-domain sockets:
+
+However, you can also specify UNIX domain sockets:
+
 ```nginx
 listen unix:/var/run/nginx.sock;
 ```
+
 You can even use hostnames:
+
 ```nginx
 listen localhost:80;
 listen szulinek.pl:80;
 ```
 
-This should be used with caution, as the hostname may not be resolved upon nginx's launch, causing nginx to be unable to bind on a given TCP socket.
+However, use this cautiously because the hostname might not resolve during nginx startup, causing nginx to fail to bind to the specified TCP socket.
 
-Finally, if the directive is not present, ```*:80```, is used.
+Finally, if the directive is absent, ```*:80``` is used.
 
-## Minimal configuration
+## Minimal Configuration
 
-With all that knowledge, we should be able to create and understand the minimal configuration needed to run nginx.
+With all this knowledge, we should be able to create and understand the minimal configuration needed to run nginx.
 
 ```nginx
 # /etc/nginx/nginx.conf
 
-events {}                   # event context needs to be defined to consider config valid
+events {}                   # defining the event context is necessary for the configuration to be considered valid
 
 http {
  server {
     listen 80;
     server_name  szulinek.pl  www.szulinek.pl  *.szulinek.pl;
 
-    return 200 "Hello";
+    return 200 "Welcome";
   }
 }
 ```
 
-## root, location, and try_files directives
+## root, location, and try_files Directives
 
-### root directive
+### root Directive
 
-The root directive sets the root directory for requests, allowing nginx to map the incoming request onto the file system.
+The root directive sets the main directory for requests, allowing nginx to map incoming requests to the filesystem.
 
 ```nginx
 server {
@@ -310,16 +315,18 @@ server {
 }
 ```
 
-Which allows nginx to return server content according to the request:
+This enables nginx to serve server content according to the request:
 
 ```nginx
-szulinek.pl:80/index.html     # returns /var/www/szulinek.plm/index.html
-szulinek.pl:80/foo/index.html # returns /var/www/szulinek.plm/foo/index.html
+szulinek.pl:80/index.html     # serves /var/www/szulinek.plm/index.html
+szulinek.pl:80/foo/index.html # serves /var/www/szulinek.plm/foo/index.html
 ```
 
-### location directive
 
-The ```location``` directive sets the configuration depending on the requested URI.
+
+### location Directive
+
+The ```location``` directive sets configuration based on the requested URI.
 
 ```location [modifier] path```
 
@@ -329,7 +336,7 @@ location /foo {
 }
 ```
 
-When no modifier is specified, the path is treated as prefix, after which anything can follow. The above example will match:
+When no modifier is specified, the path is treated as a prefix, after which anything can follow. The above example will match:
 
 ```nginx
 /foo
@@ -338,7 +345,8 @@ When no modifier is specified, the path is treated as prefix, after which anythi
 /foo/bar/index.html
 ...
 ```
-Also, multiple ```location``` directives can be used in a given context:
+Moreover, multiple ```location``` directives can be used within the same context:
+
 ```nginx
 server {
   listen 80;
@@ -360,26 +368,27 @@ szulinek.pl:80   /foo    # => "foo"
 szulinek.pl:80   /foo123 # => "foo"
 szulinek.pl:80   /bar    # => "root"
 ```
-Nginx also provides a few modifiers which can be used in conjunction with ```location```. These modifiers impact which location block will be used, as each modifier has assigned precedence.
+Nginx also provides several modifiers that can be used in conjunction with ```location```. These modifiers affect which location block will be used, as each modifier has an associated order.
+
 ```nginx
 =           - Exact match
 ^~          - Preferential match
-~ && ~*     - Regex match
+~ && ~*     - Regular expression match
 no modifier - Prefix match
 ```
-Nginx will first check for any exact matches. If it doesn't find any, it'll look for preferential ones. If this match also fails, regex matches will be tested in the order of their appearance. If everything else fails, the last prefix match will be used.
+Nginx first checks for any exact matches. If none are found, it checks preferential matches. If that match also fails, regex matches are tested in the order they appear. If everything else fails, the last resort is a prefix match.
 
 ```nginx
 location /match {
-  return 200 'Prefix match: matches everything that starting with /match';
+  return 200 'Prefix match: matches anything starting with /match';
 }
 
 location ~* /match[0-9] {
-  return 200 'Case insensitive regex match';
+  return 200 'Case-sensitive regex match';
 }
 
 location ~ /MATCH[0-9] {
-  return 200 'Case sensitive regex match';
+  return 200 'Case-insensitive regex match';
 }
 
 location ^~ /match0 {
@@ -393,25 +402,21 @@ location = /match {
 ```nginx
 /match     # => 'Exact match'
 /match0    # => 'Preferential match'
-/match1    # => 'Case insensitive regex match'
-/MATCH1    # => 'Case sensitive regex match'
-/match-abc # => 'Prefix match: matches everything that starting with /match'
+/match1    # => 'Case-sensitive regex match'
+/MATCH1    # => 'Case-insensitive regex match'
+/match-abc # => 'Prefix match: matches anything starting with /match'
 
 ```
 
-### try_files directive
+### try_files Directive
 
-This directive will try different paths, returning whichever is found.
+This directive will attempt different paths and return the one that's found.
 ```nginx
 try_files $uri index.html =404;
 ```
-So for ```/foo.html``` , it will try to return files in the following order:
+So for ```/foo.html```, it will try to return files in the following order:
 
 
 1.   $uri ( /foo.html );
 2.   index.html;
-3.   If none is found: 404.
-
-
-
-
+3.   If none are found: 404.

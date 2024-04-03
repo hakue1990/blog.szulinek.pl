@@ -6,7 +6,25 @@
     <description>Recent content in Tags on IT Tech Anytime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Nov 2023 18:47:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Apr 2024 21:30:35 +0200</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx</title>
+      <link>http://localhost:1313/en/tags/nginx/</link>
+      <pubDate>Tue, 02 Apr 2024 21:30:35 +0200</pubDate>
+      
+      <guid>http://localhost:1313/en/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webserver</title>
+      <link>http://localhost:1313/en/tags/webserver/</link>
+      <pubDate>Tue, 02 Apr 2024 21:30:35 +0200</pubDate>
+      
+      <guid>http://localhost:1313/en/tags/webserver/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Toturial</title>
       <link>http://localhost:1313/en/tags/toturial/</link>

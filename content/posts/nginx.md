@@ -30,17 +30,17 @@ params:
     ShowShareButtons: true 
 ---
 ## Wprowadzenie:
-### Ten samouczek będzie miał trzy części:
+
+### Ten samouczek będzie składał się z omówienia:
 
 - *Podstawowe pojęcia:* poznanie różnicy między dyrektywą a kontekstem, model dziedziczenia i kolejność, w jakiej nginx wybiera bloki serwera i lokalizacje.
-- *Wydajność:* wskazówki i sztuczki dotyczące poprawy szybkości. Omówimy kompresję gzip, buforowanie, pamięć podręczną i limity czasu.
-- *Konfiguracja SSL:* skonfiguruj ustawienia, aby serwować treści za pomocą protokołu HTTPS.
+
 
 Stworzyliśmy serię, w której łatwo znajdziesz odpowiednią konfigurację dla konkretnego tematu (takiego jak gzip, SSL, itp.), lub po prostu przeczytasz wszystko. Dla najlepszego doświadczenia zalecamy skonfigurowanie nginx na własnej maszynie wirtualnej Linux i pobawienie się nim samodzielnie.
 
 ## Czym jest Nginx?
 
-Nginx to wszechstronny serwer WWW znany ze swojej wyjątkowej szybkości. Oprócz serwowania treści internetowych, działa jako serwer proxy odwrotny, ułatwiając płynną integrację z wolniejszymi serwerami upstream, takimi jak Unicorn lub Puma. Nginx umożliwia dystrybucję ruchu poprzez równoważenie obciążenia, obsługuje strumieniowanie mediów, dynamiczne zmienianie rozmiaru obrazów, buforowanie treści i wiele więcej. Jego architektura składa się z procesu głównego nadzorującego procesy robocze odpowiedzialne za obsługę żądań, co zapewnia efektywną pracę.
+Nginx to wszechstronny serwer WWW znany ze swojej wyjątkowej szybkości. Oprócz serwowania treści internetowych, działa jako reverse serwer proxy i proxy, ułatwiając płynną integrację z wolniejszymi serwerami upstream, takimi jak Unicorn lub Puma. Nginx umożliwia dystrybucję ruchu poprzez równoważenie obciążenia, obsługuje strumieniowanie mediów, dynamiczne zmienianie rozmiaru obrazów, buforowanie treści i wiele więcej. Jego architektura składa się z procesu głównego nadzorującego procesy robocze odpowiedzialne za obsługę żądań, co zapewnia efektywną pracę.
 
 ## Podstawowe polecenia:
 
@@ -53,7 +53,7 @@ Aby uruchomić nginx, wystarczy wpisać:
 Gdy twój serwer nginx działa, możesz go zarządzać, wysyłając sygnały:
 
 ```
-[sudo] nginx -s sygnał
+[sudo] nginx -s signal
 ```
 
 Dostępne sygnały:
@@ -149,9 +149,9 @@ server {
 }
 ```
 
-Jeśli użytkownik spróbuje pobrać /przykład:
+Jeśli użytkownik spróbuje pobrać /cokolwiek:
 
-- wykonana zostanie przekierowanie serwera, przekierowując z /przykład, na /foobar
+- wykonana zostanie przekierowanie serwera, przekierowując z /cokolwiek, na /foobar
 - dopasowana zostanie lokalizacja /foobar
 - wykonane zostanie pierwsze przekierowanie lokalizacji, przekierowując z /foobar, na /foo
 - wykonane zostanie drugie przekierowanie lokalizacji, przekierowując z /foo, na /bar
@@ -170,9 +170,7 @@ W powyższym przypadku natychmiast zwrócony zostanie status ```200```.
 
 ## Obsługa żądań
 
-Wew
-
-nątrz nginx możesz określić wiele serwerów wirtualnych, każdy opisany przez kontekst ```server { }```.
+Wewnątrz nginx możesz określić wiele serwerów wirtualnych, każdy opisany przez kontekst ```server { }```.
 
 ```nginx
 server {
@@ -222,8 +220,8 @@ Dyrektywa ```server_name``` akceptuje wiele wartości. Obsługuje również dopa
 ```nginx
 server_name szulinek.pl www.szulinek.pl; # dokładne dopasowanie
 server_name *.szulinek.pl;              # dopasowanie za pomocą symboli wieloznacznych
-server_name netguru.*;                 # dopasowanie za pomocą symboli wieloznacznych
-server_name  ~^[0-9]*\.netguru\.co$;   # dopasowanie za pomocą wyrażeń regularnych
+server_name szulinek.*;                 # dopasowanie za pomocą symboli wieloznacznych
+server_name  ~^[0-9]*\.szulinek\.pl$;   # dopasowanie za pomocą wyrażeń regularnych
 ```
 
 W przypadku niejednoznaczności nginx stosuje następującą kolejność:

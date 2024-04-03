@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/pl/</loc>
-    <lastmod>2024-03-23T20:56:36+01:00</lastmod>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,97 @@
                 rel="alternate"
                 hreflang="pl"
                 href="http://localhost:1313/pl/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/tags/nginx/</loc>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/nginx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/nginx/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/categories/nginx/</loc>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/nginx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/nginx/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/posts/nginx/</loc>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/nginx/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/posts/nginx/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/posts/</loc>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/tags/</loc>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/tags/webserver/</loc>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/webserver/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/webserver/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pl/categories/webserver/</loc>
+    <lastmod>2024-04-02T21:30:35+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/webserver/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/webserver/"
                 />
   </url><url>
     <loc>http://localhost:1313/pl/www/</loc>
@@ -39,32 +130,6 @@
                 rel="alternate"
                 hreflang="pl"
                 href="http://localhost:1313/pl/posts/display-wifi-password/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pl/posts/</loc>
-    <lastmod>2023-11-14T18:47:37+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/pl/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pl/tags/</loc>
-    <lastmod>2023-11-14T18:47:37+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/pl/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/pl/tags/toturial/</loc>
