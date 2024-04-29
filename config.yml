@@ -39,8 +39,8 @@ languages:
       buttons:
         - name: Blog
           url: posts
-        - name: Kontakt
-          url: /pl/contact/
+        - name: Portfolio
+          url: https://portfolio.szulinek.pl
     menu:
       main:
         - name: Whoami
@@ -58,8 +58,11 @@ languages:
         - name: Kontakt
           url: contact/
           weight: 20
-        - name: Archiwa
-          url: /pl/archives/
+        # - name: Archiwa
+        #   url: /pl/archives/
+        #   weight: 20
+        - name: Portfolio
+          url: https://portfolio.szulinek.pl
           weight: 20
 
 ########### END POLISH ##########
@@ -88,8 +91,8 @@ languages:
       buttons:
         - name: Blog
           url: /en/posts
-        - name: Contact
-          url: /en/contact
+        - name: Portfolio
+          url: https://portfolio.szulinek.pl
     menu:
       main:
         - name: Whoami
@@ -107,12 +110,15 @@ languages:
         - name: Contact
           url: /en/contact/
           weight: 20
-        - name: Archives
-          url: /en/archives/
-          weight: 20
+        # - name: Archives
+        #   url: /en/archives/
+        #   weight: 20
         # - name: Search
         #   url: search
         #   weight: 25
+        - name: Portfolio
+          url: https://portfolio.szulinek.pl
+          weight: 20
 
   ########### END ENGLISH ##########
 params:
@@ -124,7 +130,7 @@ params:
         apple_touch_icon: "/assets/favicon/apple-touch-icon.png"
 
 
-  ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: true 
   defaultTheme: dark
   homeInfoParams:
   socialIcons:
@@ -137,7 +143,7 @@ params:
 ## add Logo to Navbar
   label:
         text: "Szulinek IT"
-        icon: "/img/coding.png"
+        icon: "/img/logo.png"
         iconHeight: 40
 
 
